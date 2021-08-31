@@ -16,5 +16,5 @@
   (lib (name pkl_cypress)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_cypress.lib)(options "")(descr ""))
   (lib (name pkl_conn)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_conn.lib)(options "")(descr ""))
   (lib (name pkl_analog_devices)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_analog_devices.lib)(options "")(descr ""))
-  (lib (name M17-SmartMic)(type Legacy)(uri /Users/mathis/Development/M17-SmartMic/lib/M17-SmartMic.lib)(options "")(descr ""))
+  (lib (name M17-SmartMic)(type Legacy)(uri ${KIPRJMOD}/../../lib/M17-SmartMic.lib)(options "")(descr ""))
 )
