@@ -361,12 +361,12 @@ $Comp
 L pkl_device:pkl_CP_Small C35
 U 1 1 61E80EF3
 P 1800 3600
-F 0 "C35" V 1575 3600 50  0000 C CNN
-F 1 "100u" V 1666 3600 50  0000 C CNN
+F 0 "C35" V 2000 3600 50  0000 C CNN
+F 1 "100u" V 1900 3600 50  0000 C CNN
 F 2 "" H 1800 3600 60  0000 C CNN
 F 3 "" H 1800 3600 60  0000 C CNN
 	1    1800 3600
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pkl_device:pkl_C_Small C34
