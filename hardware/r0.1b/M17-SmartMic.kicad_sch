@@ -72,7 +72,7 @@
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006132ba97"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006132bffa"
+    (path "/00000000-0000-0000-0000-0000612c95ef/eec1f83d-e829-49a9-bcaa-cc515891a8e5"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006132c854"
@@ -87,8 +87,8 @@
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006130c9e5"
       (reference "#PWR016") (unit 1) (value "VDDA") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006132d22b"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-0000612c95ef/4c76d620-dfed-40a9-9134-07e7249c5421"
+      (reference "#PWR017") (unit 1) (value "+12V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006132d611"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
@@ -474,6 +474,30 @@
     (path "/00000000-0000-0000-0000-0000612c95ef/624cb9f3-9c71-4c79-ae44-41bb76d5f67d"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000612c95ef/b3bbe294-9e2e-4ba3-a00a-79b165893dc9"
+      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/b551c5d5-df57-4ad8-b903-ccc94776dab9"
+      (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/54d5c8e5-3900-4afb-9cef-c9145350a966"
+      (reference "#PWR0148") (unit 1) (value "VBAT") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/7b4ba213-b8ed-4914-973b-9221de0b8237"
+      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/79d2d731-3ba8-4790-9286-aed9682cf5cc"
+      (reference "#PWR0150") (unit 1) (value "VBAT") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/46574274-0f3f-4e96-b1c6-1438ae538f17"
+      (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/5f336839-3f10-4095-ab34-5aaf48acca93"
+      (reference "#PWR0152") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/1807ae22-a2dd-46ad-8d1c-4f97ce6017ac"
+      (reference "BT1") (unit 1) (value "Coin") (footprint "Battery:BatteryHolder_Keystone_3000_1x12mm")
+    )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006131f301"
       (reference "C1") (unit 1) (value "100n") (footprint "pkl_dipol:C_0603")
     )
@@ -501,9 +525,6 @@
     (path "/00000000-0000-0000-0000-0000612c969e/03627fb1-600d-4f3a-83c4-9be348275426"
       (reference "C9") (unit 1) (value "100n") (footprint "pkl_dipol:C_0603")
     )
-    (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006132345f"
-      (reference "C10") (unit 1) (value "10n") (footprint "pkl_dipol:C_0603")
-    )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-0000612fbdfc"
       (reference "C11") (unit 1) (value "100n") (footprint "pkl_dipol:C_0603")
     )
@@ -515,9 +536,6 @@
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-000061325494"
       (reference "C14") (unit 1) (value "10n") (footprint "pkl_dipol:C_0603")
-    )
-    (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006132549e"
-      (reference "C15") (unit 1) (value "100n") (footprint "pkl_dipol:C_0603")
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-0000613254a8"
       (reference "C16") (unit 1) (value "10n") (footprint "pkl_dipol:C_0603")
@@ -669,6 +687,15 @@
     (path "/00000000-0000-0000-0000-0000612c95ef/c51f6fad-cbcc-4437-b9c2-816c996687d8"
       (reference "C65") (unit 1) (value "220u") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
+    (path "/00000000-0000-0000-0000-0000612c95ef/f3a05c8b-e9ef-425a-b1c9-11949f25bdcc"
+      (reference "C66") (unit 1) (value "12p") (footprint "pkl_dipol:C_0603")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/e8b7cb91-601e-499d-b916-08bd8fa2f4c5"
+      (reference "C67") (unit 1) (value "12p") (footprint "pkl_dipol:C_0603")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/f9acc584-d67c-4b93-94e5-9bf24b8e03c1"
+      (reference "C68") (unit 1) (value "100n") (footprint "pkl_dipol:C_0603")
+    )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-0000613bab26"
       (reference "D1") (unit 1) (value "Power") (footprint "pkl_dipol:D_0603")
     )
@@ -695,6 +722,9 @@
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/7e8a176f-ba4f-471e-9bae-152e38571411"
       (reference "D9") (unit 1) (value "BAT60A") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/28fa3248-a729-46aa-b664-b9879cb9d649"
+      (reference "D10") (unit 1) (value "3v3") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-0000612f89d9"
       (reference "FB1") (unit 1) (value "FB0805") (footprint "pkl_dipol:L_0805")
@@ -912,6 +942,12 @@
     (path "/00000000-0000-0000-0000-0000612c95ef/9e465d25-e32f-4531-8329-dda7885501a9"
       (reference "R52") (unit 1) (value "3k24") (footprint "pkl_dipol:R_0603")
     )
+    (path "/00000000-0000-0000-0000-0000612c95ef/83da389a-41df-465e-ab79-f2c23709282a"
+      (reference "R53") (unit 1) (value "39k") (footprint "pkl_dipol:R_0603")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/eb957f36-0298-4103-9e59-8ca9da0b8598"
+      (reference "R54") (unit 1) (value "10k") (footprint "pkl_dipol:R_0603")
+    )
     (path "/00000000-0000-0000-0000-0000612c969e/c43ed3ac-4465-40ad-ac6e-bdfeecc62d01"
       (reference "RV1") (unit 1) (value "100k") (footprint "M17-SmartMic:3310C001503L")
     )
@@ -986,6 +1022,9 @@
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-0000612d2349"
       (reference "Y1") (unit 1) (value "8 MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c95ef/ff7355ec-8329-4423-8e48-61a232dcaedc"
+      (reference "Y2") (unit 1) (value "32 kHz") (footprint "Crystal:Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm")
     )
   )
 )
