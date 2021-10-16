@@ -972,6 +972,30 @@
     (path "/00000000-0000-0000-0000-0000612c95ef/00000000-0000-0000-0000-00006145aa47"
       (reference "SW7") (unit 1) (value "Button Right") (footprint "pkl_buttons_switches:SW_SPST_PTS645")
     )
+    (path "/00000000-0000-0000-0000-0000612c969e/08e24930-7c33-41f7-8b92-37c249140048"
+      (reference "TP?") (unit 1) (value "TP_MIC") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/0eb6f052-eda6-423c-a336-5fbdae016af8"
+      (reference "TP?") (unit 1) (value "TP_SPK_PRE") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/36551163-d844-43ae-a8fa-626e4311bfaf"
+      (reference "TP?") (unit 1) (value "TP_BBTX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/4ea62372-4810-4951-9e53-35466d9b06e3"
+      (reference "TP?") (unit 1) (value "TP_MIC_POST") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/6e86969e-5bfa-428f-844a-7eef60d455e0"
+      (reference "TP?") (unit 1) (value "TP_BBRX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/73e4279a-d552-4b5c-86f4-ae035af9d949"
+      (reference "TP?") (unit 1) (value "TP_TX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/8b3da81f-9bc3-406f-b21c-1f143feca6f7"
+      (reference "TP?") (unit 1) (value "TP_RX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/fa4cc948-93e7-4efa-b21e-85bf056d29ab"
+      (reference "TP?") (unit 1) (value "TP_SPK") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-0000612c969e/e7123afb-b888-4263-b896-f675957fe884"
       (reference "U1") (unit 1) (value "MAX9814") (footprint "Package_DFN_QFN:DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm")
     )
