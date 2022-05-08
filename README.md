@@ -13,6 +13,25 @@ This is the initial prototyping revision and not yet designed with "ease of use 
 * Short BOOT0 on pin 94 to PB8 on pin 95 to be able to use SW4 in software
 * The 2.5mm mono jack used for the Kenwood 2-pin speaker mic has the "sleeve" connection where stereo plugs have the "ring". This means that the speaker mic has no GND connection. To fix this, add a bodge wire to the outer shell of the mono jack to GND. Next revisions will use a stereo jack with shorted ring and sleeve connections.
 
+### Revision 0.1b
+Fixed some bugs:
+* Changed audio amp from LM386 to LM4861MX
+* Mic amplifier changed from LMV341 to MAX9814 (with an AGC)
+* Fixed Kenwood connector
+* Fixed baseband processing at U6/U7
+* C3/C6 value change from 22 to 18p
+* Changed micro from STM32F407VETx to -405RGTx
+* Added TPS5431 DC/DC converter IC
+* Added MAX3232 and `CAT_TX`/`CAT_RX` at DE9 connector
+
+### Revision 0.1c
+* Reduced audio amplifier gain (R3 value change 510k->22k)
+* Fixed `RADIO_RX` baseband DC bias
+
+### Revision 0.1d
+* Changed supply voltage for U6 and U7 to 5V
+* Fixed `CAT_TX` and `CAT_RX` solder jumpers
+
 ### Future revisions
 Future revisions will feature at least additional power supply options and will be designed with an enclosure in mind.
 
