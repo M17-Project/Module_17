@@ -143,6 +143,7 @@ D1,Power,D_0603,147.55,-72.5,180.0,top
 J7,Radio,DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm,85.65,-42.330331,180.0,top
 SW3,Reset,ST-1185S,79.0,-84.125,90.0,top
 U10,STM32F405RGTx,LQFP-64_10x10mm_P0.5mm,92.85,-79.65,270.0,top
+J12,Speaker,PinHeader_1x02_P2.54mm_Vertical,76.75,-121.95,90.0,top
 D3,Sync,D_0603,147.55,-69.5,180.0,top
 U2,TP6841S6,SOT-23-6,150.1375,-41.75,0.0,top
 U11,TPS73233,SOT-23-5,147.42452,-58.87548,90.0,top

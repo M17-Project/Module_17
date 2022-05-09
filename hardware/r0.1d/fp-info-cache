@@ -1,4 +1,4 @@
-20346132243937780
+20345582308898461
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56734,6 +56734,13 @@ Connector
 0
 3
 3
+M17-SmartMic
+OLED_Bare
+
+
+0
+0
+0
 M17-SmartMic
 OpenRTX_Logo
 

@@ -285,6 +285,9 @@
     (path "/00000000-0000-0000-0000-0000612c969e/65d0c25a-f075-4a84-a76a-7d0feff63030"
       (reference "#PWR082") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000612c969e/6e8dc409-d715-4a9e-94e6-1fc6c339ec29"
+      (reference "#PWR083") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000612c969e/e234500c-efa7-4179-96e9-c8df9dd7123f"
       (reference "#PWR085") (unit 1) (value "VDD") (footprint "")
     )
@@ -767,6 +770,9 @@
     )
     (path "/00000000-0000-0000-0000-0000612c969e/a22c1fb7-8715-487c-821c-69e66c161956"
       (reference "J11") (unit 1) (value "Radio_Opt") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000612c969e/a9898807-7e58-4348-99a0-c86d6ec5e1ed"
+      (reference "J12") (unit 1) (value "Speaker") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000612c95ef/706d8ad2-aca8-41bf-971d-e7aad081845f"
       (reference "L1") (unit 1) (value "10u") (footprint "Inductor_SMD:L_Vishay_IHLP-2525")
