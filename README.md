@@ -35,7 +35,7 @@ Fixed some bugs:
 ### Future revisions
 Future revisions will feature at least additional power supply options and will be designed with an enclosure in mind.
 
-## Acknowledgements
+## Acknowledgments
 This project is inspired by David Rowe's [SM1000](https://www.rowetel.com/wordpress/?p=3125) Codec2 smart mic and shares some of its circuitry. The analog baseband filtering is inspired by the [MMDVM_RPT_Hat](https://github.com/mathisschmieder/MMDVM_RPT_Hat) and is a simplified version of F0DEI's original filter design that is used with great success at many MMDVM repeater sites.
 
 ## License
