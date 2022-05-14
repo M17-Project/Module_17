@@ -3,6 +3,12 @@ Welcome to Module 17!
 
 This project provides a standalone _smart microphone_ that transforms any 9600 baud capable transceiver into an [M17](https://m17project.org/) compatible radio. It is based on a STM32F4 microcontroller and is designed to run the [OpenRTX](https://openrtx.org/) firmware. Audio and PTT connectivity is given through a "Kenwood 2 Pin" compatible connector (2.5 and 3.5mm audio jacks).
 
+![Module 17 r0.1c board](IMG_2182.jpeg)
+
+Several boards of various revisions have been built. While the changes between r0.1a and r0.1b were quite drastic, r0.1c and d are only minor revisions, mainly for parts availability. The pinout, baseband filters and components are considered stable and will (probably) not change in future revisions, ensuring software compatibility. Revision 0.1d boards can be ordered partially or even fully assembled at [JLCPCB](https://www.jlcpcb.com) with the manufacturing data in this repository. The volume knob and digital potentiometers are only available through Mouser/Digikey, but JLCPCB can acquire them through their global sourcing program.
+
+Basic OpenRTX support is already given, but the UI needs an overhaul for Module 17. 
+
 ## Revisions
 ### Revision 0.1a
 This is the initial prototyping revision and not yet designed with "ease of use and enclosing" in mind. Its main purpose is getting OpenRTX up and running on the hardware and providing a proof of concept.
@@ -29,8 +35,12 @@ Fixed some bugs:
 * Fixed `RADIO_RX` baseband DC bias
 
 ### Revision 0.1d
-* Changed supply voltage for U6 and U7 to 5V
+* Changed supply voltage for U6 and U7 (baseband filter Op-Amps) to 5V and replaced MCP602 with MCP6002 as the former ICs are not rail2rail capable on their input
 * Fixed `CAT_TX` and `CAT_RX` solder jumpers
+* Fixed volume knob direction
+* Replaced PSU with in-stock parts
+* Replaced MAX3232 with simple 5V/3.3V level shifters as most, if not all, radios use either 5V or 3.3V TTL instead of RS232
+* Replaced STM32F405RGT6 with GD32F405RGT6 - these ICs are pin and code compatible
 
 ### Future revisions
 Future revisions will feature at least additional power supply options and will be designed with an enclosure in mind.
