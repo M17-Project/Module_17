@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T11:39:11.562Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="Q77Gn58cOCgEdV6m74yf" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T12:16:56.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="FoXknrci-tP8U8gcRQT6" version="19.0.0" type="github">
   <diagram id="imWXiI7OVPwFfNcy8e7D" name="Page-1">
     <mxGraphModel dx="868" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,81 @@
         <mxCell id="1" parent="0" />
         <mxCell id="bzO6TgHp_KzaYz6p2xfX-1" value="&lt;h1&gt;Module_17 Interactions&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Physical&lt;br&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;PTT button&lt;/li&gt;&lt;li&gt;Volume control&lt;/li&gt;&lt;li&gt;Power switch&lt;/li&gt;&lt;li&gt;Status LEDs&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Power&lt;/li&gt;&lt;li&gt;Sync&lt;/li&gt;&lt;li&gt;PTT&lt;/li&gt;&lt;li&gt;Error&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Navigation dial&lt;/li&gt;&lt;li&gt;Display&lt;/li&gt;&lt;li&gt;Speaker&lt;/li&gt;&lt;li&gt;Mic&lt;/li&gt;&lt;li&gt;Buttons&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Up/Down/Left/Right&lt;/li&gt;&lt;li&gt;Enter&lt;/li&gt;&lt;li&gt;Esc&lt;/li&gt;&lt;li&gt;Rotary encoder button (Optional)&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Frequency change (Optional)&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;UI&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Destination callsign setting (M17-RTX A)&lt;/li&gt;&lt;ol&gt;&lt;li&gt;M17 prefix fixed&lt;/li&gt;&lt;li&gt;Suffix chosen from list, eventually filtered by country&lt;/li&gt;&lt;li&gt;Module selection (A-Z), eventually get telemetry about number of users in each module&lt;/li&gt;&lt;li&gt;Show destination callsign history/memory slots&lt;/li&gt;&lt;li&gt;Acceleration-based rotary encoder&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Select Channel Access Number&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Number from 0 to 15&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Own callsign setting&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Input a 6-9 character alphanumeric string (e.g. IU2KIN)&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Protocol stats&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Bit Error Rate, Clock skew, used codec&lt;/li&gt;&lt;li&gt;Add status colouring to indicate link health&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Transmission settings&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Phase inversion&lt;/li&gt;&lt;li&gt;Clock correction&lt;/li&gt;&lt;li&gt;Deviation&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;Info screen&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Build id, hardware revision, serial&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="510" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="780" width="260" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="840" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bzO6TgHp_KzaYz6p2xfX-5" target="bzO6TgHp_KzaYz6p2xfX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-5" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="260" y="825" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-6" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="260" y="930" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-16" value="" style="triangle;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="830" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-7" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="260" y="980" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-9" value="PPT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-12" value="VOL. UP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-14" value="VOL. DOWN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-19" value="DIAL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="730" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-21" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://m.media-amazon.com/images/I/61l4nl5a7NL._AC_SL1500_.jpg;" vertex="1" parent="1">
+          <mxGeometry x="890" y="649" width="221" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bzO6TgHp_KzaYz6p2xfX-22" target="bzO6TgHp_KzaYz6p2xfX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-22" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1120" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-24" value="USB C female" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1216.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bzO6TgHp_KzaYz6p2xfX-26" target="bzO6TgHp_KzaYz6p2xfX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-26" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1118.25" width="50" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-27" value="3.5MM JACK&lt;br&gt;TRRS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1229.25" width="120" height="80.75" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bzO6TgHp_KzaYz6p2xfX-29" target="bzO6TgHp_KzaYz6p2xfX-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-29" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="785" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-31" value="RGB LED&lt;br&gt;(Addressable)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bzO6TgHp_KzaYz6p2xfX-33" target="bzO6TgHp_KzaYz6p2xfX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="865" />
+              <mxPoint x="600" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzO6TgHp_KzaYz6p2xfX-33" value="" style="shape=or;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="815" width="40" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
