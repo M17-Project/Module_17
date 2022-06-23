@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "M17-SmartMic")(type "KiCad")(uri "/Users/mathis/Documents/GitHub/Module_17/lib/M17-SmartMic.pretty")(options "")(descr ""))
+)

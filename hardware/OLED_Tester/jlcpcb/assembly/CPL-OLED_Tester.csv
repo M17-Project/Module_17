@@ -1,0 +1,17 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+R1,1.2M,R_0603_1608Metric,147.0,-80.0,0.0,bottom
+C3,100n,C_0603_1608Metric,132.65,-76.0,180.0,bottom
+C6,100n,C_0603_1608Metric,138.65,-78.4,0.0,bottom
+L1,10u,SMRH3D16,151.4,-84.15,180.0,bottom
+R2,180k,R_0603_1608Metric,147.0,-78.45,180.0,bottom
+C1,1u,C_0603_1608Metric,154.35,-79.55,-90.0,bottom
+C2,1u,C_0603_1608Metric,144.7,-79.25,90.0,bottom
+C5,2u2,C_0603_1608Metric,138.65,-79.95,0.0,bottom
+R3,4k7,R_0603_1608Metric,138.65,-86.5,0.0,bottom
+R4,4k7,R_0603_1608Metric,138.65,-84.95,180.0,bottom
+R5,4k7,R_0603_1608Metric,138.65,-81.5,0.0,bottom
+C4,4u7,C_0603_1608Metric,132.65,-74.45,180.0,bottom
+C7,4u7,C_0603_1608Metric,138.65,-76.84,0.0,bottom
+R6,560k,R_0603_1608Metric,138.65,-83.05,0.0,bottom
+U1,AP3012,SOT-23-5,151.39,-79.39,180.0,bottom
+D1,MBR0530,D_SOD-123,146.15,-83.35,-90.0,bottom
