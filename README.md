@@ -10,7 +10,7 @@ Several boards of various revisions have been built. While the changes between r
 Basic OpenRTX support is already given, but the UI needs an overhaul for Module 17. 
 
 ## Flashing
-To flash, hold the "Escape" button down while plugging in USB to wait in DFU mode.
+To flash, hold the "Escape" button down while plugging in USB (or pressing the reset switch) to wait in DFU mode.
 
 You can then follow standard [OpenRTX](https://github.com/OpenRTX/OpenRTX)
 flashing instructions for the "mod17" target if you have dfu-util
