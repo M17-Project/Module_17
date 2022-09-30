@@ -10,7 +10,7 @@ Several boards of various revisions have been built. While the changes between r
 Basic OpenRTX support is already given, but the UI needs an overhaul for Module 17. 
 
 ## Flashing
-To flash, hold the "Escape" button down while plugging in USB (or pressing the reset switch) to wait in DFU mode.
+To flash, hold the "Escape" (upper left) button down while plugging in USB (or pressing the reset switch) to wait in DFU mode.
 
 You can then follow standard [OpenRTX](https://github.com/OpenRTX/OpenRTX)
 flashing instructions for the "mod17" target if you have dfu-util
@@ -18,6 +18,41 @@ installed.
 
 Once flashing is complete, reset
 the board to boot into the newly flashed application.
+
+## Usage (rev 0.1d)
+# Power supply
+The modem can be supplied with:
+- a 6..15V source via the DC plug (upper right hand side) or pin 9 of the DE9 connector (upper left hand side),
+- 5V through the USB-C connector (in the middle of the upper side)
+Both inputs can be used at the same time.
+
+# DE-9 connector
+The DE-9 connector at the top of the board can be used to connect Module17 to a 9600baud radio. The pinout is shown in the table below.
+| Pin      |          Function          |             Direction            |
+|----------|:--------------------------:|----------------------------------|
+| 1        |  unused (floating)         |  --                              |
+| 2        |  radio TX (baseband out)   |  output                          |
+| 3        |  CAT-RX                    |  input                           |
+| 4        |  CAT-TX                    |  output                          |
+| 5        |  radio PTT                 |  output, open-drain, low-active  |
+| 6        |  radio RX (baseband in)    |  input                           |
+| 7        |  unused (floating)         |  --                              |
+| 8        |  ground                    |  --                              |
+| 9        |  12V input                 | input (supply)                   |
+
+Additionally, there is a 2.54mm pin header just next to the DE-9 connector that can be used for convenient access to the baseband, PTT and CAT signals.  
+
+# Kenwood mic-speaker connector
+On the left hand side of the board, there is a Kenwood-type connector. The pinout is standard and most microphone-speakers should be compatible with Module17.
+
+# Volume knob with a power switch
+The volume knob is at the bottom of the board. As the name suggests, it is used for audio volume setting. It also acts as the power switch for the module. **Note** - the power switch is on the 12V line, so it is not possible to turn the device on when it is powered with 5V (USB).
+
+# Transmission/reception
+At idle, the device will look for valid M17 signal in the baseband. If there is a valid signal detected carrying voice data, it will be decoded and sent to the speaker at the Kenwood  connector. There is also an additional, unpopulated, 2-pin speaker connector in the lower left corner of the modem. It can be used to connect an external >=8ohms speaker.
+Transmission is triggered by the PTT key of the mic-speaker. A valid baseband along with a PTT signal is then sent to the radio.
+
+**Warning** - OpenRTX does not yet support phase inversion of the basend, nor the level settings. To set correct levels, please use two potentiometers or tweak the OpenRTX code accordingly. Callsign can not be set either. CAT protocol is not implemented yet. (September 2022)
 
 ## Revisions
 ### Revision 0.1a
