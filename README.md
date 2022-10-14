@@ -10,6 +10,8 @@ Several boards of various revisions have been built. While the changes between r
 Basic OpenRTX support is already given, but the UI needs an overhaul for Module 17. 
 
 ## Flashing
+You need `dfu-util` to start the process. `dfu-util` installation instructions are [here](https://dfu-util.sourceforge.net/build.html).
+
 To flash, hold the "Escape" (upper left) button down while plugging in USB (or pressing the reset switch) to boot into DFU mode.
 
 For your convenience, a pre-built binary is available [here](https://files.openrtx.org/nightly/) and [here](https://openrtx.schinken-radio.de/nightly/). The name of the file is `openrtx_mod17_wrap`.
