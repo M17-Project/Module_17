@@ -10,14 +10,17 @@ Several boards of various revisions have been built. While the changes between r
 Basic OpenRTX support is already given, but the UI needs an overhaul for Module 17. 
 
 ## Flashing
-To flash, hold the "Escape" (upper left) button down while plugging in USB (or pressing the reset switch) to wait in DFU mode.
+To flash, hold the "Escape" (upper left) button down while plugging in USB (or pressing the reset switch) to boot into DFU mode.
 
+For your convenience, a pre-built binary is available [here](https://files.openrtx.org/nightly/) and [here](https://openrtx.schinken-radio.de/nightly/). The name of the file is `openrtx_mod17_wrap`.
 You can then follow standard [OpenRTX](https://github.com/OpenRTX/OpenRTX)
 flashing instructions for the "mod17" target if you have dfu-util
-installed.
+installed:<br>
+`dfu-util -d 0483:df11 -a 0 -D openrtx_mod17_wrap`
 
-Once flashing is complete, reset
-the board to boot into the newly flashed application.
+Once flashing is complete, reset the board to boot into the newly flashed application. If there are any errors while flashing, make sure there's a valid udev rule available for the Module17. Download the [udev](https://github.com/OpenRTX/OpenRTX/blob/master/99-openrtx.rules) file and then run the following commands:<br>
+`sudo cp 99-openrtx.rules /etc/udev/rules.d`<br>
+`sudo udevadm control --reload-rules`.
 
 ## Usage (rev 0.1d)
 ### Power supply
