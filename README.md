@@ -24,6 +24,10 @@ Once flashing is complete, reset the board to boot into the newly flashed applic
 `sudo cp 99-openrtx.rules /etc/udev/rules.d`<br>
 `sudo udevadm control --reload-rules`.
 
+### Building the firmware yourself
+Building instructions are available [at the OpenRTX project's website](https://openrtx.org/#/compiling).<br>
+**Note**: it is not yet possible to change the station's callsign using the GUI. To change it, please edit [line #47 of the state.c file](https://github.com/OpenRTX/OpenRTX/blob/master/openrtx/src/core/state.c#L47) before compiling.
+
 ## Usage (rev 0.1d)
 ### Power supply
 The modem can be supplied with:
