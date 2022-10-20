@@ -49,7 +49,7 @@ The DE-9 connector at the top of the board can be used to connect Module17 to a 
 | 8        |  ground                    |  --                              |
 | 9        |  12V input                 | input (supply)                   |
 
-Additionally, there is a 2.54mm pin header just next to the DE-9 connector that can be used for convenient access to the baseband, PTT and CAT signals.  
+Additionally, there is a 2.54mm pin header just next to the DE-9 connector that can be used for convenient access to the baseband, PTT and CAT signals. Pin 9 doesn't have to be used, it only provides an alternative way for supplying the board.  
 
 ### Kenwood mic-speaker connector
 On the left hand side of the board, there is a Kenwood-type connector. The pinout is standard and most microphone-speakers should be compatible with Module17.
