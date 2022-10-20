@@ -28,9 +28,10 @@ Once flashing is complete, reset the board to boot into the newly flashed applic
 ### Windows
 - Download the [dfu-util-0.11-binaries.tar.xz dfu-util binary for Windows](https://dfu-util.sourceforge.net/releases/) and unzip.
 - Download the `openrtx_mod17_wrap` file, it's available [here](https://files.openrtx.org/nightly/) and [here](https://openrtx.schinken-radio.de/nightly/).
-- Navigate to `dfu-util-0.11-binaries/win64` (or `win32`) and copy the wrap file there.
-- Run the command prompt (`cmd`) as administrator.
+- Navigate to `{extraction_location}\dfu-util-0.11-binaries\win64` (or `win32`) and copy the wrap file there. Example path: `C:\Users\SP5WWP\Desktop\dfu-util-0.11-binaries\win64`.
+- Run the command prompt (`cmd`) as administrator and change the working directory with `cd {extraction_location}\dfu-util-0.11-binaries\win64`.
 - Run the following command: `dfu-util -d 0483:df11 -a 0 -D openrtx_mod17_wrap -s 0x08000000`
+- After the flashing is complete, close the command prompt and reset the device.
 
 Be sure that you have WinUSB installed for your DFU device. You can use [Zadig](https://zadig.akeo.ie/). Connect the Module17 in DFU mode and select it from the list, then install the driver.
 
