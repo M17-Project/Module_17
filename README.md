@@ -10,6 +10,7 @@ Several boards of various revisions have been built. While the changes between r
 Basic OpenRTX support is already given, but the UI needs an overhaul for Module 17. 
 
 ## Flashing
+### Linux
 You need `dfu-util` to start the process. `dfu-util` installation instructions are [here](https://dfu-util.sourceforge.net/build.html). It is recommended to use the most recent version - built from source.
 
 To flash, hold the "Escape" (upper left) button down while plugging in USB (or pressing the reset switch) to boot into DFU mode.
@@ -18,11 +19,20 @@ For your convenience, a pre-built binary is available [here](https://files.openr
 You can then follow standard [OpenRTX](https://github.com/OpenRTX/OpenRTX)
 flashing instructions for the "mod17" target if you have dfu-util
 installed:<br>
-`dfu-util -d 0483:df11 -a 0 -D openrtx_mod17_wrap`
+`dfu-util -d 0483:df11 -a 0 -D openrtx_mod17_wrap -s 0x08000000`
 
 Once flashing is complete, reset the board to boot into the newly flashed application. If there are any errors while flashing, make sure there's a valid udev rule available for the Module17. Download the [udev](https://github.com/OpenRTX/OpenRTX/blob/master/99-openrtx.rules) file and then run the following commands:<br>
 `sudo cp 99-openrtx.rules /etc/udev/rules.d`<br>
 `sudo udevadm control --reload-rules`.
+
+### Windows
+- Download the [dfu-util-0.11-binaries.tar.xz dfu-util binary for Windows](https://dfu-util.sourceforge.net/releases/) and unzip.
+- Download the `openrtx_mod17_wrap` file, it's available [here](https://files.openrtx.org/nightly/) and [here](https://openrtx.schinken-radio.de/nightly/).
+- Navigate to `dfu-util-0.11-binaries/win64` (or `win32`) and copy the wrap file there.
+- Run the command prompt (`cmd`) as administrator.
+- Run the following command: `dfu-util -d 0483:df11 -a 0 -D openrtx_mod17_wrap -s 0x08000000`
+
+Be sure that you have WinUSB installed for your DFU device. You can use [Zadig](https://zadig.akeo.ie/). Connect the Module17 in DFU mode and select it from the list, then install the driver.
 
 ### Building the firmware yourself
 Building instructions are available [at the OpenRTX project's website](https://openrtx.org/#/compiling).<br>
