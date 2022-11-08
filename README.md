@@ -72,7 +72,7 @@ The volume knob is at the bottom of the board. As the name suggests, it is used 
 At idle, the device will look for valid M17 signal in the baseband. If there is a valid signal detected carrying voice data, it will be decoded and sent to the speaker at the Kenwood  connector. There is also an additional, unpopulated, 2-pin speaker connector in the lower left corner of the modem. It can be used to connect an external >=8ohms speaker.
 Transmission is triggered by the PTT key of the mic-speaker. A valid baseband along with a PTT signal is then sent to the radio.
 
-**Warning** - OpenRTX does not yet support phase inversion of the baseband, nor the level settings. To set correct levels, please use two potentiometers or tweak the OpenRTX code accordingly. Callsign can not be set either. CAT protocol is not implemented yet. (September 2022)
+**Warning** - OpenRTX does not yet support phase inversion of the baseband. Channel Access Number is not settable. CAT protocol is not implemented yet. (November 2022)
 
 ## Revisions
 ### Revision 0.1a
