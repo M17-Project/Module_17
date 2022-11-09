@@ -55,7 +55,7 @@ The DE-9 connector at the top of the board can be used to connect Module17 to a 
 | 3        |  CAT-RX                          |  input                           |                           |
 | 4        |  CAT-TX                          |  output                          |                           |
 | 5        |  radio PTT                       |  output, open-drain, low-active  |  red                      |
-| 6        |  baseband in (from radio)        |  input                           |  orange                   |
+| 6        |  baseband input (from radio)     |  input                           |  orange                   |
 | 7        |  unused (floating)               |  --                              |                           |
 | 8        |  ground                          |  --                              |  black, thick             |
 | 9        |  12V input                       | input (supply)                   |                           |
