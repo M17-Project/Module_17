@@ -48,17 +48,17 @@ Both inputs can be used at the same time.
 
 ### DE-9 connector
 The DE-9 connector at the top of the board can be used to connect Module17 to a 9600baud radio. The pinout is shown in the table below.
-| Pin      |          Function          |             Direction            | `CT-167` cable wire color |
-|----------|:--------------------------:|----------------------------------|---------------------------|
-| 1        |  unused (floating)         |  --                              |                           |
-| 2        |  radio TX (baseband out)   |  output                          |  brown                    |
-| 3        |  CAT-RX                    |  input                           |                           |
-| 4        |  CAT-TX                    |  output                          |                           |
-| 5        |  radio PTT                 |  output, open-drain, low-active  |  red                      |
-| 6        |  radio RX (baseband in)    |  input                           |  orange                   |
-| 7        |  unused (floating)         |  --                              |                           |
-| 8        |  ground                    |  --                              |  black, thick             |
-| 9        |  12V input                 | input (supply)                   |                           |
+| Pin      |             Function             |             Direction            | `CT-167` cable wire color |
+|----------|:--------------------------------:|----------------------------------|---------------------------|
+| 1        |  unused (floating)               |  --                              |                           |
+| 2        |  baseband output (towards radio) |  output                          |  brown                    |
+| 3        |  CAT-RX                          |  input                           |                           |
+| 4        |  CAT-TX                          |  output                          |                           |
+| 5        |  radio PTT                       |  output, open-drain, low-active  |  red                      |
+| 6        |  baseband in (from radio)        |  input                           |  orange                   |
+| 7        |  unused (floating)               |  --                              |                           |
+| 8        |  ground                          |  --                              |  black, thick             |
+| 9        |  12V input                       | input (supply)                   |                           |
 
 Additionally, there is a 2.54mm pin header just next to the DE-9 connector that can be used for convenient access to the baseband, PTT and CAT signals. Pin 9 doesn't have to be used, it only provides an alternative way for supplying the board.  
 
