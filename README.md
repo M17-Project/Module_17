@@ -11,7 +11,7 @@ Basic OpenRTX support is already given, but the UI needs an overhaul for Module 
 
 ## Flashing
 ### Linux
-You need `dfu-util` to start the process. `dfu-util` installation instructions are [here](https://dfu-util.sourceforge.net/build.html). It is recommended to use the most recent version - built from source.
+You need `dfu-util` 0.11 to start the process. `dfu-util` installation instructions are [here](https://dfu-util.sourceforge.net/build.html). It is recommended to use the most recent version - built from source.
 
 To flash, hold the "Escape" (upper left) button down while plugging in USB (or pressing the reset switch) to boot into DFU mode.
 
