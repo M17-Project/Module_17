@@ -1,0 +1,31 @@
+connectors:
+  X1:
+    type: D-Sub 9
+    image: 
+      src: dsub9.svg
+    subtype: male
+    pinlabels: [NC, m17BasebandOut, CAT_RX, CAT_TX, PTT, m17BasebandIn, NC, GND, 12V_In, Shield]
+  X2:
+    type: 10-pin miniDIN
+    image:
+      src: minidin10.png
+    subtype: male
+    pinlabels: [PKD, GND, PSK, RX 9600, RX 1200, PK SQL, TXD, RXD, CTS, RTS, Shield]
+
+cables:
+  W1:
+    gauge: 24 AWG
+    length: 1
+    color_code: DIN
+    wirecount: 6
+    shield: true
+
+connections:
+  -
+    - X1: [2,3,4,5,6,8]
+    - W1: [1,2,3,4,5,6]
+    - X2: [1,7,8,3,4,2]
+  -
+    - X1: [10]
+    - W1: [s]
+    - X2: [11]
