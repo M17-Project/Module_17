@@ -60,6 +60,8 @@ The DE-9 connector at the top of the board can be used to connect Module17 to a 
 | 8        |  ground                          |  --                              |  black, thick             |
 | 9        |  12V input                       | input (supply)                   |                           |
 
+![CT-167 Wiring](./hardware/wiring/CT-167/CT-167.png)
+
 Additionally, there is a 2.54mm pin header just next to the DE-9 connector that can be used for convenient access to the baseband, PTT and CAT signals. Pin 9 doesn't have to be used, it only provides an alternative way for supplying the board.  
 
 ### Kenwood mic-speaker connector
