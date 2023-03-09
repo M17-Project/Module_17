@@ -133,12 +133,12 @@ graph {
 	edge [color="#000000:#895956:#000000"]
 	"DE-9":p2r:e -- "CT-167":w1:w
 	"CT-167":w1:e -- "mini-DIN-10":p1l:w
-	edge [color="#000000:#999999:#000000"]
-	"DE-9":p3r:e -- "CT-167":w8:w
-	"CT-167":w8:e -- "mini-DIN-10":p7l:w
 	edge [color="#000000:#0066ff:#000000"]
-	"DE-9":p4r:e -- "CT-167":w7:w
-	"CT-167":w7:e -- "mini-DIN-10":p8l:w
+	"DE-9":p3r:e -- "CT-167":w7:w
+	"CT-167":w7:e -- "mini-DIN-10":p7l:w
+	edge [color="#000000:#999999:#000000"]
+	"DE-9":p4r:e -- "CT-167":w8:w
+	"CT-167":w8:e -- "mini-DIN-10":p8l:w
 	edge [color="#000000:#ff0000:#000000"]
 	"DE-9":p5r:e -- "CT-167":w3:w
 	"CT-167":w3:e -- "mini-DIN-10":p3l:w
@@ -269,11 +269,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>DE-9:4:CAT_TX</td>
+    <td>DE-9:3:CAT_RX</td>
     <td>
      7:BU
     </td>
-    <td>mini-DIN-10:8:RXD</td>
+    <td>mini-DIN-10:7:TXD</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w7" height="6">
@@ -285,11 +285,11 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>DE-9:3:CAT_RX</td>
+    <td>DE-9:4:CAT_TX</td>
     <td>
      8:GY
     </td>
-    <td>mini-DIN-10:7:TXD</td>
+    <td>mini-DIN-10:8:RXD</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w8" height="6">
