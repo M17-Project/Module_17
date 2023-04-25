@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 59592280-3207-432b-a891-cd517ec5cf12)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 26.67) (size 25.4 13.97) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000612c95ef)
+    (property "Sheetname" "Microcontroller" (at 25.4 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 25.4 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "M17-SmartMic"
+        (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 26.67) (size 25.4 13.97) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000612c969e)
+    (property "Sheetname" "Audio & Filter" (at 63.5 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Audio.kicad_sch" (at 63.5 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "M17-SmartMic"
+        (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
