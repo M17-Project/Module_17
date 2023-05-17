@@ -4817,7 +4817,7 @@
   )
 
   (symbol (lib_id "Oscillator:XO32") (at 38.1 123.19 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-0000612f5f1d)
     (property "Reference" "X1" (at 46.99 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5466,7 +5466,7 @@
   )
 
   (symbol (lib_id "pkl_device:pkl_C_Small") (at 25.4 123.19 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00006132f8bd)
     (property "Reference" "C22" (at 25.4 117.3734 90)
       (effects (font (size 1.27 1.27)))
@@ -5495,7 +5495,7 @@
   )
 
   (symbol (lib_id "pkl_device:pkl_C_Small") (at 45.72 105.41 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-000061341fee)
     (property "Reference" "C24" (at 43.3832 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5599,7 +5599,7 @@
   )
 
   (symbol (lib_id "pkl_device:pkl_C_Small") (at 49.53 105.41 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00006136b747)
     (property "Reference" "C26" (at 51.8668 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify right))
