@@ -1,4 +1,5 @@
 *.bak
 *-bak
-*.zip
 _autosave-*
+*backups*
+.DS_Store
