@@ -39,7 +39,7 @@ Be sure that you have WinUSB installed for your DFU device. You can use [Zadig](
 Building instructions are available [at the OpenRTX project's website](https://openrtx.org/#/compiling).<br>
 **Note**: it is not yet possible to change the station's callsign using the GUI. To change it, please edit [line #47 of the state.c file](https://github.com/OpenRTX/OpenRTX/blob/master/openrtx/src/core/state.c#L47) before compiling.
 
-## Usage (rev 0.1d)
+## Usage (rev 0.1d/e)
 ### Power supply
 The modem can be supplied with:
 - a 6..15V source via the DC plug (upper right hand side) or pin 9 of the DE9 connector (upper left hand side),
@@ -108,6 +108,15 @@ Fixed some bugs:
 * Replaced PSU with in-stock parts
 * Replaced MAX3232 with simple 5V/3.3V level shifters as most, if not all, radios use either 5V or 3.3V TTL instead of RS232
 * Replaced STM32F405RGT6 with GD32F405RGT6 - these ICs are pin and code compatible
+
+### Revision 0.1e
+* Replaced digital potentiometers with multiturn ones to improve parts availability
+* Moved the TX potentiometer from the op-amp's output to between STM32 and the first op-amp
+* Added power-on button
+* Fixed misc BOM errors and removed a few unnecessary components from the schematic
+
+#### Errata of Revision 0.1e
+R31 has too high value. Add a 2.2k resistor across it (in parallel) to increase the sound volume coming from the speaker. Alternatively, replace R31 with a 1.8k or 2k resistor.
 
 ### Future revisions
 Future revisions will feature at least additional power supply options and will be designed with an enclosure in mind.
