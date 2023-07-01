@@ -1,76 +1,88 @@
-Designator,Footprint,Quantity,Value,LCSC Part #
-"C1, C11, C12, C13, C19, C23, C27, C31, C32, C36, C38, C43, C46, C48, C60, C64, C7, C9",C_0603,18,100n,Generic C/100nF/C0G/25V/0603
-C10,C_0603,1,1n,Generic C/1nF/C0G/25V/0603
-"C14, C16, C4, C45, C51, C52, C53, C61",C_0603,8,10n,Generic C/10nF/C0G/25V/0603
-"C17, C25, C33, C8",C_0603,4,1u,Generic C/1uF/C0G/25V/0603
-C18,CP_EIA-3216-18_Kemet-A,1,10u,C110055
-"C2, C29, C47, C5",C_0603,4,2u2,Generic C/2.2uF/C0G/25V/0603
-C20,C_0603,1,220n,Generic C/220nF/C0G/25V/0603
-C21,C_0603,1,470n,Generic C/470nF/C0G/25V/0603
-"C3, C6",C_0603,2,12p,Generic C/12pF/C0G/16V/0603
-C30,C_0603,1,22u,Generic C/22uF/C0G/10V/0603
-C35,C_0603,1,15p,Generic C/15pF/C0G/25V/0603
-C40,CP_Elec_6.3x7.7,1,470u,C116423
-"C49, C55",C_0603,2,680p,Generic C/680pF/C0G/25V/0603
-C54,C_0603,1,470p,Generic C/470pF/C0G/25V/0603
-"C56, C57, C58, C59",CP_EIA-3216-18_Kemet-A,4,22u,C118989
-C62,1210,1,10u,Generic C/10uF/C0G/25V/1210
-C65,1210,1,22u,Generic C/22uF/C0G/10V/1210
-D1,D_0603,1,Power,Generic LED/Blue/0603
-D2,D_0603,1,PTT,Generic LED/Red/0603
-D3,D_0603,1,Sync,Generic LED/Green/0603
-D4,D_0603,1,Error,Generic LED/Orange/0603
-D7,SOT-23,1,BAT54C,C2135
-"D8, D9",D_SOD-323,2,BAT60A,C520634
-"FB1, FB2, FB3",L_0805,3,FB0805,C1017
-IC1,SOIC-8_3.9x4.9mm_P1.27mm,1,LM4861M,C7958
-J1,PJ-211A,1,Kenwood-2.5,C480265
-J11,PinHeader_1x06_P2.54mm_Vertical,1,Radio_Opt,C492405
-J2,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,USB_C,C165948
-J3,PinHeader_1x07_P2.54mm_Vertical,1,OLED,C492406
-J5,PJ-3136-B,1,Kenwood-3.5,C381131
-J7,DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm,1,Radio,C75749
-J8,BarrelJack_CLIFF_FC681465S_SMT_Horizontal,1,+12V,C319133
-L1,L_Vishay_IHLP-2525,1,10u, C506573
-Q1,SOT-23,1,IRLML2060,C67275
-"Q2, Q3",SOT-23,2,BSS138,C2912548
-Q4,SOT-23,1,IRLML2244,C169763
-Q5,SOT-23,1,MMBT3904,C84555
-"R1, R35, R42",R_0603,3,2k2,Generic R/2k2/0603
-"R10, R13, R14, R19, R20, R7",R_0603,6,470,Generic R/470R/0603
-"R11, R12, R17, R18, R34, R54, R58, R59, R6, R60, R61, R64, R9",R_0603,13,10k,Generic R/10k/0603
-"R15, R16",R_0603,2,5k1,Generic R/5k1/0603
-"R2, R31, R43, R45, R46, R66, R67",R_0603,7,22k,Generic R/22k/0603
-"R23, R44, R63, R65",R_0603,4,100k,Generic R/100k/0603
-"R24, R25, R26, R27",R_0603,4,680,Generic R/680R/0603
-"R28, R29",R_0603,2,27,Generic R/27R/0603
-"R3, R4",R_0603,2,22,Generic R/22R/0603
-R30,R_0603,1,150k,Generic R/150k/0603
-"R32, R49, R50",R_0603,3,47k,Generic R/47k/0603
-R33,R_0603,1,2k,Generic R/2k/0603
-"R36, R41",R_0603,2,3k3,Generic R/3k3/0603
-"R37, R40",R_0603,2,3k9,Generic R/3k9/0603
-"R38, R39",R_0603,2,39k,Generic R/39k/0603
-R5,R_0603,1,1k,Generic R/1k/0603
-R51,R_0603,1,330,Generic R/330/0603
-"R52, R8",R_0603,2,0,Generic R/0R/0603
-R53,R_0603,1,2k7,Generic R/2k7/0603
-R56,R_0603,1,8k2,Generic R/8k2/0603
-R57,R_0603,1,43k,Generic R/43k/0603
-"RV2, RV3",Potentiometer_Bourns_3224W_Vertical,2,10k,C81348
-RV4,Potentiometer_Alps_RK097_Single_Horizontal,1,10k,C470577
-SW1,SW_SPST_PTS645,1,Button Up,C83916
-SW2,SW_SPST_PTS645,1,Button Down,C83916
-SW3,SW_SPST_3x4x2.5,1,Reset,C589193
-SW4,SW_SPST_PTS645,1,Button Escape,C83916
-SW5,SW_SPST_PTS645,1,Button Left,C83916
-SW6,SW_SPST_PTS645,1,Button Enter,C83916
-SW7,SW_SPST_PTS645,1,Button Right,C83916
-SW8,SW_SPST_PTS645,1,Button Power,C83916
-U1,DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm,1,MAX9814,C41714
-U10,LQFP-64_10x10mm_P0.5mm,1,STM32F405RGTx,C15742
-U11,SOT-23-5,1,TPS7A2033,C2862740
-U2,SOT-23-6,1,TP6841S6,C2844924
-U3,SOT-23-6,1,USBLC6-2,C7519
-"U6, U7",SOIC-8_3.9x4.9mm_P1.27mm,2,MCP6002,C116706
-Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,8 MHz,C518156
+"Source:","C:\Users\smill\Documents\git\Module_17\hardware\r0.1e\M17-SmartMic.kicad_sch"
+"Date:","7/1/2023 1:29:03 PM"
+"Tool:","Eeschema (7.0.0)"
+"Generator:","C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","155"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Description","Height","LCSC Part #","MPN","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock"
+"1","18","C1, C7, C9, C11, C12, C13, C19, C23, C27, C31, C32, C36, C38, C43, C46, C48, C60, C64","100n","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/100nF/C0G/25V/0603","","","",""
+"2","4","C2, C5, C29, C47","2u2","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/2.2uF/C0G/25V/0603","","","",""
+"3","2","C3, C6","12p","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/12pF/C0G/16V/0603","","","",""
+"4","8","C4, C14, C16, C45, C51, C52, C53, C61","10n","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/10nF/C0G/25V/0603","","","",""
+"5","4","C8, C17, C25, C33","1u","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/1uF/C0G/25V/0603","","","",""
+"6","1","C10","1n","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/1nF/C0G/25V/0603","","","",""
+"7","1","C18","10u","pkl_device:pkl_CP_Small","Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A","","","","","","C110055","T491A106K016AT","","","",""
+"8","1","C20","220n","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/220nF/C0G/25V/0603","","","",""
+"9","1","C21","470n","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/470nF/C0G/25V/0603","","","",""
+"10","1","C30","22u","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/22uF/C0G/10V/0603","","","",""
+"11","1","C35","15p","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/15pF/C0G/25V/0603","","","",""
+"12","1","C40","470u","pkl_device:pkl_CP_Small","Capacitor_SMD:CP_Elec_6.3x7.7","","","","","","C116423","CS1A471M-CRE77","","","",""
+"13","2","C49, C55","680p","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/680pF/C0G/25V/0603","","","",""
+"14","1","C54","470p","pkl_device:pkl_C_Small","pkl_dipol:C_0603","","","","","","","Generic C/470pF/C0G/25V/0603","","","",""
+"15","4","C56, C57, C58, C59","22u","pkl_device:pkl_CP_Small","Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A","","","","","","C118989","T491A226K006AT","","","",""
+"16","1","C62","10u","pkl_device:pkl_C_Small","Capacitor_SMD:C_1210_3225Metric","","","","","","","Generic C/10uF/C0G/25V/1210","","","",""
+"17","1","C65","22u","pkl_device:pkl_C_Small","Capacitor_SMD:C_1210_3225Metric","","","","","","","Generic C/22uF/C0G/10V/1210","","","",""
+"18","1","D1","Power","pkl_device:pkl_Led_Small","pkl_dipol:D_0603","","","","","","","Generic LED/Blue/0603","","","",""
+"19","1","D2","PTT","pkl_device:pkl_Led_Small","pkl_dipol:D_0603","","","","","","","Generic LED/Red/0603","","","",""
+"20","1","D3","Sync","pkl_device:pkl_Led_Small","pkl_dipol:D_0603","","","","","","","Generic LED/Green/0603","","","",""
+"21","1","D4","Error","pkl_device:pkl_Led_Small","pkl_dipol:D_0603","","","","","","","Generic LED/Orange/0603","","","",""
+"22","1","D7","BAT54C","Diode:BAT54C","Package_TO_SOT_SMD:SOT-23","http://www.diodes.com/_files/datasheets/ds11005.pdf","","","","","C2135","BAT54CLT11G","","","",""
+"23","2","D8, D9","BAT60A","Diode:BAT60A","Diode_SMD:D_SOD-323","https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9","","","","","C520634","BAT60AE6327HTSA1","","","",""
+"24","3","FB1, FB2, FB3","FB0805","Device:Ferrite_Bead_Small","pkl_dipol:L_0805","~","","","","","C1017","2508056017Y2","","","",""
+"25","1","IC1","LM4861M","Module17:LM4861MX_NOPB","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://www.ti.com/lit/gpn/LM4861","","","TEXAS INSTRUMENTS - LM4861MX/NOPB - Audio Power Amplifier, 1.1 W, AB, 1 Channel, 2V to 5.5V, SOIC, 8 Pins","1.75","C7958","LM4861MX/NOPB","Texas Instruments","LM4861MX/NOPB","926-LM4861MX/NOPB","https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM4861MX-NOPB?qs=QbsRYf82W3FxTp8pKIvxnw%3D%3D"
+"26","1","J1","Kenwood-2.5","Connector:AudioJack3","M17-SmartMic:PJ-211A","SJ1-2503A","","","","","C480265","PJ-211A","","","",""
+"27","1","J2","USB_C","Connector:USB_C_Receptacle_USB2.0","pkl_connectors:USB_C_Receptacle_HRO_TYPE-C-31-M-12","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","","","","","C165948","TYPE-C-31-M-12","","","",""
+"28","1","J3","OLED","Connector_Generic:Conn_01x07","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical","~","","","","","C492406","PZ254V-11-07P","","","",""
+"29","1","J5","Kenwood-3.5","Connector:AudioJack3","M17-SmartMic:PJ-3136-B","~","","","","","C381131","PJ-3136-B","","","",""
+"30","1","J7","Radio","Connector:DB9_Female_MountingHoles","Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"," ~","","","","","C75749","DS1037-09FNAKT74-0CC","","","",""
+"31","1","J8","+12V","Connector:Barrel_Jack_Switch_Pin3Ring","Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal","~","","","","","C319133","DC-005-5A-2.5-SMT","","","",""
+"32","1","J11","Radio_Opt","Connector_Generic:Conn_01x06","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","~","","","","","C492405","PZ254V-11-06P","","","",""
+"33","1","L1","10u","pkl_device:pkl_L_Small","Inductor_SMD:L_Vishay_IHLP-2525","","","","",""," C506573","IHLP2525BDER100M01","","","",""
+"34","1","Q1","IRLML2060","Transistor_FET:IRLML2060","pkl_housings_sot:SOT-23","https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee","","","","","C67275","IRLML2060TRPbF","","","",""
+"35","2","Q2, Q3","BSS138","Transistor_FET:BSS138","Package_TO_SOT_SMD:SOT-23","https://www.onsemi.com/pub/Collateral/BSS138-D.PDF","","","","","C400505","BSS138P,215","","","",""
+"36","1","Q4","IRLML2244","PCM_Transistor_MOSFET_AKL:IRLML2244","Package_TO_SOT_SMD:SOT-23","https://www.tme.eu/Document/90ea866fa3e08b39ea06db12ea9e4987/irlml2244pbf.pdf","","","","","C169763","IRLML2244TRPbF","","","",""
+"37","1","Q5","MMBT3904","Transistor_BJT:MMBT3904","Package_TO_SOT_SMD:SOT-23","https://www.onsemi.com/pub/Collateral/2N3903-D.PDF","","","","","C84555","SMMBT3904LT1G","","","",""
+"38","3","R1, R35, R42","2k2","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/2k2/0603","","","",""
+"39","4","R2, R43, R45, R46","22k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/22k/0603","","","",""
+"40","2","R3, R4","22","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/22R/0603","","","",""
+"41","1","R5","1k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/1k/0603","","","",""
+"42","11","R6, R9, R11, R12, R17, R18, R34, R58, R59, R60, R61","10k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/10k/0603","","","",""
+"43","6","R7, R10, R13, R14, R19, R20","470","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/470R/0603","","","",""
+"44","2","R8, R52","0","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/0R/0603","","","",""
+"45","2","R15, R16","5k1","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/5k1/0603","","","",""
+"46","2","R23, R44","100k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/100k/0603","","","",""
+"47","4","R24, R25, R26, R27","680","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/680R/0603","","","",""
+"48","2","R28, R29","27","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/27R/0603","","","",""
+"49","1","R30","150k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/150k/0603","","","",""
+"50","1","R31","1k8","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/1k8/0603","","","",""
+"51","3","R32, R49, R50","47k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/47k/0603","","","",""
+"52","1","R33","2k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/2k/0603","","","",""
+"53","2","R36, R41","3k3","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/3k3/0603","","","",""
+"54","2","R37, R40","3k9","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/3k9/0603","","","",""
+"55","2","R38, R39","39k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/39k/0603","","","",""
+"56","1","R51","330","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/330/0603","","","",""
+"57","1","R53","0R","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/2k7/0603","","","",""
+"58","1","R56","8k2","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/8k2/0603","","","",""
+"59","1","R57","43k","pkl_device:pkl_R_Small","pkl_dipol:R_0603","","","","","","","Generic R/43k/0603","","","",""
+"60","2","R63, R65","100k","Device:R_Small","pkl_dipol:R_0603","~","","","","","","Generic R/100k/0603","","","",""
+"61","1","R64","10k","Device:R_Small","pkl_dipol:R_0603","~","","","","","","Generic R/10k/0603","","","",""
+"62","2","R66, R67","22k","Device:R_Small","pkl_dipol:R_0603","~","","","","","","Generic R/22k/0603","","","",""
+"63","2","RV2, RV3","10k","Device:R_Potentiometer_Small","Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical","~","","","","","C81348","3224W-1-103E","","","",""
+"64","1","RV4","10k","Device:R_Potentiometer_Small","Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal","~","","","","","C470577","RK097111080R","","","",""
+"65","1","SW1","Button Up","Switch:SW_Push","pkl_buttons_switches:SW_SPST_PTS645","~","","","","","C83916","PTS645SH50SMTR92LFS","","","",""
+"66","1","SW2","Button Down","Switch:SW_Push","pkl_buttons_switches:SW_SPST_PTS645","~","","","","","C83916","PTS645SH50SMTR92LFS","","","",""
+"67","1","SW3","Reset","Switch:SW_Push","pkl_buttons_switches:SW_SPST_3x4x2.5","~","","","","","C221895","PTS810SJG250SMTRLFS","","","",""
+"68","1","SW4","Button Escape","Switch:SW_Push","pkl_buttons_switches:SW_SPST_PTS645","~","","","","","C83916","PTS645SH50SMTR92LFS","","","",""
+"69","1","SW5","Button Left","Switch:SW_Push","pkl_buttons_switches:SW_SPST_PTS645","~","","","","","C83916","PTS645SH50SMTR92LFS","","","",""
+"70","1","SW6","Button Enter","Switch:SW_Push","pkl_buttons_switches:SW_SPST_PTS645","~","","","","","C83916","PTS645SH50SMTR92LFS","","","",""
+"71","1","SW7","Button Right","Switch:SW_Push","pkl_buttons_switches:SW_SPST_PTS645","~","","","","","C83916","PTS645SH50SMTR92LFS","","","",""
+"72","1","SW8","Button Power","Switch:SW_Push","pkl_buttons_switches:SW_SPST_PTS645","~","","","","","C83916","PTS645SH50SMTR92LFS","","","",""
+"73","1","U1","MAX9814","Amplifier_Audio:MAX9814","Package_DFN_QFN:DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm","https://datasheets.maximintegrated.com/en/ds/MAX9814.pdf","","","","","C41714","MAX9814ETD+T","","","",""
+"74","1","U2","TP6841S6","Module17:TP6841S6","Package_TO_SOT_SMD:SOT-23-6","","","","","","C2844924","TP6841S6","","","",""
+"75","1","U3","USBLC6-2","pkl_misc:USBLC6-2","pkl_housings_sot:SOT-23-6","","","","","","C7519","USBLC6-2-SC6","","","",""
+"76","2","U6, U7","MCP6002","Amplifier_Operational:MCP602","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf","","","","","C116706","MCP6002-I/SN","","","",""
+"77","1","U10","STM32F405RGTx","MCU_ST_STM32F4:STM32F405RGTx","Package_QFP:LQFP-64_10x10mm_P0.5mm","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf","","","","","C15742","STM32F405RGT6V","","","",""
+"78","1","U11","TPS7A2033","Regulator_Linear:TPS73133DBV","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/tps731.pdf","","","","","C2862740","TPS7A2033PDBVR","","","",""
+"79","1","Y1","8 MHz","Device:Crystal_GND24_Small","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","~","","","","","C518156","ECS-80-12-33-JGN-TR","","","",""
