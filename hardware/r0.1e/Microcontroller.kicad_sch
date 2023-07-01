@@ -8461,7 +8461,7 @@
     (property "Reference" "R53" (at 143.51 31.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0R" (at 143.51 33.655 0)
+    (property "Value" "2k7" (at 143.51 33.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "pkl_dipol:R_0603" (at 140.97 31.75 0)
@@ -9308,7 +9308,7 @@
   )
 
   (symbol (lib_id "pkl_device:pkl_R_Small") (at 140.97 41.91 0) (unit 1)
-    (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb957f36-0298-4103-9e59-8ca9da0b8598)
     (property "Reference" "R54" (at 142.4687 41.0015 0)
       (effects (font (size 1.27 1.27)) (justify left))
