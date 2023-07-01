@@ -53,8 +53,7 @@ R33,R_0603,1,2k,Generic R/2k/0603
 "R38, R39",R_0603,2,39k,Generic R/39k/0603
 R5,R_0603,1,1k,Generic R/1k/0603
 R51,R_0603,1,330,Generic R/330/0603
-"R52, R8",R_0603,2,0,Generic R/0R/0603
-R53,R_0603,1,2k7,Generic R/2k7/0603
+"R53, R52, R8",R_0603,2,0,Generic R/0R/0603
 R56,R_0603,1,8k2,Generic R/8k2/0603
 R57,R_0603,1,43k,Generic R/43k/0603
 "RV2, RV3",Potentiometer_Bourns_3224W_Vertical,2,10k,C81348
