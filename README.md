@@ -116,7 +116,7 @@ Fixed some bugs:
 * Fixed misc BOM errors and removed a few unnecessary components from the schematic
 
 #### Errata of Revision 0.1e
-~~R31 has too high value. Add a 2.2k resistor across it (in parallel) to increase the sound volume coming from the speaker. Alternatively, replace R31 with a 1.8k or 2k resistor.~~Resolved.
+~~R31 has too high value. Add a 2.2k resistor across it (in parallel) to increase the sound volume coming from the speaker. Alternatively, replace R31 with a 1.8k or 2k resistor.~~ Resolved.
 
 ### Future revisions
 Future revisions will feature at least additional power supply options and will be designed with an enclosure in mind.
