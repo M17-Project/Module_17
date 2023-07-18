@@ -1,9 +1,0 @@
-* Removed 1k5 Ohm pull-up on D+
-* Lowered Xtal load caps to 18pF
-* Replaced STM32F407VxT with STM32F405RGT6
-* Changed OLED and keyboard GPIOs to allow for better routing
-* Replaced 2.5mm jack with stereo jack and shorted ring and sleeve
-* Re-worked audio circuits, mic and speaker amp are mutable
-* Simplified baseband filters
-* Added 2 UARTS for GPS/rigcontrol/whatever
-* Added 12V DC-DC step down to 5V
