@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Module17")
+    (date "2023-07-18")
+    (rev "Rev 1.0")
+    (company "M17Project")
+    (comment 1 "Mathis - DB9MAT")
+    (comment 2 "Wojciech - SP5WWP")
+    (comment 3 "Authors:")
+  )
+
   (lib_symbols
   )
 
