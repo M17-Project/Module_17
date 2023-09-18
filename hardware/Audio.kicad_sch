@@ -3512,7 +3512,7 @@
   (symbol (lib_id "Module17:LM4991xx") (at 137.795 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a1f6018-b04b-468c-8219-d73b18d5885d)
-    (property "Reference" "IC201" (at 154.305 34.29 0)
+    (property "Reference" "IC1" (at 154.305 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM4991xx" (at 154.305 36.83 0)
@@ -3538,7 +3538,7 @@
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "IC201") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
     )
