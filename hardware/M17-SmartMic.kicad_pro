@@ -519,6 +519,14 @@
     [
       "00000000-0000-0000-0000-0000612c95ef",
       "Microcontroller"
+    ],
+    [
+      "7f9420e4-5dd1-4e05-8205-18dae2029540",
+      "Connectors"
+    ],
+    [
+      "37599450-117c-43fe-991e-3a93952c225b",
+      "Baseband"
     ]
   ],
   "text_variables": {}

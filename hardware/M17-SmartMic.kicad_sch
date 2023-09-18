@@ -52,6 +52,40 @@
     )
   )
 
+  (sheet (at 93.345 26.67) (size 25.4 14.605) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 37599450-117c-43fe-991e-3a93952c225b)
+    (property "Sheetname" "Baseband" (at 93.345 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "baseband.kicad_sch" (at 93.345 41.8596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "M17-SmartMic"
+        (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 124.46 27.94) (size 23.495 13.335) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7f9420e4-5dd1-4e05-8205-18dae2029540)
+    (property "Sheetname" "Connectors" (at 124.46 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 124.46 41.8596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "M17-SmartMic"
+        (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "4"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
