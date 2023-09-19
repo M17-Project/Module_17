@@ -1,3 +1,6 @@
 [submodule "lib/pkl"]
 	path = lib/pkl
 	url = https://github.com/esden/pretty-kicad-libs.git
+[submodule "lib/M17_kicad_library"]
+	path = lib/M17_kicad_library
+	url = https://github.com/M17-Project/M17_kicad_library
