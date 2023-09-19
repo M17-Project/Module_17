@@ -2633,7 +2633,7 @@
     (property "Datasheet" "" (at 84.455 33.655 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "MPN" "Generic R/2k2/0603" (at 84.455 33.655 0)
+    (property "MPN" "Generic R/0R/0603" (at 84.455 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2db9d7b5-e795-491e-8953-fa2753a90ebc))
