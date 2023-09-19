@@ -26,7 +26,6 @@
   (lib (name "pkl_samtec")(type "KiCad")(uri "${KIPRJMOD}/../lib/pkl/pkl_samtec.pretty")(options "")(descr ""))
   (lib (name "pkl_st")(type "KiCad")(uri "${KIPRJMOD}/../lib/pkl/pkl_st.pretty")(options "")(descr ""))
   (lib (name "pkl_tag_connect")(type "KiCad")(uri "${KIPRJMOD}/../lib/pkl/pkl_tag_connect.pretty")(options "")(descr ""))
-  (lib (name "M17-SmartMic")(type "KiCad")(uri "${KIPRJMOD}/../lib/M17-SmartMic.pretty")(options "")(descr ""))
   (lib (name "M17_connectors")(type "KiCad")(uri "${KIPRJMOD}/../lib/M17_kicad_library/M17_connectors.pretty")(options "")(descr ""))
   (lib (name "M17_logos")(type "KiCad")(uri "${KIPRJMOD}/../lib/M17_kicad_library/M17_logos.pretty")(options "")(descr ""))
   (lib (name "M17_misc_active")(type "KiCad")(uri "${KIPRJMOD}/../lib/M17_kicad_library/M17_misc_active.pretty")(options "")(descr ""))
