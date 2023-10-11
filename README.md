@@ -7,6 +7,8 @@ This project provides a standalone modem board that transforms any 9600 baud cap
 
 Several boards of various revisions have been built. While the changes between r0.1a and r0.1b were quite drastic, r0.1c and d are only minor revisions, mainly for parts availability. The pinout, baseband filters and components are considered stable and will (probably) not change in future revisions, ensuring software compatibility. Revision 0.1d boards can be ordered partially or even fully assembled at [JLCPCB](https://www.jlcpcb.com) with the manufacturing data in this repository. The volume knob and digital potentiometers are only available through Mouser/Digikey, but JLCPCB can acquire them through their global sourcing program.
 
+The board was designed with the [Waveshare 18179](https://www.waveshare.com/1.3inch-oled-module-c.htm) in mind and shares the footprint and pinout for said display.
+
 Basic OpenRTX support is already given, but the UI needs an overhaul for Module 17. 
 
 ## Flashing
