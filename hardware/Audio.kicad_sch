@@ -2765,7 +2765,7 @@
     (property "Reference" "J302" (at 135.255 179.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "CAT_TX" (at 135.255 181.61 90)
+    (property "Value" "CAT_RX" (at 135.255 181.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "pkl_jumpers:J_NCNO_0903_20" (at 133.985 181.61 0)
