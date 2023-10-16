@@ -3140,7 +3140,7 @@
     )
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 68.58 95.885 90) (mirror x) (unit 1)
+  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 68.58 95.885 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 841ef80f-0a00-4f26-b6a1-08ea539d10b9)
     (property "Reference" "FB202" (at 68.58 89.8652 90)
