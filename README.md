@@ -39,7 +39,6 @@ Be sure that you have WinUSB installed for your DFU device. You can use [Zadig](
 
 ### Building the firmware yourself
 Building instructions are available [at the OpenRTX project's website](https://openrtx.org/#/compiling).<br>
-**Note**: it is not yet possible to change the station's callsign using the GUI. To change it, please edit [line #47 of the state.c file](https://github.com/OpenRTX/OpenRTX/blob/master/openrtx/src/core/state.c#L47) before compiling.
 
 ## Usage (rev 0.1d/e)
 ### Power supply
