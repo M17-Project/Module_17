@@ -69,13 +69,15 @@ Additionally, there is a 2.54mm pin header just next to the DE-9 connector that 
 On the left hand side of the board, there is a Kenwood-type connector. The pinout is standard and most microphone-speakers should be compatible with Module17.
 
 ### Volume knob with a power switch
-The volume knob is at the bottom of the board. As the name suggests, it is used for audio volume setting. It also acts as the power switch for the module. **Note** - the power switch is on the 12V line, so it is not possible to turn the device off while it is powered with 5V (USB).
+The volume knob is at the bottom of the board. As the name suggests, it is used for audio volume setting. It also acts as the power switch for the module.
+
+**Note** - the power switch is on the 12V line, so it is not possible to turn the device off while it is powered with 5V (USB).<br>
+**Warning** - due to leakage current reaching one of the transistors in the power control section, the `Shutdown` menu entry doesn't work as intended.<br>
+Workaround: solder a 10k resistor between STM32's pin 50 or D7's pin 1 (`GPIO_POWER` net) and ground.
 
 ### Transmission/reception
 At idle, the device will look for valid M17 signal in the baseband. If there is a valid signal detected carrying voice data, it will be decoded and sent to the speaker at the Kenwood  connector. There is also an additional, unpopulated, 2-pin speaker connector in the lower left corner of the modem. It can be used to connect an external >=8ohms speaker.
 Transmission is triggered by the PTT key of the mic-speaker. A valid baseband along with a PTT signal is then sent to the radio.
-
-**Warning** - OpenRTX does not yet support phase inversion of the baseband. Channel Access Number is not settable. CAT protocol is not implemented yet. (November 2022)
 
 ## Revisions
 ### Revision 0.1a
