@@ -15,6 +15,116 @@
   )
 
   (lib_symbols
+    (symbol "Device:C_Polarized_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Polarized_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Polarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Polarized_Small_0_1"
+        (rectangle (start -1.524 -0.3048) (end 1.524 -0.6858)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start -1.524 0.6858) (end 1.524 0.3048)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.524)
+            (xy -0.762 1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 1.27)
+            (xy -1.016 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Polarized_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.8542)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 1.8542)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:Crystal_GND24_Small" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (at 1.27 4.445 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -219,6 +329,140 @@
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 0 -2.54 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:LED_Small_Filled" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at -1.27 3.175 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "LED_Small_Filled" (at -4.445 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED diode light-emitting-diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light emitting diode, small symbol, filled shape" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_Small_Filled_0_1"
+        (polyline
+          (pts
+            (xy -0.762 -1.016)
+            (xy -0.762 1.016)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0)
+            (xy -0.762 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.016)
+            (xy -0.762 0)
+            (xy 0.762 1.016)
+            (xy 0.762 -1.016)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy -0.508 1.27)
+            (xy -0.254 1.27)
+            (xy -0.508 1.27)
+            (xy -0.508 1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 1.27)
+            (xy 0 1.778)
+            (xy 0.254 1.778)
+            (xy 0 1.778)
+            (xy 0 1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LED_Small_Filled_1_1"
+        (pin passive line (at -2.54 0 0) (length 1.778)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 0 180) (length 1.778)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:L_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at 0.762 1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "L_Small" (at 0.762 -1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Inductor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "L_Small_0_1"
+        (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "L_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 0.508)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 0.508)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -1235,318 +1479,6 @@
         )
       )
     )
-    (symbol "pkl_device:pkl_CP_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "pkl_CP_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "ki_description" "Polarised capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CP* Elko* TantalC* C*elec c_elec* SMD*_Pol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "pkl_CP_Small_0_1"
-        (rectangle (start -1.524 -0.3048) (end 1.524 -0.6858)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -1.524 0.6858) (end 1.524 0.3048)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 1.524)
-            (xy -0.762 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 1.27)
-            (xy -1.016 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "pkl_CP_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 1.8542)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 1.8542)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "pkl_device:pkl_C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "pkl_C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C? C_????_* C_???? SMD*_c Capacitor*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "pkl_C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "pkl_C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 1.905)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "pkl_device:pkl_L_Small" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at 1.524 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "pkl_L_Small" (at 1.524 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 90)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 90)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "ki_description" "Inductor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "L? L_????_* L_???? SMD*_l Inductor*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "pkl_L_Small_0_1"
-        (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "pkl_L_Small_1_1"
-        (pin input line (at 0 -2.54 90) (length 0.508)
-          (name "1" (effects (font (size 0.762 0.762))))
-          (number "1" (effects (font (size 0.762 0.762))))
-        )
-        (pin input line (at 0 2.54 270) (length 0.508)
-          (name "2" (effects (font (size 0.762 0.762))))
-          (number "2" (effects (font (size 0.762 0.762))))
-        )
-      )
-    )
-    (symbol "pkl_device:pkl_Led_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at -1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "pkl_Led_Small" (at -3.81 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 90)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 90)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "ki_description" "Led" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CP* SM*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "pkl_Led_Small_0_1"
-        (polyline
-          (pts
-            (xy 0.762 -1.016)
-            (xy 0.762 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 -1.016)
-            (xy 0.762 0)
-            (xy -0.762 1.016)
-            (xy -0.762 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -0.508 1.27)
-            (xy 0 1.778)
-            (xy -0.254 1.778)
-            (xy 0 1.778)
-            (xy 0 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 0.508 1.27)
-            (xy 0.254 1.27)
-            (xy 0.508 1.27)
-            (xy 0.508 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "pkl_Led_Small_1_1"
-        (pin passive line (at -2.54 0 0) (length 1.778)
-          (name "A" (effects (font (size 1.016 1.016))))
-          (number "A" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 2.54 0 180) (length 1.778)
-          (name "C" (effects (font (size 1.016 1.016))))
-          (number "C" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "pkl_device:pkl_R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "pkl_R_Small" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Resistor_* R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "pkl_R_Small_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "pkl_R_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "pkl_power:VIN" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VIN" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VIN\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VIN_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VIN_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VIN" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1739,6 +1671,58 @@
       (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:LINE" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "LINE" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"LINE\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LINE_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LINE_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "LINE" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3570,7 +3554,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 32.385 86.995 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 32.385 86.995 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000612d6883)
     (property "Reference" "C202" (at 30.0482 85.8266 0)
@@ -3588,8 +3572,8 @@
     (property "MPN" "Generic C/12pF/C0G/16V/0603" (at 32.385 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67f03a06-fd3c-4c59-a963-0220c39d7ad6))
-    (pin "2" (uuid 36163044-f8c8-4495-b705-56ac18ded222))
+    (pin "1" (uuid c04f1a01-e18c-4f53-8944-b41b53867d8d))
+    (pin "2" (uuid 5f674ce8-90cf-42a1-93ef-39674f09653b))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -3599,7 +3583,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 42.545 86.995 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 42.545 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000612d7ac1)
     (property "Reference" "C203" (at 44.8818 85.8266 0)
@@ -3617,8 +3601,8 @@
     (property "MPN" "Generic C/12pF/C0G/16V/0603" (at 42.545 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e77d3976-1838-4beb-a113-dd419cc00242))
-    (pin "2" (uuid 664001fe-93a3-4821-86f7-7d7e44749425))
+    (pin "1" (uuid 1db13c89-3f6d-4633-bcd4-148aa62f4615))
+    (pin "2" (uuid 8f8ae1f7-f13a-4ffb-9323-aa39c0a94ddc))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -3678,7 +3662,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 67.945 53.975 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 67.945 53.975 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000612f10f0)
     (property "Reference" "C205" (at 65.6082 52.8066 0)
@@ -3696,8 +3680,8 @@
     (property "MPN" "Generic C/2.2uF/C0G/25V/0603" (at 67.945 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eb61a650-4d92-4ac3-ac55-075a61e6bae0))
-    (pin "2" (uuid af809e37-ec5a-462d-87a4-58c272bdcb3d))
+    (pin "1" (uuid 7c41e639-508e-473d-b54b-776e6304d178))
+    (pin "2" (uuid e9bef4b6-fc44-497d-abae-c064f0edb48a))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -3707,7 +3691,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 57.785 53.975 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 57.785 53.975 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000612f3209)
     (property "Reference" "C204" (at 55.4482 52.8066 0)
@@ -3725,8 +3709,8 @@
     (property "MPN" "Generic C/2.2uF/C0G/25V/0603" (at 57.785 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d2b41fe-f347-42af-b056-6f0a8bd25e00))
-    (pin "2" (uuid d15b77a8-7483-4646-a729-a5dd504a9c50))
+    (pin "1" (uuid a2f1a283-05d4-4508-9961-c85b5a9b09c9))
+    (pin "2" (uuid 423757cc-df21-406e-afc6-f250e4bc8a14))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -3818,7 +3802,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 228.6 152.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 228.6 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000612fa153)
     (property "Reference" "C218" (at 230.9368 151.2316 0)
@@ -3836,8 +3820,8 @@
     (property "MPN" "Generic C/1uF/C0G/25V/0603" (at 228.6 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 902fedf8-f7b9-4902-8938-313db075252b))
-    (pin "2" (uuid 54fbaf0b-59a6-4655-83cc-1cd562aef677))
+    (pin "1" (uuid 15ebd27d-d17e-41ef-9f93-ed0b1bcf69a2))
+    (pin "2" (uuid 4b2944cd-d24c-4f19-a666-ef9fc8a599c8))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -3847,7 +3831,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 238.125 152.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 238.125 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000612fbdfc)
     (property "Reference" "C220" (at 240.4618 151.2316 0)
@@ -3865,8 +3849,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 238.125 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f60b14a-e501-4e4a-8b53-8b2ed63d60ee))
-    (pin "2" (uuid 02115f44-6526-4f6e-9a8c-223fdaba92d8))
+    (pin "1" (uuid 51d96bf4-f969-41f6-a2d3-a7fb1e4f746e))
+    (pin "2" (uuid 8b0d7b63-1434-470e-b294-7eb9de42284d))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -3951,7 +3935,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 151.13 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 151.13 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006131f301)
     (property "Reference" "C213" (at 153.4668 106.7816 0)
@@ -3969,8 +3953,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 151.13 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 794bf87d-a96f-458e-911f-83035d581678))
-    (pin "2" (uuid b9dc9ca7-c1c1-4185-a612-423029a4cfe1))
+    (pin "1" (uuid 8f3ec6da-3053-43a6-a166-3911f2daed2e))
+    (pin "2" (uuid 10b4301b-f094-458b-a73f-39d63703c667))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -3980,7 +3964,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 160.02 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 160.02 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006131fa78)
     (property "Reference" "C214" (at 162.3568 106.7816 0)
@@ -3998,8 +3982,8 @@
     (property "MPN" "Generic C/10nF/C0G/25V/0603" (at 160.02 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ea445972-a157-49a9-b408-1990e12741c6))
-    (pin "2" (uuid a016852b-79d2-49b0-8c18-f181aa3dfae3))
+    (pin "1" (uuid d19c3267-959e-473f-9a3b-7c4fb82195fb))
+    (pin "2" (uuid 54b7dfcb-838c-4be6-a01d-b0beb1b7aaea))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4009,7 +3993,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 170.18 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 170.18 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061322ba4)
     (property "Reference" "C216" (at 172.5168 106.7816 0)
@@ -4027,8 +4011,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 170.18 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26bc5d7e-662c-4ceb-82f9-6dc0056915fb))
-    (pin "2" (uuid 81cec8fc-c961-4256-9bb3-f71396aaeb66))
+    (pin "1" (uuid 830c5a48-1bd6-42da-a1b3-5270b6c88021))
+    (pin "2" (uuid 6fdadfb3-63c2-4349-92f7-9c08fa5e60fc))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4038,7 +4022,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 189.23 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 189.23 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006132548a)
     (property "Reference" "C217" (at 191.5668 106.7816 0)
@@ -4056,8 +4040,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 189.23 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6006eaab-5046-423e-849a-578505ed65d1))
-    (pin "2" (uuid 2e41160a-b98f-4cf0-b10e-b7c4ba3e29fd))
+    (pin "1" (uuid ae900d31-5b6e-4abd-9ce1-ad8ca401cbee))
+    (pin "2" (uuid c1233328-020e-4ff1-b3cb-114e662a9d18))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4067,7 +4051,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 198.12 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 198.12 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613254a8)
     (property "Reference" "C221" (at 200.4568 106.7816 0)
@@ -4085,8 +4069,8 @@
     (property "MPN" "Generic C/10nF/C0G/25V/0603" (at 198.12 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84e658e5-dd7b-412d-8610-c6f90c713351))
-    (pin "2" (uuid 561e89f5-a265-4695-9a91-d513646936cb))
+    (pin "1" (uuid 0a680235-1ab8-44cd-9a07-4ad2afc2c38b))
+    (pin "2" (uuid 34e8e12c-3ff5-4c58-8f94-c0c76b93e012))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4096,7 +4080,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 227.33 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 227.33 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061329241)
     (property "Reference" "C222" (at 229.6668 106.7816 0)
@@ -4114,8 +4098,8 @@
     (property "MPN" "Generic C/1uF/C0G/25V/0603" (at 227.33 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7292abc3-0169-4e6f-91bf-14af506572aa))
-    (pin "2" (uuid 24a1c27a-c234-44bb-9e39-bb014ceb15d7))
+    (pin "1" (uuid faa3404c-9534-4a1a-a7b9-dcbff8d29fd2))
+    (pin "2" (uuid 61e6463d-573a-4af4-8e48-cee09d86aa41))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4275,7 +4259,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 125.095 84.455 270) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 125.095 84.455 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006138a263)
     (property "Reference" "R208" (at 125.095 81.915 90)
@@ -4293,8 +4277,8 @@
     (property "MPN" "Generic R/1k/0603" (at 125.095 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a7d6f331-8a28-4ec5-98b2-a2d10f758c45))
-    (pin "2" (uuid 81c62670-bd32-4e01-9a85-7383b1a4fc99))
+    (pin "1" (uuid bf540558-ffca-4637-92b9-95f1029fff2a))
+    (pin "2" (uuid 2f468fbe-9aa1-4fea-ad70-46312f28a38f))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4361,7 +4345,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 187.325 77.47 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 187.325 77.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613a0e98)
     (property "Reference" "C215" (at 184.9882 76.3016 0)
@@ -4379,8 +4363,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 187.325 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 87dfb976-10d7-46b8-ad5d-e306017aa232))
-    (pin "2" (uuid f4212607-3b69-4cd7-a4af-b680762e0a96))
+    (pin "1" (uuid 7fb0b2df-d4b5-41e5-9553-87a49cb6c657))
+    (pin "2" (uuid 39dc03a1-c73f-4e94-b0e0-f5f392420339))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4415,7 +4399,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 261.62 100.965 270) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 261.62 100.965 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613b96c0)
     (property "Reference" "R225" (at 261.62 95.885 90)
@@ -4433,8 +4417,8 @@
     (property "MPN" "Generic R/680R/0603" (at 261.62 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 68ff640c-5e05-46e8-b906-bef2641c7641))
-    (pin "2" (uuid 52d9fd31-4c52-439c-8f80-0ed6ad44c0a1))
+    (pin "1" (uuid e259cff1-49d1-4f1a-b3e9-d4953be4e964))
+    (pin "2" (uuid 23ac21fc-ca80-4948-a6e6-bfee26f90297))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4444,7 +4428,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_Led_Small") (at 269.24 100.965 0) (unit 1)
+  (symbol (lib_id "Device:LED_Small_Filled") (at 269.24 100.965 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613bab26)
     (property "Reference" "D204" (at 269.24 94.996 0)
@@ -4462,8 +4446,8 @@
     (property "MPN" "Generic LED/Blue/0603" (at 269.24 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid 1e5d7add-f9f1-49a8-bac5-e1e849ca0fd5))
-    (pin "C" (uuid 9485cb20-d70c-4783-ae3c-1590e755723a))
+    (pin "1" (uuid 6aaacf58-1f7d-4ee4-ab72-417c0eb06a9e))
+    (pin "2" (uuid f2139beb-ba07-4ac7-ad6b-c43530062e51))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4473,7 +4457,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_Led_Small") (at 269.24 109.855 0) (unit 1)
+  (symbol (lib_id "Device:LED_Small_Filled") (at 269.24 109.855 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613c0d42)
     (property "Reference" "D205" (at 269.24 103.886 0)
@@ -4491,8 +4475,8 @@
     (property "MPN" "Generic LED/Red/0603" (at 269.24 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid e59d0b58-0e42-4ac9-9c4b-2497cdd6559e))
-    (pin "C" (uuid 3d36dc26-20e4-403f-8e7b-9b04e6dcead9))
+    (pin "1" (uuid 815330ae-89a0-48b0-8dc4-b670a0156a3d))
+    (pin "2" (uuid 53778c64-ad20-46fd-8fa7-1cd532aff431))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4502,7 +4486,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 261.62 109.855 270) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 261.62 109.855 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613c1e11)
     (property "Reference" "R226" (at 261.62 104.775 90)
@@ -4520,8 +4504,8 @@
     (property "MPN" "Generic R/680R/0603" (at 261.62 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 139109e9-1e2a-4f27-ab7f-5d5f372a0e08))
-    (pin "2" (uuid d32b08ac-3252-4d41-ade3-c689637be74c))
+    (pin "1" (uuid 19adc45d-e82e-4f0d-8329-c7ecfa178e6f))
+    (pin "2" (uuid 9fa12bcc-d184-4876-9924-079e36093ea7))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4531,7 +4515,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_Led_Small") (at 269.24 118.745 0) (unit 1)
+  (symbol (lib_id "Device:LED_Small_Filled") (at 269.24 118.745 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613c5ec5)
     (property "Reference" "D206" (at 269.24 112.776 0)
@@ -4549,8 +4533,8 @@
     (property "MPN" "Generic LED/Green/0603" (at 269.24 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid 89b5854e-de25-4514-b746-ff6d1b7be64f))
-    (pin "C" (uuid 75407520-6d3e-4f52-8cbe-b0d5f9d4384d))
+    (pin "1" (uuid 1d8cac06-8133-4f7a-bd8c-6bdae2d86636))
+    (pin "2" (uuid 2206ec29-8f66-4e6f-a653-355bc6d4ad82))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4560,7 +4544,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 261.62 118.745 270) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 261.62 118.745 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613c7581)
     (property "Reference" "R227" (at 261.62 113.665 90)
@@ -4578,8 +4562,8 @@
     (property "MPN" "Generic R/680R/0603" (at 261.62 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6c643ae0-8a91-403d-8f39-00bc218265ff))
-    (pin "2" (uuid 9e99f989-dd3d-477f-880a-8b177eb4f6bc))
+    (pin "1" (uuid 1f5e8618-2e9d-4070-a00c-d830943949af))
+    (pin "2" (uuid 42d1bb9e-dbc6-4ef5-8db7-f971375f2922))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4589,7 +4573,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_Led_Small") (at 269.24 127.635 0) (unit 1)
+  (symbol (lib_id "Device:LED_Small_Filled") (at 269.24 127.635 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613cb729)
     (property "Reference" "D207" (at 269.24 121.666 0)
@@ -4607,8 +4591,8 @@
     (property "MPN" "Generic LED/Orange/0603" (at 269.24 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid ed9bdef2-e243-484e-9682-30bcb400672e))
-    (pin "C" (uuid d248ccf6-a833-4d06-905c-9bc6c5424b13))
+    (pin "1" (uuid f111d299-db71-4d2f-a25b-e3b2de3f4e66))
+    (pin "2" (uuid f64fe310-e9b8-44de-b60d-f7f0846da2f5))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4618,7 +4602,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 261.62 127.635 270) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 261.62 127.635 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613cbf92)
     (property "Reference" "R228" (at 261.62 122.555 90)
@@ -4636,8 +4620,8 @@
     (property "MPN" "Generic R/680R/0603" (at 261.62 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 634595fc-4ae5-416e-8231-a750a1ea73bb))
-    (pin "2" (uuid 099b7a5b-efbb-40d9-b505-dbfb5634e707))
+    (pin "1" (uuid ce221f3a-9d8b-405b-b3d7-02cc1ed52136))
+    (pin "2" (uuid 533b084e-ab3e-403c-9fcd-2e8d33401de8))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4722,7 +4706,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 257.81 40.64 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 257.81 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613fe150)
     (property "Reference" "R223" (at 259.3086 39.4716 0)
@@ -4740,8 +4724,8 @@
     (property "MPN" "Generic R/10k/0603" (at 257.81 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76be7b5f-c849-49e0-832e-b2a66c2bf823))
-    (pin "2" (uuid 6d1034c2-2e97-42a2-a3b7-d8bb48c41241))
+    (pin "1" (uuid 944137c2-841b-4fea-a26d-9fd1c79e593f))
+    (pin "2" (uuid d7c08cc1-dcb7-44a3-9354-b39b7f8d9665))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4776,7 +4760,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 229.235 40.005 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 229.235 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061402439)
     (property "Reference" "R219" (at 230.7336 38.8366 0)
@@ -4794,8 +4778,8 @@
     (property "MPN" "Generic R/10k/0603" (at 229.235 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80e27b32-754a-4c6b-95c8-41c7dae0041d))
-    (pin "2" (uuid d8111d07-a323-4bd9-bbeb-4fdcf57b1e7a))
+    (pin "1" (uuid 4f6bc496-d134-4460-861a-e021bbf91c77))
+    (pin "2" (uuid dcef2ec9-fe7e-46e6-a5d2-74724cc3c6ca))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4862,7 +4846,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 236.855 34.925 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 236.855 34.925 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006140245e)
     (property "Reference" "R221" (at 236.855 40.005 90)
@@ -4880,8 +4864,8 @@
     (property "MPN" "Generic R/470R/0603" (at 236.855 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c679c566-3c61-49f0-9689-44992730fd50))
-    (pin "2" (uuid 21e3ed19-bb65-4f68-bc67-576cb299c3ba))
+    (pin "1" (uuid 879a92bf-0033-4e4e-a36a-42e374dbe031))
+    (pin "2" (uuid ab42aa2c-8902-433e-9924-88d1f2e682db))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -4948,7 +4932,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 229.235 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 229.235 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061417fa7)
     (property "Reference" "R220" (at 230.7336 76.3016 0)
@@ -4966,8 +4950,8 @@
     (property "MPN" "Generic R/10k/0603" (at 229.235 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0c8977d-cfc0-426f-97ac-e15b4523198e))
-    (pin "2" (uuid a7766a00-7469-437b-b1ef-7e2bb24b9083))
+    (pin "1" (uuid 8f754b80-a8bf-4309-bc5d-1d0ae9b0d2b4))
+    (pin "2" (uuid 43a6987b-a080-4749-8b85-b2b729ce28e9))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5034,7 +5018,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 236.855 72.39 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 236.855 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061417fcc)
     (property "Reference" "R222" (at 236.855 77.47 90)
@@ -5052,8 +5036,8 @@
     (property "MPN" "Generic R/470R/0603" (at 236.855 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d422b729-8324-44fd-b9d7-53a66fbb2ad0))
-    (pin "2" (uuid 57c2ee83-bd02-40d6-8e5a-5cbb3478b382))
+    (pin "1" (uuid 770a4fb4-78ec-452e-90cc-82249062d8d8))
+    (pin "2" (uuid 1e139564-8107-47ff-a6a0-0bd2821544b3))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5088,7 +5072,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 265.43 35.56 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 265.43 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614210e4)
     (property "Reference" "R229" (at 265.43 40.64 90)
@@ -5106,8 +5090,8 @@
     (property "MPN" "Generic R/470R/0603" (at 265.43 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4acc6a70-35bd-4cda-9692-9bf12d7ff9d1))
-    (pin "2" (uuid 293dcd7d-b646-4e37-bbec-38dff17d1a38))
+    (pin "1" (uuid 00c49662-ca4b-4c2e-9504-6c5be549ca2b))
+    (pin "2" (uuid 0b6d4998-b4f0-4ac6-b0c4-e88da7e80825))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5142,7 +5126,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 201.295 40.005 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 201.295 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006142ea52)
     (property "Reference" "R215" (at 202.7936 38.8366 0)
@@ -5160,8 +5144,8 @@
     (property "MPN" "Generic R/10k/0603" (at 201.295 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bfd4d42a-31ac-4580-ac26-225e7df988b6))
-    (pin "2" (uuid 8dfcd394-4d15-4987-9b88-50a3e049d53f))
+    (pin "1" (uuid d3303af4-58e5-48c9-abd0-16170ead57a8))
+    (pin "2" (uuid 58fbc948-fa07-4aed-8f4f-bbc5dcc3bb9c))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5228,7 +5212,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 208.915 34.925 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 208.915 34.925 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006142ea77)
     (property "Reference" "R217" (at 208.915 40.005 90)
@@ -5246,8 +5230,8 @@
     (property "MPN" "Generic R/470R/0603" (at 208.915 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce96b6cb-a466-4ae7-bf97-adc7b160d97d))
-    (pin "2" (uuid 99573cb4-389e-4624-9a29-6dab9077a79b))
+    (pin "1" (uuid 341b672a-0de3-4554-a029-f7ce701b1564))
+    (pin "2" (uuid 63e7439d-c7d8-43d4-bbb8-6093e36834b1))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5282,7 +5266,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 201.295 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 201.295 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006145aa03)
     (property "Reference" "R216" (at 202.7936 76.3016 0)
@@ -5300,8 +5284,8 @@
     (property "MPN" "Generic R/10k/0603" (at 201.295 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 061a954c-fc54-4bdc-ac2f-f568d377c628))
-    (pin "2" (uuid 440c8315-5c09-4430-8e13-ccc0ae54447a))
+    (pin "1" (uuid 9824e591-73c2-4214-917f-adba48a8afa0))
+    (pin "2" (uuid 4ba583be-c35b-4025-bf03-9ebebd2ba55d))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5368,7 +5352,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 208.915 72.39 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 208.915 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006145aa28)
     (property "Reference" "R218" (at 208.915 77.47 90)
@@ -5386,8 +5370,8 @@
     (property "MPN" "Generic R/470R/0603" (at 208.915 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f2bbf2f-fb35-48fd-bc3d-207c1c6f295c))
-    (pin "2" (uuid baf4767a-cf8d-4d6f-b2c6-6b56d5d6d86a))
+    (pin "1" (uuid 63043e51-b05f-4d12-9ba1-073ec00fc01c))
+    (pin "2" (uuid f906987e-4e39-4294-9033-3934e928f43c))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5422,7 +5406,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 257.81 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 257.81 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006145aa3d)
     (property "Reference" "R224" (at 259.3086 76.3016 0)
@@ -5440,8 +5424,8 @@
     (property "MPN" "Generic R/10k/0603" (at 257.81 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44473702-22b6-49bb-97c1-ecb056873a87))
-    (pin "2" (uuid 60efb1e3-b6cf-4c54-a837-0af4cea7e315))
+    (pin "1" (uuid ce88fc7d-b70e-4648-b674-7747f011d318))
+    (pin "2" (uuid 8569fe8d-3c8a-407e-8412-2d3304ac10cc))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5508,7 +5492,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 265.43 72.39 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 265.43 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006145aa62)
     (property "Reference" "R230" (at 265.43 77.47 90)
@@ -5526,8 +5510,8 @@
     (property "MPN" "Generic R/470R/0603" (at 265.43 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3c9cf77-b24e-4f27-95b9-ce89095446ad))
-    (pin "2" (uuid b7a32f85-de20-4651-bfbf-3882ef2a1256))
+    (pin "1" (uuid fab6b083-eb9b-4caa-a62e-ee964632f3a7))
+    (pin "2" (uuid ee04dbdf-c63b-43a1-a658-d9ed0d3286b3))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5537,7 +5521,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_CP_Small") (at 102.235 182.88 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_Small") (at 102.235 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000616f6002)
     (property "Reference" "C206" (at 104.4702 181.7116 0)
@@ -5569,7 +5553,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 109.855 182.88 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 109.855 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000616f7118)
     (property "Reference" "C208" (at 112.1918 181.7116 0)
@@ -5587,8 +5571,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 109.855 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa403c08-b13c-45bf-a202-dcf3dcb410da))
-    (pin "2" (uuid 688a1e6e-89c8-4efd-b98c-d5c87b5c3f7d))
+    (pin "1" (uuid 7771aedc-d51b-4b2f-8c63-55b53529515d))
+    (pin "2" (uuid e55f5877-97f1-4373-a7c8-171f35a01b2f))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5698,7 +5682,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 140.335 182.88 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 140.335 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061749eb5)
     (property "Reference" "C209" (at 142.6718 181.7116 0)
@@ -5716,8 +5700,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 140.335 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 443961fd-b9cb-4c8c-b3d8-0c099a73a5ce))
-    (pin "2" (uuid 2198c52b-b455-4f30-aca7-5023bb24596a))
+    (pin "1" (uuid 3e901a05-e956-4596-ac6b-87c50d128159))
+    (pin "2" (uuid 9ce2a540-3537-463d-ab4f-8e75334c08ff))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5727,7 +5711,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 149.225 182.88 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 149.225 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006174ab08)
     (property "Reference" "C211" (at 151.5618 181.7116 0)
@@ -5745,8 +5729,8 @@
     (property "MPN" "Generic C/1uF/C0G/25V/0603" (at 149.225 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ff7319c-9f32-4bb5-880c-52d0e4f54985))
-    (pin "2" (uuid 80c75de4-a9d1-47af-8dd7-e67dd6a8ee90))
+    (pin "1" (uuid 001e096c-ad0b-4b0d-a045-3b8035a8fb3f))
+    (pin "2" (uuid 3aa7a452-0717-4690-ad69-b30a49f5ef62))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5831,7 +5815,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 187.325 64.77 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 187.325 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 021e1531-ea6d-4459-bbcc-9d9627defa37)
     (property "Reference" "R214" (at 188.8236 63.6016 0)
@@ -5849,8 +5833,8 @@
     (property "MPN" "Generic R/47k/0603" (at 187.325 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a48bf40a-e622-4672-a173-feccb381eb09))
-    (pin "2" (uuid 551e945d-bdd5-441a-adfb-c53e588f3017))
+    (pin "1" (uuid eaee3bdc-5eff-4452-bb8b-e0382e9994bf))
+    (pin "2" (uuid d90f3c23-c4f0-4fc2-817c-b9c9ab40585f))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -5895,7 +5879,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 146.685 157.48 180) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 146.685 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fe4290a-59dc-40e8-9d83-430d4b583c0b)
     (property "Reference" "R212" (at 149.225 157.48 90)
@@ -5913,8 +5897,8 @@
     (property "MPN" "Generic R/8k2/0603" (at 146.685 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 07c3b9eb-390d-48aa-ace3-7b786f8664f2))
-    (pin "2" (uuid 7c45f950-9940-4fe6-a762-6ae608a65642))
+    (pin "1" (uuid 738454f9-c96a-430e-8b3c-ceb13ed1dbc6))
+    (pin "2" (uuid 36576b84-1e62-4b67-9d93-256e7a01ec51))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6256,7 +6240,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 208.28 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 208.28 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fc68c31-617c-4002-9f64-93cf4c2440cc)
     (property "Reference" "C226" (at 210.6168 106.7816 0)
@@ -6274,8 +6258,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 208.28 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d9465c4-bb0b-4bfe-a067-2d90166fb156))
-    (pin "2" (uuid eba19b7b-b84f-42f9-8f2a-4a35fd26c627))
+    (pin "1" (uuid 0aa4cb36-f5ea-47f5-8d1d-c822179cdff0))
+    (pin "2" (uuid 25e72fa9-0fd1-412a-81c2-994521ff32df))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6388,7 +6372,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 182.245 151.13 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 182.245 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ec5eba9-832e-4e08-a116-9a7a15ce3dd6)
     (property "Reference" "C315" (at 184.5818 149.9616 0)
@@ -6406,8 +6390,8 @@
     (property "MPN" "Generic C/22uF/C0G/10V/0603" (at 182.245 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 146f8f3b-7e95-4f65-a650-fb5f324ac590))
-    (pin "2" (uuid 0dcc5f56-6252-4f98-8793-48c5cafc2c4a))
+    (pin "1" (uuid ae4d631c-ceb4-4080-a23c-4bf5edd31f26))
+    (pin "2" (uuid c7453282-f19a-449e-9313-a3e8f3499557))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
@@ -6445,7 +6429,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 273.685 152.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 273.685 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61c5329f-1255-436f-9d6f-d69bdae152b2)
     (property "Reference" "C319" (at 276.0218 151.2316 0)
@@ -6463,8 +6447,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 273.685 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8306d5e4-d451-45ec-93ef-05f4b6d30092))
-    (pin "2" (uuid 9df48284-bd7f-4980-b334-5d206d6fb424))
+    (pin "1" (uuid 4f45dd61-9127-4c80-88be-381375541cd4))
+    (pin "2" (uuid 7d451f6d-42cd-4577-baff-94b0d00710ea))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
@@ -6527,31 +6511,6 @@
     )
   )
 
-  (symbol (lib_id "pkl_power:VIN") (at 19.685 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 66b9437f-2b01-4717-bd83-ed5bea37d32a)
-    (property "Reference" "#PWR0201" (at 19.685 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VIN" (at 19.685 138.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 19.685 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 19.685 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3dcffcd6-3fad-4570-9d0b-5d6082c17755))
-    (instances
-      (project "M17-SmartMic"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0201") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 81.915 149.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e3e1c60-4d66-4f5f-b458-3d60e1516d17)
@@ -6609,8 +6568,8 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_L_Small") (at 151.765 146.05 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:L_Small") (at 151.765 146.05 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 706d8ad2-aca8-41bf-971d-e7aad081845f)
     (property "Reference" "L201" (at 151.765 140.97 90)
       (effects (font (size 1.27 1.27)))
@@ -6641,7 +6600,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 263.525 152.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 263.525 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 738c097b-6275-4aaf-87ab-c99ba98c3a3f)
     (property "Reference" "C317" (at 265.8618 151.2316 0)
@@ -6659,8 +6618,8 @@
     (property "MPN" "Generic C/1uF/C0G/25V/0603" (at 263.525 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3bbe715b-4338-4db0-95cc-36e77e08ecba))
-    (pin "2" (uuid d5a22cf1-9a5a-448c-88c8-9b126311ba30))
+    (pin "1" (uuid 9532f9ee-6a22-4e15-bab6-af0a4ddcbb45))
+    (pin "2" (uuid 8dfefb5b-8159-427b-9aa5-f3fd32dea279))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
@@ -6673,7 +6632,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 141.605 134.62 90) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 141.605 134.62 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 738c33cd-3522-44f9-b4ac-5ca2b89f681e)
     (property "Reference" "C210" (at 141.6113 128.27 90)
@@ -6691,8 +6650,8 @@
     (property "MPN" "Generic C/100nF/C0G/25V/0603" (at 141.605 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0a516308-2565-4a8a-a46b-951d4e4a99e9))
-    (pin "2" (uuid 3009c39c-6a13-4e6b-a224-261056385d46))
+    (pin "1" (uuid f0e85101-7d70-4fd2-9412-29fc398fa5ae))
+    (pin "2" (uuid 85e3347c-e9f0-4a73-b69d-d3bf32a8c400))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6727,7 +6686,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 34.925 152.4 180) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 34.925 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73baa9ba-5846-4263-98ee-4d1ca0adc6f5)
     (property "Reference" "C201" (at 37.2492 151.4915 0)
@@ -6745,8 +6704,8 @@
     (property "MPN" "Generic C/10nF/C0G/25V/0603" (at 34.925 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ea3a6a54-25bf-4c09-921b-193fd52faf6c))
-    (pin "2" (uuid c760a665-91f9-423c-8047-14e55ae9a8c9))
+    (pin "1" (uuid 32edf5b4-c8e7-4c26-b2e5-3e7901394802))
+    (pin "2" (uuid 9ad30947-269d-4c1b-9ded-b2ee42d46cc4))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6756,7 +6715,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 179.07 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 179.07 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77f3ea0c-8d2d-4dee-a6c4-a6b1ebb15d95)
     (property "Reference" "C219" (at 181.4068 106.7816 0)
@@ -6774,8 +6733,8 @@
     (property "MPN" "Generic C/10nF/C0G/25V/0603" (at 179.07 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b000bee-22af-4442-bd1c-1b2b1e0d173f))
-    (pin "2" (uuid 9cf0f172-852a-4a18-a4f2-231e0001f16c))
+    (pin "1" (uuid a98495e1-2e98-41a8-b09f-d452b52c079a))
+    (pin "2" (uuid 077b9ffb-15a4-4866-8e0b-293424b5e718))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6843,7 +6802,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 137.795 38.735 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 137.795 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83da389a-41df-465e-ab79-f2c23709282a)
     (property "Reference" "R209" (at 140.335 37.465 0)
@@ -6861,8 +6820,8 @@
     (property "MPN" "Generic R/10k/0603" (at 137.795 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15b80d07-6d78-4fc6-bd24-4f901dc05e3b))
-    (pin "2" (uuid 61fa1552-3b5a-4f3e-8930-61138ae5ed89))
+    (pin "1" (uuid 872f8553-5874-4e19-adab-922a61ae468a))
+    (pin "2" (uuid 017199e2-2142-453d-aa8b-692f0d20d9b5))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6925,7 +6884,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 137.795 83.185 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 137.795 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 867763cb-4f42-42d5-842f-994b9d1954bc)
     (property "Reference" "R211" (at 140.335 81.915 0)
@@ -6943,8 +6902,8 @@
     (property "MPN" "Generic R/10k/0603" (at 137.795 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ba11416-ddb1-4d2c-9cbc-f30c0a69e5ab))
-    (pin "2" (uuid 5b6f41e7-873c-49c2-a10c-8480553baa26))
+    (pin "1" (uuid 566557e6-507e-40d7-9266-a4e0d35fbf23))
+    (pin "2" (uuid 3b17f6a9-e833-47e0-b367-be50773238ea))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6954,7 +6913,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 217.17 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 217.17 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8787ba99-b3b5-4437-a08f-f46b435a527e)
     (property "Reference" "C227" (at 219.5068 106.7816 0)
@@ -6972,8 +6931,8 @@
     (property "MPN" "Generic C/10nF/C0G/25V/0603" (at 217.17 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e172162b-92a9-414e-8047-56b4baf91d95))
-    (pin "2" (uuid 7c36e3c1-d730-4f5d-889f-a3f1f4634c88))
+    (pin "1" (uuid 03a24ef0-e45e-4cda-9e64-9912db3fe739))
+    (pin "2" (uuid 6b1e4eb9-de6e-4694-ba7c-77d3bbd36413))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -6983,8 +6942,8 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_L_Small") (at 176.53 146.05 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Device:L_Small") (at 176.53 146.05 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c58d06a-880c-43a2-a54b-31a5a6210bf4)
     (property "Reference" "L202" (at 176.53 140.97 90)
       (effects (font (size 1.27 1.27)))
@@ -7382,7 +7341,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 151.765 151.13 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 151.765 151.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b667b858-a66c-4e53-a109-73535a3f2c15)
     (property "Reference" "R213" (at 151.765 148.59 90)
@@ -7400,8 +7359,8 @@
     (property "MPN" "Generic R/43k/0603" (at 151.765 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33b2010c-b1f8-44dc-b8e1-ed4b8731b8bb))
-    (pin "2" (uuid 9765f29f-fd23-4ba9-9ca5-ae01dfe1c28b))
+    (pin "1" (uuid 9d503433-4dd1-4337-9588-6f92e5077741))
+    (pin "2" (uuid f6f0c792-7574-4741-b60f-eca45aa83df3))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -7411,7 +7370,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 121.285 151.13 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 121.285 151.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb9a9fa5-bf50-49af-b532-b8876f75756f)
     (property "Reference" "R207" (at 121.285 153.67 90)
@@ -7429,8 +7388,8 @@
     (property "MPN" "Generic R/100k/0603" (at 121.285 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ab73adc-fda3-443c-a906-61b25c1a7f8a))
-    (pin "2" (uuid d9fda47b-394d-45bc-8693-c3ea328de07b))
+    (pin "1" (uuid 33def66b-0917-49e4-a29b-44d8cb053b0b))
+    (pin "2" (uuid 81879baa-02ad-4b9e-a768-2308e046982b))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -7440,7 +7399,32 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 159.385 152.4 0) (unit 1)
+  (symbol (lib_id "power:LINE") (at 19.685 143.51 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bc6b9415-3d31-400e-97e4-c75af91c1a8a)
+    (property "Reference" "#PWR0269" (at 19.685 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "LINE" (at 19.685 138.43 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 19.685 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 19.685 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e3a6ef97-161d-44a8-8826-ba089df78159))
+    (instances
+      (project "M17-SmartMic"
+        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
+          (reference "#PWR0269") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 159.385 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c51f6fad-cbcc-4437-b9c2-816c996687d8)
     (property "Reference" "C212" (at 161.925 151.1362 0)
@@ -7458,8 +7442,8 @@
     (property "MPN" "Generic C/22uF/C0G/10V/1210" (at 159.385 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 422353b8-46d1-4500-a941-efa46565878c))
-    (pin "2" (uuid 91713bb6-f43a-482e-bd21-e44a9ed64e7f))
+    (pin "1" (uuid 4935cdc5-efc7-4f41-bdc1-3c17dec33e11))
+    (pin "2" (uuid 8a7a3559-f432-4f8b-960b-76d973d98d59))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -7577,7 +7561,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_C_Small") (at 107.315 151.13 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 107.315 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7222cc0-42cc-4a3a-9c03-fb740cc18f0a)
     (property "Reference" "C207" (at 109.855 149.8662 0)
@@ -7595,8 +7579,8 @@
     (property "MPN" "Generic C/10uF/C0G/25V/1210" (at 107.315 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid feb3f34e-d3eb-4120-b42d-68c26b94bf2e))
-    (pin "2" (uuid 96cb2539-8698-44cd-9b15-30b6114a8a92))
+    (pin "1" (uuid 8f4ddab7-9cc3-4d75-b904-857d839d14b2))
+    (pin "2" (uuid 84736135-159f-4049-97fc-a5a8eeecf8c7))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
@@ -7792,7 +7776,7 @@
     )
   )
 
-  (symbol (lib_id "pkl_device:pkl_R_Small") (at 137.795 48.895 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 137.795 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb957f36-0298-4103-9e59-8ca9da0b8598)
     (property "Reference" "R210" (at 139.2937 47.9865 0)
@@ -7810,8 +7794,8 @@
     (property "MPN" "Generic R/10k/0603" (at 137.795 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7103f57-1a98-4071-a674-1117f985628d))
-    (pin "2" (uuid ace37f14-1d8c-4942-8004-34ea2b4211f8))
+    (pin "1" (uuid f2787aa5-bebc-442e-8775-cd58df18e207))
+    (pin "2" (uuid 6fb18dcc-a740-4271-a02b-94992bc8189a))
     (instances
       (project "M17-SmartMic"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
