@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Module17")
+    (date "2023-12-06")
+    (rev "Rev 0.99")
+    (company "M17Project")
+    (comment 1 "Morgan ON4MOD")
+    (comment 2 "Mathis - DB9MAT")
+    (comment 3 "Wojciech - SP5WWP")
+  )
+
   (lib_symbols
     (symbol "Connector:8P8C_Shielded" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -5.08 13.97 0)

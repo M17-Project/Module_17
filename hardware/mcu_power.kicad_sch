@@ -6,12 +6,13 @@
 
   (title_block
     (title "Module17")
-    (date "2023-07-18")
-    (rev "Rev 1.0")
+    (date "2023-12-06")
+    (rev "Rev 0.99")
     (company "M17Project")
-    (comment 1 "Mathis - DB9MAT")
-    (comment 2 "Wojciech - SP5WWP")
-    (comment 3 "Authors:")
+    (comment 1 "Morgan ON4MOD")
+    (comment 2 "Mathis - DB9MAT")
+    (comment 3 "Wojciech - SP5WWP")
+    (comment 4 "Authors:")
   )
 
   (lib_symbols
