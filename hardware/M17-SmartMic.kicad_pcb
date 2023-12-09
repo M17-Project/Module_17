@@ -2752,6 +2752,11 @@
       (net 2 "GND") (pintype "passive") (tstamp 22a93d0e-8706-4aee-a4d2-93afead23772))
     (pad "T" thru_hole oval (at 3.4 1.8 90) (size 2 1) (drill oval 1.5 0.5) (layers "*.Cu" "*.Mask")
       (net 37 "SPEAKER") (pintype "passive") (tstamp 882d4ecd-2c41-471f-8ad7-f951c52d608b))
+    (model "../lib/external/xb-pj-211a.stp"
+      (offset (xyz -2.6 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 -90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -3705,6 +3710,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "../lib/external/HRO TYPE-C-31-M-12.step"
+      (offset (xyz -4.45 -3.6 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -9824,6 +9834,11 @@
       (net 7 "+5V") (pintype "passive") (zone_connect 2) (tstamp c4555c79-b883-4b0f-959d-2e5e10ba4274))
     (pad "T" thru_hole oval (at 8.5 3.4 90) (size 1.8 1.3) (drill oval 1.3 0.8) (layers "*.Cu" "*.Mask")
       (net 7 "+5V") (pintype "passive") (zone_connect 2) (tstamp d199954f-7449-40f1-9421-71545100e9d4))
+    (model "../lib/external/PJ-3136-B.stp"
+      (offset (xyz 0 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 -180 -90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -12783,6 +12798,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "../lib/M17_kicad_library/M17_connectors.pretty/CLIFF_FC681465S-Part.step"
+      (offset (xyz 6.7 4.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
