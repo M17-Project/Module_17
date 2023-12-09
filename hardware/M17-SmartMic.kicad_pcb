@@ -9820,7 +9820,7 @@
     (pad "T" thru_hole oval (at 8.5 3.4 90) (size 1.8 1.3) (drill oval 1.3 0.8) (layers "*.Cu" "*.Mask")
       (net 7 "+5V") (pintype "passive") (zone_connect 2) (tstamp 9ebcf536-fba5-4c06-9bf2-b5b73ccd0729))
     (model "C:/Users/morga/Documents/git/Module_17/lib/external/PJ-3136-B.stp"
-      (offset (xyz 0 0 0))
+      (offset (xyz 0 0 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 -90))
     )
