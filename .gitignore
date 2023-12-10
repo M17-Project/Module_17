@@ -6,3 +6,4 @@ _autosave-*
 lib/external/*
 !lib/external/readme.txt
 *.lck
+hardware/fab

@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -56,16 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|213280000|124850000|3a5a4a43-8e2f-4d23-a668-992d323e18ec|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|217800000|51700000|52f86bf7-c59a-405f-b50e-a0a709eae3e8|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|224305000|123892000|c2a932de-31f6-478c-afff-dbf69ecbebd4|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|233800000|53350000|fc34260f-390b-490f-899b-646f8a66bfa6|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|242500000|132475000|cedaeb60-e080-4c81-9704-2c1a2ba35103|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|245200000|52000000|f9b22e10-57de-4164-9dc3-cbb59cc850f3|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|260700000|52000000|62d76f5a-be60-449f-a9c7-d7313030bcab|00000000-0000-0000-0000-000000000000",
-        "text_thickness|261550000|64575000|964127e3-170a-462e-abd4-7af2a1b9827f|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -140,7 +131,7 @@
         "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -575,7 +566,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,

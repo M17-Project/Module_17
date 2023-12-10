@@ -1345,7 +1345,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 180.34 36.83 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 06d88e40-e235-4996-841a-0fbad7e3cc50)
     (property "Reference" "R55" (at 182.88 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
