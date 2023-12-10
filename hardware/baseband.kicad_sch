@@ -2429,7 +2429,7 @@
     (property "Reference" "U502" (at 77.47 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MCP455x" (at 88.265 76.2 0)
+    (property "Value" "MCP4551-103" (at 88.265 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm" (at 79.375 95.25 0)

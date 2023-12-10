@@ -4021,7 +4021,7 @@
     (property "Reference" "IC301" (at 152.4 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM4991xx" (at 152.4 41.91 0)
+    (property "Value" "LM4991MA" (at 152.4 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 140.97 58.42 0)
