@@ -25,3 +25,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
+
+# do not exclude gerber archive
+!production/*gerber.zip
