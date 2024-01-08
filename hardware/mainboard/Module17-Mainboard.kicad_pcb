@@ -1639,7 +1639,7 @@
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (property "MPN" "")
-    (property "Sheetfile" "M17-SmartMic.kicad_sch")
+    (property "Sheetfile" "Module17-Mainboard.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (property "ki_description" "Mounting Hole with connection")
@@ -2822,7 +2822,7 @@
       (net 2 "GND") (pintype "passive") (tstamp 22a93d0e-8706-4aee-a4d2-93afead23772))
     (pad "T" thru_hole oval (at 3.4 1.8 90) (size 2 1) (drill oval 1.5 0.5) (layers "*.Cu" "*.Mask")
       (net 37 "SPEAKER") (pintype "passive") (tstamp 882d4ecd-2c41-471f-8ad7-f951c52d608b))
-    (model "../lib/external/xb-pj-211a.stp"
+    (model "../../lib/external/xb-pj-211a.stp"
       (offset (xyz -2.6 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
@@ -3781,7 +3781,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "../lib/external/HRO TYPE-C-31-M-12.step"
+    (model "../../lib/external/HRO TYPE-C-31-M-12.step"
       (offset (xyz -4.45 -3.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4705,7 +4705,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "../lib/external/3224J-1-103E.stp"
+    (model "../../lib/external/3224J-1-103E.stp"
       (offset (xyz 0 0.3 0.16))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 90))
@@ -5884,7 +5884,7 @@
   (footprint "M17_logos:M17_logo_20x11.5mm" (layer "F.Cu")
     (tstamp 8187b331-c2e0-4665-9bde-76b2d7f18038)
     (at 212.05 107.075 90)
-    (property "Sheetfile" "M17-SmartMic.kicad_sch")
+    (property "Sheetfile" "Module17-Mainboard.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/66b43dbc-6ec3-4fc3-a079-7b4cd9a19fd0")
@@ -7356,7 +7356,7 @@
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (property "MPN" "")
-    (property "Sheetfile" "M17-SmartMic.kicad_sch")
+    (property "Sheetfile" "Module17-Mainboard.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (property "ki_description" "Mounting Hole with connection")
@@ -9232,7 +9232,7 @@
       (net 7 "+5V") (pintype "passive") (zone_connect 2) (tstamp 8b330f8d-f07c-41ef-b125-c605cf8dc82f))
     (pad "T" thru_hole oval (at 8.5 3.4 90) (size 1.8 1.3) (drill oval 1.3 0.8) (layers "*.Cu" "*.Mask")
       (net 7 "+5V") (pintype "passive") (zone_connect 2) (tstamp 9ebcf536-fba5-4c06-9bf2-b5b73ccd0729))
-    (model "C:/Users/morga/Documents/git/Module_17/lib/external/PJ-3136-B.stp"
+    (model "../../lib/external/PJ-3136-B.stp"
       (offset (xyz 0 0 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 -90))
@@ -9410,7 +9410,7 @@
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (property "MPN" "")
-    (property "Sheetfile" "M17-SmartMic.kicad_sch")
+    (property "Sheetfile" "Module17-Mainboard.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (property "ki_description" "Mounting Hole with connection")
@@ -9474,7 +9474,7 @@
   (footprint "M17_logos:OPN_RTX_logo_10x7.6mm" (layer "F.Cu")
     (tstamp cd3fe44d-fa06-4505-8f28-988ef0fbfe1a)
     (at 202.525 104 90)
-    (property "Sheetfile" "M17-SmartMic.kicad_sch")
+    (property "Sheetfile" "Module17-Mainboard.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/359850f5-6112-4627-8d12-c9e2b9dd304c")
@@ -10225,7 +10225,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/../lib/external/RK0971110-L20.STEP"
+    (model "${KIPRJMOD}/../../lib/external/RK0971110-L20.STEP"
       (offset (xyz -2.5 -2.5 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -12483,7 +12483,7 @@
     (descr "Mounting Hole 2.7mm, M2.5, DIN965")
     (tags "mounting hole 2.7mm m2.5 din965")
     (property "MPN" "")
-    (property "Sheetfile" "M17-SmartMic.kicad_sch")
+    (property "Sheetfile" "Module17-Mainboard.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (property "ki_description" "Mounting Hole with connection")
@@ -12594,7 +12594,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "../lib/external/3224J-1-103E.stp"
+    (model "../../lib/external/3224J-1-103E.stp"
       (offset (xyz 0 0.3 0.16))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 90))
@@ -12746,7 +12746,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "../lib/M17_kicad_library/M17_connectors.pretty/CLIFF_FC681465S-Part.step"
+    (model "../../lib/M17_kicad_library/M17_connectors.pretty/CLIFF_FC681465S-Part.step"
       (offset (xyz 6.7 4.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -13357,7 +13357,7 @@
   (footprint "M17_logos:OSHW_logo_12.5x13mm" (layer "B.Cu")
     (tstamp 788abee0-0c34-42c1-9501-e10f62fb4d61)
     (at 252.25 112.55 -90)
-    (property "Sheetfile" "M17-SmartMic.kicad_sch")
+    (property "Sheetfile" "Module17-Mainboard.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/88481654-a6fe-4ffc-ab33-182c08810709")
