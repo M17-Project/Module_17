@@ -6014,7 +6014,7 @@
     )
     (pin "1" (uuid a7f454bf-59a7-45a8-a86b-099b10288ad1))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR029") (unit 1)
         )
@@ -6040,9 +6040,12 @@
     (property "Comment" "Power" (at 211.455 31.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "LCSC Part #" "" (at 200.66 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9fdf8543-4ccc-454c-986a-21f7d5787b0f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW8") (unit 1)
         )
@@ -6067,7 +6070,7 @@
     )
     (pin "1" (uuid 672430bb-37d1-4f12-87dc-3439d6269c82))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR046") (unit 1)
         )
@@ -6092,7 +6095,7 @@
     )
     (pin "1" (uuid 8c09aa75-6443-4820-9f1a-c803cdeaddf7))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR020") (unit 1)
         )
@@ -6115,10 +6118,16 @@
     (property "Datasheet" "~" (at 68.58 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/1M37/0603" (at 68.58 167.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 68.58 167.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 7cc0d539-d223-4c46-8e76-9d6c4be64716))
     (pin "1" (uuid a0b87976-542c-404c-a409-3089c2438e66))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R1") (unit 1)
         )
@@ -6141,10 +6150,16 @@
     (property "Datasheet" "~" (at 192.405 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/470/0603" (at 192.405 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 192.405 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c0447d7d-abb3-428d-a2e1-a132e8cb2db7))
     (pin "2" (uuid 887f75ae-8516-4b5b-82bd-5d638455322d))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R7") (unit 1)
         )
@@ -6169,7 +6184,7 @@
     )
     (pin "1" (uuid 89ce6ec7-131a-4ec7-8bee-4b9d86453e63))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR018") (unit 1)
         )
@@ -6194,7 +6209,7 @@
     )
     (pin "1" (uuid 665c6738-35d4-4714-b0b6-dc449f1cb24b))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR047") (unit 1)
         )
@@ -6217,10 +6232,16 @@
     (property "Datasheet" "~" (at 63.5 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/10k/0603" (at 63.5 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 63.5 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 5cd13e3b-cc68-48ec-ab7f-b197ece3282d))
     (pin "1" (uuid cd431066-da8f-4058-906d-8115d211551a))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R17") (unit 1)
         )
@@ -6245,7 +6266,7 @@
     )
     (pin "1" (uuid 0ca1aa17-f9ab-4955-a734-ce258b09b8f0))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR040") (unit 1)
         )
@@ -6268,10 +6289,16 @@
     (property "Datasheet" "~" (at 136.525 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 100p/C0G/16V/0603" (at 136.525 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 136.525 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 00e4ca68-04d0-4dc7-96f0-953b3603ad88))
     (pin "1" (uuid 4558b5d0-c7ea-4209-ac72-cbff3004a493))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C6") (unit 1)
         )
@@ -6296,7 +6323,7 @@
     )
     (pin "1" (uuid 6459d8fd-8c8e-4bbb-aabf-356c0fd6e99a))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR056") (unit 1)
         )
@@ -6321,7 +6348,7 @@
     )
     (pin "1" (uuid e81bfb6e-c1ea-4f11-aae4-f33239f9df6a))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR030") (unit 1)
         )
@@ -6344,6 +6371,12 @@
     (property "Datasheet" "https://www.azoteq.com/images/stories/pdf/iqs211AB_datasheet.pdf" (at 157.48 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "IQS211B00000000TS" (at 157.48 34.925 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 157.48 34.925 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 11f88825-19b6-4d1d-9cad-09d4ababac0c))
     (pin "3" (uuid c6b0e50e-81dd-43dc-9f7e-b04185b52cab))
     (pin "5" (uuid b94d3301-a83a-4b6e-8fdc-b8bfeba04ca3))
@@ -6351,7 +6384,7 @@
     (pin "4" (uuid 196b0353-e760-4360-b025-84254e7d0278))
     (pin "6" (uuid a75231a9-b720-4376-8402-fe2a38107342))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "U3") (unit 1)
         )
@@ -6374,10 +6407,16 @@
     (property "Datasheet" "~" (at 160.655 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/10k/0603" (at 160.655 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 160.655 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 505b4701-709a-4a0f-a142-860bbeed5e80))
     (pin "1" (uuid 0254bf18-5f39-4aa1-9647-66c3ca42f141))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R14") (unit 1)
         )
@@ -6402,7 +6441,7 @@
     )
     (pin "1" (uuid 44e64ada-f471-49f0-a876-a7f75be1f915))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR054") (unit 1)
         )
@@ -6428,9 +6467,12 @@
     (property "Comment" "Down" (at 193.675 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "LCSC Part #" "" (at 182.88 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b79cb0f2-2c35-4318-bd24-4586179b9791))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW6") (unit 1)
         )
@@ -6456,9 +6498,12 @@
     (property "Comment" "Up" (at 193.675 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "LCSC Part #" "" (at 182.88 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a5306819-3298-4779-8314-1868233f250d))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW3") (unit 1)
         )
@@ -6483,7 +6528,7 @@
     )
     (pin "1" (uuid 763f3351-9cf1-4e65-8681-c2147ef15fd8))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR062") (unit 1)
         )
@@ -6508,7 +6553,7 @@
     )
     (pin "1" (uuid 7aca6b92-0c5e-40e9-9bae-4c5b0ed587f4))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR016") (unit 1)
         )
@@ -6533,7 +6578,7 @@
     )
     (pin "1" (uuid 4303ef9a-c1af-45ba-b490-5793d2b3ab30))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR031") (unit 1)
         )
@@ -6558,7 +6603,7 @@
     )
     (pin "1" (uuid bba0d747-f1f9-4ab0-b1bb-484efc18532f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR09") (unit 1)
         )
@@ -6581,10 +6626,16 @@
     (property "Datasheet" "~" (at 247.65 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 100n/X7R/25V/0603" (at 247.65 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 247.65 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 241abdf3-1495-431e-a24f-c9751439fda5))
     (pin "2" (uuid 297e5c0c-b6ed-4ad7-b7ec-91cb894bb705))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C17") (unit 1)
         )
@@ -6609,7 +6660,7 @@
     )
     (pin "1" (uuid f858c2e4-dcb3-4187-8b46-35447b0271ef))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR021") (unit 1)
         )
@@ -6634,7 +6685,7 @@
     )
     (pin "1" (uuid 2efcde74-a269-4f6e-964d-eacae770a00a))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR034") (unit 1)
         )
@@ -6657,13 +6708,19 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61040.pdf" (at 44.45 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "TPS61040DBV" (at 49.53 173.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C7722" (at 49.53 173.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 176d09fb-2509-49ea-ab16-e6fe448a0725))
     (pin "2" (uuid 024048a3-1fb9-46db-bedd-8d84532f4284))
     (pin "3" (uuid c6b61d52-7d84-4040-989a-210e52250580))
     (pin "4" (uuid 85ff674b-6c5d-4932-9700-9972a1ce8ab1))
     (pin "5" (uuid 0ccaa082-17b2-4c00-92e2-7d48b31a5aa7))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "U1") (unit 1)
         )
@@ -6689,9 +6746,12 @@
     (property "Comment" "Escape" (at 193.675 155.575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "LCSC Part #" "" (at 182.88 155.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 01e509e5-85aa-4454-ac8c-62e9fb80f26e))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW2") (unit 1)
         )
@@ -6714,8 +6774,11 @@
     (property "Datasheet" "" (at 244.475 172.339 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part #" "" (at 247.65 174.625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "LOGO1") (unit 1)
         )
@@ -6740,7 +6803,7 @@
     )
     (pin "1" (uuid 8785a190-5ed6-4938-8169-dbb1413b7edb))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR010") (unit 1)
         )
@@ -6763,11 +6826,17 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7375.pdf" (at 94.615 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "AP7375-33SA" (at 94.615 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C5944186" (at 94.615 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid ae47fd51-9118-4333-ab92-d176a84c851a))
     (pin "3" (uuid 6db75b86-30cb-43b0-a5b2-72b280ae654e))
     (pin "1" (uuid c380cdb3-9bf2-47f7-893d-a66a7f274668))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "U2") (unit 1)
         )
@@ -6790,10 +6859,16 @@
     (property "Datasheet" "~" (at 116.84 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/1k2/0603" (at 116.84 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 116.84 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 7c04ced9-0799-4dda-bbb8-0395fc5a0c82))
     (pin "1" (uuid 35967535-c6eb-44f0-9f2b-2fe37250a6d8))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R5") (unit 1)
         )
@@ -6819,9 +6894,12 @@
     (property "Comment" "Right" (at 193.675 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "LCSC Part #" "" (at 182.88 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8fc2378c-40f6-4bc1-bb6a-6ba49ab0a0c9))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW7") (unit 1)
         )
@@ -6844,13 +6922,16 @@
     (property "Datasheet" "~" (at 256.54 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 256.54 42.545 0)
+    (property "MPN" "Generic R/680/0603" (at 256.54 42.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 256.54 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid dabf1349-df75-4fb3-af26-bafa1d11c054))
     (pin "1" (uuid fda91048-b1dd-45b7-a521-11d781fa1c4f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R11") (unit 1)
         )
@@ -6873,6 +6954,12 @@
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00001567B.pdf" (at 147.955 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "CAP1206-1-SL" (at 146.685 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 146.685 142.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "13" (uuid 98ac2f66-ca04-4b40-99d4-669e5fe80f95))
     (pin "8" (uuid c0fe5442-0d1f-451f-948a-f93033ce04a7))
     (pin "2" (uuid 18ecb78e-3cbe-40f0-a95c-a5a48e6fb496))
@@ -6885,7 +6972,7 @@
     (pin "4" (uuid 3bcf4b28-3961-4f9a-a155-1bfb86c3b568))
     (pin "11" (uuid 1e906944-7d0f-4e7c-b51d-32429c13fde6))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "U4") (unit 1)
         )
@@ -6910,7 +6997,7 @@
     )
     (pin "1" (uuid a229341a-71a2-49c7-a08d-185482fe37e0))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR015") (unit 1)
         )
@@ -6935,7 +7022,7 @@
     )
     (pin "1" (uuid f61aa0f0-7d6d-44e1-a17e-a067323186a2))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR043") (unit 1)
         )
@@ -6958,10 +7045,16 @@
     (property "Datasheet" "~" (at 168.91 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/10k/0603" (at 168.91 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 168.91 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 87248620-24a2-4560-9981-0a232966f418))
     (pin "1" (uuid ffdc6811-5a94-4df5-ad85-46723f15499f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R15") (unit 1)
         )
@@ -6986,7 +7079,7 @@
     )
     (pin "1" (uuid 02620ed5-3b4a-43fb-8be8-bca450b9fed5))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR026") (unit 1)
         )
@@ -7009,10 +7102,16 @@
     (property "Datasheet" "~" (at 156.845 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 100n/X7R/25V/0603" (at 156.845 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 156.845 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e7080210-d902-4890-9490-f57c3e344431))
     (pin "2" (uuid 0c8272b3-bc97-4751-825a-26f183fbd860))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C8") (unit 1)
         )
@@ -7037,7 +7136,7 @@
     )
     (pin "1" (uuid 42508a8e-1fb7-431d-92ff-11095570a502))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR024") (unit 1)
         )
@@ -7060,13 +7159,16 @@
     (property "Datasheet" "~" (at 226.06 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 226.06 42.545 0)
+    (property "MPN" "Generic R/680/0603" (at 226.06 42.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 226.06 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 548f79c5-8df3-4631-93c7-0e72764a83bb))
     (pin "1" (uuid b3a45767-b991-4ef2-b5a8-4e5f5027d734))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R9") (unit 1)
         )
@@ -7091,7 +7193,7 @@
     )
     (pin "1" (uuid 10e3fd32-2deb-4d14-a427-29b624b36cec))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR051") (unit 1)
         )
@@ -7114,10 +7216,16 @@
     (property "Datasheet" "~" (at 131.445 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 1u/X7R/25V/0603" (at 131.445 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 131.445 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 45f5e3bc-4b38-47dd-98d9-ecf1bf6f4282))
     (pin "1" (uuid f40952b2-9ade-4a1d-94c5-2360738bb7bb))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C5") (unit 1)
         )
@@ -7142,7 +7250,7 @@
     )
     (pin "1" (uuid 5eb1d5aa-b9d9-4845-877d-6660a619ed46))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR01") (unit 1)
         )
@@ -7167,7 +7275,7 @@
     )
     (pin "1" (uuid 4f3cef03-61fa-47b6-a2c7-14be9b95b939))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR058") (unit 1)
         )
@@ -7192,7 +7300,7 @@
     )
     (pin "1" (uuid 684fa70c-5e51-44a8-928c-272dc122cea9))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR038") (unit 1)
         )
@@ -7217,7 +7325,7 @@
     )
     (pin "1" (uuid 118ead47-8991-44cf-b278-e75136341b40))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR028") (unit 1)
         )
@@ -7242,7 +7350,7 @@
     )
     (pin "1" (uuid a6bb18b6-4d1e-44f2-96ac-80d7d1310570))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR032") (unit 1)
         )
@@ -7267,7 +7375,7 @@
     )
     (pin "1" (uuid f87ac533-bdac-4585-9f28-3cb39ae1d2b3))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR033") (unit 1)
         )
@@ -7290,13 +7398,16 @@
     (property "Datasheet" "~" (at 241.3 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 241.3 42.545 0)
+    (property "MPN" "Generic R/680/0603" (at 241.3 42.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 241.3 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid e7edc57a-e6ee-4be4-ac99-fecfc548e316))
     (pin "1" (uuid 1266ca8e-318b-443a-8e4f-8303a1bce540))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R10") (unit 1)
         )
@@ -7321,7 +7432,7 @@
     )
     (pin "1" (uuid c69d2d11-c5f6-4530-bf98-c11cc0b9d9e0))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR050") (unit 1)
         )
@@ -7344,11 +7455,17 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf" (at 158.115 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "MPN" "MMBT3904" (at 158.115 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 158.115 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 7a95ffa1-6fdc-4e5b-80bd-41a715bee3ed))
     (pin "3" (uuid 91b7f4ba-763e-4f10-863e-305a0a782620))
     (pin "1" (uuid 781ffe57-0e6c-41f5-8ee9-6d4c2450bf14))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "Q1") (unit 1)
         )
@@ -7371,8 +7488,11 @@
     (property "Datasheet" "" (at 260.985 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part #" "" (at 260.985 174.625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "LOGO2") (unit 1)
         )
@@ -7395,8 +7515,11 @@
     (property "Datasheet" "" (at 273.685 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part #" "" (at 273.685 174.625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "LOGO3") (unit 1)
         )
@@ -7419,10 +7542,16 @@
     (property "Datasheet" "~" (at 170.18 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 100p/C0G/16V/0603" (at 170.18 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 170.18 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid e3b88ee3-3d56-4393-9e7f-5a29418f2b8b))
     (pin "1" (uuid d7543c48-c541-4373-a0d9-d2b50574fc75))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C9") (unit 1)
         )
@@ -7447,7 +7576,7 @@
     )
     (pin "1" (uuid e08b57cd-a212-4394-b7b5-27e48659893e))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#FLG01") (unit 1)
         )
@@ -7472,7 +7601,7 @@
     )
     (pin "1" (uuid 13965116-d6a2-4b3d-8016-b7db8ee557ab))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR053") (unit 1)
         )
@@ -7495,10 +7624,16 @@
     (property "Datasheet" "~" (at 175.26 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 1u/X7R/25V/0603" (at 175.26 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 175.26 43.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 7709ba84-d790-4aae-917c-5cb20d10ba59))
     (pin "1" (uuid 2c3fd34c-433e-4a8d-9ad7-85ee9c87d164))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C11") (unit 1)
         )
@@ -7523,7 +7658,7 @@
     )
     (pin "1" (uuid c4b3bb4f-7da8-4e26-b3af-d9e0ea08fce4))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR052") (unit 1)
         )
@@ -7548,7 +7683,7 @@
     )
     (pin "1" (uuid cf61a990-8592-4737-b584-3b98830a1271))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR036") (unit 1)
         )
@@ -7571,10 +7706,16 @@
     (property "Datasheet" "~" (at 131.445 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/40/0603" (at 131.445 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 131.445 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ddd2dd2d-0781-41f9-8468-f2aacfcf663a))
     (pin "2" (uuid aa6e2185-2201-42a4-a624-be0bd51490ca))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R4") (unit 1)
         )
@@ -7597,13 +7738,16 @@
     (property "Datasheet" "~" (at 179.07 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 179.07 83.82 0)
+    (property "MPN" "Generic R/680/0603" (at 179.07 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 179.07 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 6bfbbd38-625d-4183-b78d-6f31543e8a7e))
     (pin "1" (uuid 94b1ab49-455a-43b0-a3d3-79f6ca14489e))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R16") (unit 1)
         )
@@ -7628,7 +7772,7 @@
     )
     (pin "1" (uuid bf3a4238-c539-4d8c-84c2-da708e5a35ac))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR08") (unit 1)
         )
@@ -7651,10 +7795,16 @@
     (property "Datasheet" "~" (at 107.95 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/1k2/0603" (at 107.95 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 107.95 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 4cd3beb2-cde1-4887-ba68-ed083befcae1))
     (pin "1" (uuid 44bb5f9a-8219-421f-be9a-798194cb4f9f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R3") (unit 1)
         )
@@ -7679,7 +7829,7 @@
     )
     (pin "1" (uuid b3577958-e3db-4d28-a5f1-016e236c5c9b))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR037") (unit 1)
         )
@@ -7704,7 +7854,7 @@
     )
     (pin "1" (uuid 067d7c17-3556-4a1c-b674-1c60e7d624a5))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR027") (unit 1)
         )
@@ -7729,7 +7879,7 @@
     )
     (pin "1" (uuid 9a88d4f3-4c10-41ed-befb-f8671527dde5))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR060") (unit 1)
         )
@@ -7752,10 +7902,16 @@
     (property "Datasheet" "~" (at 68.58 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/150k/0603" (at 68.58 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 68.58 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid da1fb4b4-d5fe-45c6-9da7-ebc09e37e858))
     (pin "1" (uuid ab4ee185-ed25-43fc-82de-eb78e8e06e8a))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R2") (unit 1)
         )
@@ -7780,7 +7936,7 @@
     )
     (pin "1" (uuid 3ef8f399-f32c-4589-ae7f-3200896c5b37))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR039") (unit 1)
         )
@@ -7803,10 +7959,16 @@
     (property "Datasheet" "~" (at 241.935 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 4u7/X7R/25V/0805" (at 241.935 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 241.935 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 84470661-37a6-4d6b-9aad-268ed341881c))
     (pin "1" (uuid 070b68ac-1462-40ac-a823-870d33f25598))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C16") (unit 1)
         )
@@ -7829,10 +7991,16 @@
     (property "Datasheet" "~" (at 219.71 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/910k/0603" (at 219.71 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 219.71 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 2686c44b-7321-4d15-aadd-0bf1c08d2f59))
     (pin "1" (uuid e6f47a84-8ed2-4c9d-94e7-824b6e331dd7))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R8") (unit 1)
         )
@@ -7857,7 +8025,7 @@
     )
     (pin "1" (uuid aac00246-c004-43e8-a09c-30610ba2f044))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR059") (unit 1)
         )
@@ -7880,10 +8048,16 @@
     (property "Datasheet" "~" (at 151.765 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/10k/0603" (at 151.765 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 151.765 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 4e8be6dd-1e7f-4b7e-a2d0-76dfc7afaf6c))
     (pin "1" (uuid d9e9cc90-5415-4ecb-9286-69ba8c8c6801))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R13") (unit 1)
         )
@@ -7908,7 +8082,7 @@
     )
     (pin "1" (uuid 120b5c00-b6b3-4a92-9ffe-789680d1a852))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR025") (unit 1)
         )
@@ -7931,10 +8105,16 @@
     (property "Datasheet" "~" (at 84.455 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 1u/X7R/25V/0603" (at 84.455 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 84.455 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0a96157f-84aa-45b9-905c-87c25efbdc3e))
     (pin "2" (uuid c4bf8cf6-22fa-4a6d-9475-351ecb64bd61))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C4") (unit 1)
         )
@@ -7960,13 +8140,16 @@
     (property "Comment" "PTT" (at 244.475 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "MPN" "LTST-C230KAKT, LTST-C230KGKT, LTST-C230KRKT, LTST-C230KSKT" (at 241.3 50.8 0)
+    (property "MPN" "LTST-C230KRKT" (at 241.3 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 241.3 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9ed1a439-62d8-4944-9695-659a2d83fee2))
     (pin "2" (uuid fa60084f-98f7-47e3-bbfb-ba67a3d9fef7))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "D3") (unit 1)
         )
@@ -7980,13 +8163,19 @@
     (property "Reference" "SW9" (at 36.195 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CL-SB-22A-1x" (at 36.195 119.38 0)
+    (property "Value" "CL-SB-22A-11T" (at 36.195 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "M17_misc_passive:Nidec_Copal-SB-22A" (at 36.195 124.46 0)
+    (property "Footprint" "M17_misc_passive:Nidec_Copal-SB-22A_edge" (at 36.195 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 36.195 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CL-SB-22A-11T" (at 36.195 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 36.195 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f84e688f-5197-40d5-9efb-f68aac680dc2))
@@ -7996,7 +8185,7 @@
     (pin "5" (uuid 3513b6a1-5586-409a-935c-0f319882fd6a))
     (pin "2" (uuid 34821c2b-a5e5-4175-9fbd-eb7f10c1e19f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW9") (unit 1)
         )
@@ -8021,7 +8210,7 @@
     )
     (pin "1" (uuid 01fbfdc5-034f-4d9a-94ec-4e5fbb899cb7))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR04") (unit 1)
         )
@@ -8046,7 +8235,7 @@
     )
     (pin "1" (uuid e16a237e-4ef3-49bf-961f-4ed8017fca4f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR014") (unit 1)
         )
@@ -8069,7 +8258,10 @@
     (property "Datasheet" "~" (at 29.845 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 29.845 56.515 0)
+    (property "MPN" "Hirose FH12-26S-0.5SH(55)" (at 29.845 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C202113" (at 29.845 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "MP" (uuid f9f60825-63e8-46d0-a759-4b3961309bc6))
@@ -8100,7 +8292,7 @@
     (pin "14" (uuid e2d2b163-9a99-42de-a425-527275a2f63d))
     (pin "19" (uuid 5badeb45-0cb5-4c12-a17c-6b85d42dcd14))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "J1") (unit 1)
         )
@@ -8123,13 +8315,16 @@
     (property "Datasheet" "~" (at 271.78 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 271.78 42.545 0)
+    (property "MPN" "Generic R/680/0603" (at 271.78 42.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 271.78 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 11ffe00a-6d5d-45d0-8021-2502b9c4fa38))
     (pin "1" (uuid 0bea9c75-455b-4d06-81af-03f2b362cd6e))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R12") (unit 1)
         )
@@ -8155,9 +8350,12 @@
     (property "Comment" "Enter" (at 193.675 144.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "LCSC Part #" "" (at 182.88 144.145 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e5a9b9a1-e039-4f34-a7a0-728fecd9c1ea))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW4") (unit 1)
         )
@@ -8182,7 +8380,7 @@
     )
     (pin "1" (uuid d68c8c9b-d092-4265-8df0-97b403ae162d))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR05") (unit 1)
         )
@@ -8207,7 +8405,7 @@
     )
     (pin "1" (uuid d26cea62-6f3f-41a4-b55c-bc774edbcf42))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR012") (unit 1)
         )
@@ -8232,7 +8430,7 @@
     )
     (pin "1" (uuid 9a9cefeb-99fc-4be7-aef0-09528cf5981b))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR019") (unit 1)
         )
@@ -8257,7 +8455,7 @@
     )
     (pin "1" (uuid ff7b0fa8-b32b-47d7-b9d3-1ccb5f67599b))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR044") (unit 1)
         )
@@ -8280,10 +8478,16 @@
     (property "Datasheet" "~" (at 104.775 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 10u/X7R/16V/0805" (at 104.775 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 104.775 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5a62aae5-7fc9-4570-853a-a786221f83a8))
     (pin "2" (uuid b724281c-a8e7-43a0-bf06-a0df71ea7d5f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C7") (unit 1)
         )
@@ -8306,10 +8510,16 @@
     (property "Datasheet" "~" (at 224.155 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 1u/X7R/25V/0603" (at 224.155 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 224.155 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8ef70eb3-46c0-48c2-8981-4edef8d77552))
     (pin "2" (uuid eb5dcbaa-b0c3-473e-b15e-1e085a95e4c7))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C13") (unit 1)
         )
@@ -8332,10 +8542,16 @@
     (property "Datasheet" "~" (at 231.14 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 1u/X7R/25V/0603" (at 231.14 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 231.14 92.075 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f78c0e85-5b42-4f0d-98c5-81b497b9c420))
     (pin "2" (uuid 4eb630eb-22bc-432b-b4b5-e544f47da8ef))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C15") (unit 1)
         )
@@ -8358,10 +8574,16 @@
     (property "Datasheet" "~" (at 63.5 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic Schottky Diode" (at 63.5 160.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 63.5 160.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 733f7406-6ade-4b64-a4b5-6e07449773ad))
     (pin "2" (uuid bea637c8-3e61-4c11-8b7e-6f1e60e6d72b))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "D1") (unit 1)
         )
@@ -8390,10 +8612,13 @@
     (property "MPN" "LTST-C230KSKT" (at 271.78 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part #" "" (at 271.78 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c33120af-dd27-4f70-a3c1-7c1bb16ed108))
     (pin "2" (uuid fa299468-e460-4069-8e4b-10bc4e697327))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "D5") (unit 1)
         )
@@ -8422,10 +8647,13 @@
     (property "MPN" "LTST-C230KGKT" (at 256.54 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part #" "" (at 256.54 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e8cbf607-5d53-42b6-b4de-2ad52227e1c9))
     (pin "2" (uuid e445ebae-a467-495c-bb94-8b61f518458f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "D4") (unit 1)
         )
@@ -8450,7 +8678,7 @@
     )
     (pin "1" (uuid 3ad5adcc-2ee4-45f2-b999-f092507f2d47))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR057") (unit 1)
         )
@@ -8479,10 +8707,13 @@
     (property "MPN" "LTST-C230TBKT" (at 226.06 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC Part #" "" (at 226.06 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a55df3bf-9d56-45be-9c14-7f549e77b048))
     (pin "2" (uuid 57cc55a6-f9e4-445f-b85e-871e0424b7ae))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "D2") (unit 1)
         )
@@ -8507,7 +8738,7 @@
     )
     (pin "1" (uuid e3814130-6876-4cda-8bfb-cb5881b6fb0c))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR023") (unit 1)
         )
@@ -8528,6 +8759,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 264.795 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "Hirose FH12A-24S-0.5SH(55)" (at 264.795 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C506794" (at 264.795 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "22" (uuid 82b383d4-a51d-4f39-9b98-a0707e7df8fc))
@@ -8556,7 +8793,7 @@
     (pin "21" (uuid c8344f68-0e94-442c-aa5a-bf49e506ad77))
     (pin "13" (uuid 2dc57815-3e4b-4c61-a427-809e9c374a26))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "J3") (unit 1)
         )
@@ -8579,10 +8816,16 @@
     (property "Datasheet" "~" (at 186.69 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 10p/C0G/16V/0603" (at 186.69 36.195 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 186.69 36.195 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4a07410f-39a8-4829-8551-b0c5c317aa43))
     (pin "2" (uuid 54693bf7-65fa-490a-a5e6-b5d91f55454b))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C12") (unit 1)
         )
@@ -8607,7 +8850,7 @@
     )
     (pin "1" (uuid 9c1fdc1a-ad29-402d-b6b6-881f26769431))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR011") (unit 1)
         )
@@ -8632,7 +8875,7 @@
     )
     (pin "1" (uuid 77802da9-f562-4946-a2bb-f89e5e828709))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR07") (unit 1)
         )
@@ -8657,7 +8900,7 @@
     )
     (pin "1" (uuid 3ce99b61-3cd4-4951-b891-450eee7ac0c3))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR061") (unit 1)
         )
@@ -8680,11 +8923,17 @@
     (property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" (at 176.53 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "MPN" "BSS84" (at 176.53 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 176.53 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d34160d0-a33c-488d-ac6a-2676b720110f))
     (pin "3" (uuid ac053123-3168-4654-b9f2-a5ece4f71133))
     (pin "2" (uuid 2e9b69a9-73df-433b-9511-6a1b1d1fba0f))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "Q2") (unit 1)
         )
@@ -8707,10 +8956,16 @@
     (property "Datasheet" "~" (at 125.73 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic R/1k2/0603" (at 125.73 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 125.73 132.715 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid ab3dfd0a-de71-47f3-946f-b980485b38c1))
     (pin "1" (uuid 59fc4cd2-b80f-4670-a27b-fbf10c449d57))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "R6") (unit 1)
         )
@@ -8735,7 +8990,7 @@
     )
     (pin "1" (uuid 7db7bd67-57a3-4b32-8e3e-b58a154a2041))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR02") (unit 1)
         )
@@ -8760,7 +9015,7 @@
     )
     (pin "1" (uuid 693adb97-990c-47c7-ae5b-757a092bf199))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR06") (unit 1)
         )
@@ -8783,10 +9038,16 @@
     (property "Datasheet" "~" (at 162.56 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 1u/X7R/25V/0603" (at 162.56 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 162.56 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0b5ce380-31ac-49c7-9a7e-5f64b3751081))
     (pin "2" (uuid 2625cacd-d7d4-4a12-8f2d-9a98b797930a))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C10") (unit 1)
         )
@@ -8809,10 +9070,16 @@
     (property "Datasheet" "~" (at 31.75 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 4u7/X7R/25V/0805" (at 31.75 175.895 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 31.75 175.895 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid deacc420-2180-4bc4-a790-35f7034548ea))
     (pin "2" (uuid c152ff56-9a50-4b82-a954-077dcc82744a))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C1") (unit 1)
         )
@@ -8837,7 +9104,7 @@
     )
     (pin "1" (uuid 20f6cad8-8a85-4423-8794-060b384f8705))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR045") (unit 1)
         )
@@ -8862,7 +9129,7 @@
     )
     (pin "1" (uuid 4d38647e-eedf-409a-a3e0-ed68c089e385))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR041") (unit 1)
         )
@@ -8885,10 +9152,16 @@
     (property "Datasheet" "~" (at 49.53 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic L/1u/1008" (at 49.53 160.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 49.53 160.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 225f5f11-f5a2-4505-b5f1-dde8215c0c17))
     (pin "1" (uuid 900978b7-bdb7-478e-88fc-a5e8be487bf4))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "L1") (unit 1)
         )
@@ -8911,10 +9184,16 @@
     (property "Datasheet" "~" (at 89.535 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 1u/X7R/25V/0603" (at 89.535 173.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 89.535 173.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 5948e20e-9564-47f4-af47-bb4a4b6fe708))
     (pin "1" (uuid c52aca04-6616-4887-8770-9c980146e111))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C3") (unit 1)
         )
@@ -8939,7 +9218,7 @@
     )
     (pin "1" (uuid 11184c1f-e516-4b7c-ac1f-7acd517d0bbf))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR042") (unit 1)
         )
@@ -8964,7 +9243,7 @@
     )
     (pin "1" (uuid ace5865f-be31-4e84-9766-201af9e2a183))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR022") (unit 1)
         )
@@ -8989,7 +9268,7 @@
     )
     (pin "1" (uuid 086fe247-83d2-4903-b6ac-4289ae66e602))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR03") (unit 1)
         )
@@ -9014,7 +9293,7 @@
     )
     (pin "1" (uuid ce38cbb6-b080-4182-912d-56905b994c90))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR035") (unit 1)
         )
@@ -9028,13 +9307,19 @@
     (property "Reference" "SW9" (at 66.04 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CL-SB-22A-1x" (at 66.04 119.38 0)
+    (property "Value" "CL-SB-22A-11T" (at 66.04 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "M17_misc_passive:Nidec_Copal-SB-22A" (at 66.04 124.46 0)
+    (property "Footprint" "M17_misc_passive:Nidec_Copal-SB-22A_edge" (at 66.04 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CL-SB-22A-11T" (at 66.04 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 66.04 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f84e688f-5197-40d5-9efb-f68aac680dc3))
@@ -9044,7 +9329,7 @@
     (pin "5" (uuid 3513b6a1-5586-409a-935c-0f319882fd6b))
     (pin "2" (uuid 34821c2b-a5e5-4175-9fbd-eb7f10c1e1a0))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW9") (unit 2)
         )
@@ -9069,7 +9354,7 @@
     )
     (pin "1" (uuid 35e1fc86-bbbf-49f0-95dc-26addbd2a9f5))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR048") (unit 1)
         )
@@ -9094,7 +9379,7 @@
     )
     (pin "1" (uuid fc05b498-9e76-4c3e-866f-f5763f952b0e))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR013") (unit 1)
         )
@@ -9120,9 +9405,12 @@
     (property "Comment" "Left" (at 193.675 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+    (property "LCSC Part #" "" (at 182.88 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 33ed0f15-3856-444f-808f-08d4d7d48855))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "SW5") (unit 1)
         )
@@ -9147,7 +9435,7 @@
     )
     (pin "1" (uuid 0a2e15a1-963e-48e9-9e55-984b815a2002))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR049") (unit 1)
         )
@@ -9172,7 +9460,7 @@
     )
     (pin "1" (uuid 252dd52e-b6ce-45f2-b729-b2bf14a75c99))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR055") (unit 1)
         )
@@ -9195,10 +9483,16 @@
     (property "Datasheet" "~" (at 79.375 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 15p/C0G/16V/0603" (at 79.375 167.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 79.375 167.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid d854f33f-a27f-4151-94b0-a77f1c279944))
     (pin "1" (uuid e44d15e1-ffc3-4f5d-bf82-24c1abba2308))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C2") (unit 1)
         )
@@ -9223,7 +9517,7 @@
     )
     (pin "1" (uuid 92c9a59b-cca3-473d-bc84-7307ce4614fc))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "#PWR017") (unit 1)
         )
@@ -9246,10 +9540,16 @@
     (property "Datasheet" "~" (at 225.425 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "Generic C 2u2/X7R/25V/0805" (at 225.425 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "" (at 225.425 140.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 6de388a8-c054-4032-a862-cf570ba2fae9))
     (pin "1" (uuid b05ec08f-7626-41a3-bc6f-46be7c73fdc7))
     (instances
-      (project "Module17_HMI"
+      (project "Module17-HMI"
         (path "/a2e72162-b48d-4c58-b01e-f32423724fdc"
           (reference "C14") (unit 1)
         )
