@@ -2487,6 +2487,9 @@
       )
     )
   )
+  (gr_text "JLCJLCJLCJLC" (at 114.375 83.98) (layer "B.SilkS") (tstamp 80ba6ad6-675a-4b71-9133-6cffe770dd13)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "Reset" (at 74.745 72.975) (layer "F.SilkS") (tstamp 05a280aa-c60b-4632-bac4-2ae1af121e6e)
     (effects (font (face "Didact Gothic") (size 1.2 1.2) (thickness 0.18)) (justify bottom))
     (render_cache "Reset" 0

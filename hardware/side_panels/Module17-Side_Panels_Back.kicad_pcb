@@ -2544,6 +2544,9 @@
       )
     )
   )
+  (gr_text "JLCJLCJLCJLC" (at 114.375 119.42) (layer "B.SilkS") (tstamp 7875403f-c18a-4a71-919d-efde64ea40e8)
+    (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
+  )
   (gr_text "Packet radio + CAT" (at 141.385 98.045) (layer "F.SilkS") (tstamp 1af24267-3ecb-4bdc-a4e8-d38d4afc34b3)
     (effects (font (face "Didact Gothic") (size 1.2 1.2) (thickness 0.1875)) (justify bottom))
     (render_cache "Packet radio + CAT" 0
