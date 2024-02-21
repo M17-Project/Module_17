@@ -2055,7 +2055,7 @@
     (pin "1" (uuid 968a0919-054a-4a2e-9988-adce0fe3dd24))
     (pin "2" (uuid 589abbe0-0fcf-4d82-9d53-27f74d0919f1))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C316") (unit 1)
         )
@@ -2084,7 +2084,7 @@
     (pin "1" (uuid 34b6baf0-d56b-4255-80ae-3a7732c35d44))
     (pin "2" (uuid 1ea59c15-f8bb-4b1b-ac3e-98e3a091f9d8))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C318") (unit 1)
         )
@@ -2109,7 +2109,7 @@
     )
     (pin "1" (uuid 0c209ac2-a78d-407a-966e-81a463ebf434))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0329") (unit 1)
         )
@@ -2134,7 +2134,7 @@
     )
     (pin "1" (uuid ba26c6a6-8915-4b91-8512-f3bfe1100739))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0332") (unit 1)
         )
@@ -2159,7 +2159,7 @@
     )
     (pin "1" (uuid be52c608-c4c7-4adc-abae-12541a0b7f7a))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0321") (unit 1)
         )
@@ -2188,7 +2188,7 @@
     (pin "1" (uuid 3c9b9670-18d1-4e3a-944a-adfc2ba1e4df))
     (pin "2" (uuid ec4868b4-1c9e-4845-97f9-8770b0b997a4))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C313") (unit 1)
         )
@@ -2213,7 +2213,7 @@
     )
     (pin "1" (uuid 1c1efd16-8f7a-417c-bc79-4c548a64f5af))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0322") (unit 1)
         )
@@ -2242,7 +2242,7 @@
     (pin "1" (uuid a0ea5b11-0bf0-4e2c-a68f-83b3e079c95e))
     (pin "2" (uuid 0c925cdc-061d-4d6d-8900-f3c4891d4ed5))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R301") (unit 1)
         )
@@ -2271,7 +2271,7 @@
     (pin "1" (uuid 88fd65dd-d4e6-4ca2-b589-469d6da9cecb))
     (pin "2" (uuid ca9c5e65-9927-4c87-b8ca-83c4bc5b2581))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R302") (unit 1)
         )
@@ -2300,7 +2300,7 @@
     (pin "1" (uuid a4f5e513-c60f-4b2f-889a-cc6bb005cac5))
     (pin "2" (uuid 0bac29ac-d064-4044-a3ed-c31c2d819429))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C301") (unit 1)
         )
@@ -2333,7 +2333,7 @@
     (pin "2" (uuid 34913401-f230-4277-9505-5a3f2e726515))
     (pin "3" (uuid ca65b758-d4da-4585-b99a-1aa0ede47c11))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "Q301") (unit 1)
         )
@@ -2358,7 +2358,7 @@
     )
     (pin "1" (uuid f29e4f13-9e96-4289-ad89-99ea1877dced))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0301") (unit 1)
         )
@@ -2383,7 +2383,7 @@
     )
     (pin "1" (uuid 5fb67547-f434-453a-97c2-c8321a4e1b21))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0302") (unit 1)
         )
@@ -2408,7 +2408,7 @@
     )
     (pin "1" (uuid c6332410-123d-4b98-9f5a-6482594e5152))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0307") (unit 1)
         )
@@ -2437,7 +2437,7 @@
     (pin "1" (uuid 087e2c46-12f0-421f-aade-127ffa19794d))
     (pin "2" (uuid 2378db6d-bdf2-4241-b5be-19f92618e057))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C308") (unit 1)
         )
@@ -2470,7 +2470,7 @@
     (pin "2" (uuid 249105c0-8aff-43bc-ab44-7b43b0fa25e7))
     (pin "3" (uuid 6a8a182c-cac7-4800-b6cc-7839a21a7caa))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "Q303") (unit 1)
         )
@@ -2498,7 +2498,7 @@
     )
     (pin "1" (uuid d3019ac8-b03d-4dfe-aed3-cc6b7dc12561))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "TP302") (unit 1)
         )
@@ -2526,7 +2526,7 @@
     )
     (pin "1" (uuid 621c5143-de1a-4518-a851-9e1ae3d0f453))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "TP301") (unit 1)
         )
@@ -2555,7 +2555,7 @@
     (pin "1" (uuid 1637bfa4-92da-416d-98a3-206c0c91d93e))
     (pin "2" (uuid 2f2607c3-9762-417c-abfd-e43d57e93c37))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R311") (unit 1)
         )
@@ -2580,7 +2580,7 @@
     )
     (pin "1" (uuid d1de051d-e6b0-484c-8375-4e43689f57bf))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0306") (unit 1)
         )
@@ -2612,7 +2612,7 @@
     (pin "1" (uuid ead56ce8-abe6-4573-9c7c-4916a4157a2b))
     (pin "2" (uuid 2abc560f-3b52-424d-b918-d4c4b8da737d))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R307") (unit 1)
         )
@@ -2637,7 +2637,7 @@
     )
     (pin "1" (uuid cd21a7de-06fb-4400-a456-4c183bdcfecd))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0311") (unit 1)
         )
@@ -2662,7 +2662,7 @@
     )
     (pin "1" (uuid eddab5d7-766c-4c5a-b78d-4e7db216daf4))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0310") (unit 1)
         )
@@ -2687,7 +2687,7 @@
     )
     (pin "1" (uuid 293bda56-a64f-43a3-a320-f071cd19eb3d))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0318") (unit 1)
         )
@@ -2712,7 +2712,7 @@
     )
     (pin "1" (uuid 4c9cc3af-e57a-44ad-907c-c1aa06fb4856))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0320") (unit 1)
         )
@@ -2742,7 +2742,7 @@
     (pin "2" (uuid 017eb305-4d80-406e-b8b4-f2b51808b7a0))
     (pin "3" (uuid ead228f9-9305-41be-bf67-b3fb67b396e5))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "J301") (unit 1)
         )
@@ -2772,7 +2772,7 @@
     (pin "2" (uuid bff392f3-2721-4f88-9090-eb61cdb2978e))
     (pin "3" (uuid a4b2f441-8da7-401c-85b5-fd782677fb18))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "J302") (unit 1)
         )
@@ -2797,7 +2797,7 @@
     )
     (pin "1" (uuid af04fa9a-24ca-4a0c-a32b-04f287ef308d))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0326") (unit 1)
         )
@@ -2835,7 +2835,7 @@
     (pin "4" (uuid a3e35d8b-ad8d-47ea-a274-122f30a28990))
     (pin "8" (uuid 487c4256-8ee9-4354-bab8-06da61770d05))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "U301") (unit 1)
         )
@@ -2860,7 +2860,7 @@
     )
     (pin "1" (uuid fe7cb85c-c711-4882-ae1e-af7787eedb55))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0317") (unit 1)
         )
@@ -2889,7 +2889,7 @@
     (pin "1" (uuid 18a4c6c1-6105-4618-ad5d-0fe47ae6b4f3))
     (pin "2" (uuid c0cfdb17-51a7-44b6-ae1a-1db93462c65f))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R312") (unit 1)
         )
@@ -2914,7 +2914,7 @@
     )
     (pin "1" (uuid ea72568a-867c-4df2-b2a1-1587468d1e90))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0305") (unit 1)
         )
@@ -2942,7 +2942,7 @@
     )
     (pin "1" (uuid 86c9ddf4-8e69-4744-9294-5b6b1eba22e9))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0330") (unit 1)
         )
@@ -2974,7 +2974,7 @@
     (pin "1" (uuid b24cf019-6272-463c-abcd-1a0458e577ef))
     (pin "2" (uuid 694a5a3f-7853-4782-9b57-24328dd845d3))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C302") (unit 1)
         )
@@ -3002,7 +3002,7 @@
     )
     (pin "1" (uuid 66b6e158-08a1-489d-8d48-deaaaa107d1c))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0315") (unit 1)
         )
@@ -3031,7 +3031,7 @@
     (pin "1" (uuid d6a31880-b388-4b60-b406-9d20fc1e8619))
     (pin "2" (uuid 02f815ff-5bce-44de-bfaf-2f0d00dd0568))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C304") (unit 1)
         )
@@ -3060,7 +3060,7 @@
     (pin "1" (uuid d2796784-eaf1-411c-9b0c-8ad4e23beb97))
     (pin "2" (uuid dfa5cd4a-db2d-467c-8d5d-dfbde62ff74d))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C310") (unit 1)
         )
@@ -3093,7 +3093,7 @@
     (pin "2" (uuid 34c6ee61-7989-4850-a57c-1b8016c9774d))
     (pin "3" (uuid d268896f-d502-4250-95a3-ce8b22eeb418))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "RV301") (unit 1)
         )
@@ -3122,7 +3122,7 @@
     (pin "1" (uuid fe36702e-99d9-4f49-8077-2e55a376fd7d))
     (pin "2" (uuid befb5d38-8a8f-4839-a3c0-ef0b33a2bf5d))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R308") (unit 1)
         )
@@ -3151,7 +3151,7 @@
     (pin "1" (uuid 16b76ba8-cdc7-448c-9374-945e6d6c3ad1))
     (pin "2" (uuid 42ca7f0d-dcdb-42ae-86ca-3744aadd3ec4))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C315") (unit 1)
         )
@@ -3180,7 +3180,7 @@
     (pin "1" (uuid cd2e3e8a-ef20-4a8d-ad58-2e32ab14487e))
     (pin "2" (uuid a4e171ce-f212-46c2-abc5-1445c4183ef4))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R304") (unit 1)
         )
@@ -3205,7 +3205,7 @@
     )
     (pin "1" (uuid b1c012fa-f467-4630-8e02-eee9f384a6d2))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0309") (unit 1)
         )
@@ -3233,7 +3233,7 @@
     )
     (pin "1" (uuid da6976b6-f333-4e3b-ad88-2689013d69ef))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "TP304") (unit 1)
         )
@@ -3262,7 +3262,7 @@
     (pin "1" (uuid 8860eb92-d855-4e59-8f1e-4fe6034e1724))
     (pin "2" (uuid 16ee1b9a-e33d-4c1b-b2bf-8194a34b0bd4))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R310") (unit 1)
         )
@@ -3295,7 +3295,7 @@
     (pin "2" (uuid a3d723a5-735b-4f73-8fe9-7b5be777ee82))
     (pin "3" (uuid e942bc7c-df00-49da-912a-4fc9dd90e65c))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "Q302") (unit 1)
         )
@@ -3324,7 +3324,7 @@
     (pin "1" (uuid 749d08f9-a3f1-4987-a6aa-eb51a13e4365))
     (pin "2" (uuid 27cbf9dd-55a0-4e4a-a3af-a4511a53504d))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R316") (unit 1)
         )
@@ -3353,7 +3353,7 @@
     (pin "1" (uuid fb72673e-9ffe-41aa-8fb7-50101e4eecc2))
     (pin "2" (uuid 1da4cf3c-6567-4f42-87f8-b1600bdeae61))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R305") (unit 1)
         )
@@ -3378,7 +3378,7 @@
     )
     (pin "1" (uuid 13961f8a-e0b1-411d-914a-aee5cbf1ed8d))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0323") (unit 1)
         )
@@ -3403,7 +3403,7 @@
     )
     (pin "1" (uuid 7d72eaa0-f039-4cb7-9507-d12ce52414ad))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0314") (unit 1)
         )
@@ -3432,7 +3432,7 @@
     (pin "1" (uuid ebc86b00-e034-4a16-ba0f-1ac2c2a6f9fb))
     (pin "2" (uuid 4fd07377-9a30-4abd-a643-c6f1ea40c544))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R317") (unit 1)
         )
@@ -3461,7 +3461,7 @@
     (pin "1" (uuid 7027ee96-9e71-474a-9e19-c74e95e6f7bb))
     (pin "2" (uuid 333148b5-3ab4-49bb-ae23-8f9ddec35c4a))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C312") (unit 1)
         )
@@ -3490,7 +3490,7 @@
     (pin "1" (uuid 0a72685c-2ea1-43d4-a5e3-423f5846c828))
     (pin "2" (uuid 881423ef-49ad-4483-ae88-0f335310ef5b))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C309") (unit 1)
         )
@@ -3515,7 +3515,7 @@
     )
     (pin "1" (uuid dad28740-11da-4285-a433-c302fb5799bf))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0316") (unit 1)
         )
@@ -3544,7 +3544,7 @@
     (pin "1" (uuid 2d2bacd9-9b25-4722-ac51-235533cd1854))
     (pin "2" (uuid 4460ed0f-d828-4bc9-b282-040c96216ea1))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R314") (unit 1)
         )
@@ -3569,7 +3569,7 @@
     )
     (pin "1" (uuid 2fe490fb-8048-45ec-8dc8-45a05dff42ea))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR01") (unit 1)
         )
@@ -3594,7 +3594,7 @@
     )
     (pin "1" (uuid 2ea9686a-57a6-4089-a12c-6e8c9fea7dd1))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0303") (unit 1)
         )
@@ -3626,7 +3626,7 @@
     (pin "1" (uuid 4eff8e70-8c60-4fab-886b-06c88963aa58))
     (pin "2" (uuid caa68330-9c1d-40de-ada1-ef8dbe6473a8))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C307") (unit 1)
         )
@@ -3655,7 +3655,7 @@
     (pin "1" (uuid 1ac95a80-aa67-48b9-a828-e000301fed90))
     (pin "2" (uuid f532899c-39ee-4883-b58e-3bf1c130015e))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C306") (unit 1)
         )
@@ -3680,7 +3680,7 @@
     )
     (pin "1" (uuid 57a52d5c-3620-4490-a9be-54f2b482f634))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0324") (unit 1)
         )
@@ -3709,7 +3709,7 @@
     (pin "1" (uuid 4d7f952b-b544-431a-8288-0a24a720230d))
     (pin "2" (uuid eb4b7e5c-3841-4cab-9a33-139f9780429e))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C305") (unit 1)
         )
@@ -3734,7 +3734,7 @@
     )
     (pin "1" (uuid 712d4810-143c-4388-8343-31fc91a5ff58))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0319") (unit 1)
         )
@@ -3759,7 +3759,7 @@
     )
     (pin "1" (uuid eadd41a9-782d-4f09-920e-d99f39cc59a6))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0325") (unit 1)
         )
@@ -3788,7 +3788,7 @@
     (pin "1" (uuid 391ce430-86a6-4b81-bcb1-778bc2fadec8))
     (pin "2" (uuid 4cfb62b3-36f1-4df6-b5e3-cc8ce55de429))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R303") (unit 1)
         )
@@ -3813,7 +3813,7 @@
     )
     (pin "1" (uuid 65478d0b-7f16-4b9c-bbaa-b0403bbfd92e))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0312") (unit 1)
         )
@@ -3842,7 +3842,7 @@
     (pin "1" (uuid 1918b6bb-3097-48eb-a48a-2d8faef35649))
     (pin "2" (uuid 3f90e623-2114-4b01-9338-37134c79e142))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R315") (unit 1)
         )
@@ -3871,7 +3871,7 @@
     (pin "1" (uuid 833b8cf6-3030-448b-87ff-6cbe2ec9544a))
     (pin "2" (uuid 921e196d-96cd-434a-9874-83e17c06e8ba))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R313") (unit 1)
         )
@@ -3903,7 +3903,7 @@
     (pin "1" (uuid ed312bdd-209a-4e7b-a279-755b4d1ae98a))
     (pin "2" (uuid cf0be7f7-e55b-42d5-b08a-390ecc0a3e93))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C311") (unit 1)
         )
@@ -3928,7 +3928,7 @@
     )
     (pin "1" (uuid a7f47104-a2ea-4cd8-9d5d-de65dfac4b64))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0304") (unit 1)
         )
@@ -3969,7 +3969,7 @@
     (pin "4" (uuid 05c7dd38-5e90-4133-9072-eadcfd18a9c0))
     (pin "8" (uuid 299006c0-971a-4a7f-99cf-84df608e777b))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "U301") (unit 2)
         )
@@ -3998,7 +3998,7 @@
     (pin "1" (uuid 379c5916-3272-4163-9002-5fe51714e1e9))
     (pin "2" (uuid 8a2d0746-3672-4b33-aa14-eaef062a0328))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R306") (unit 1)
         )
@@ -4027,7 +4027,7 @@
     (pin "2" (uuid e7ab3cf4-a3d5-4754-a633-ffeb893c9c14))
     (pin "1" (uuid 4c12f4ff-7bcb-4aa5-af54-f2d898852b2f))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R319") (unit 1)
         )
@@ -4052,7 +4052,7 @@
     )
     (pin "1" (uuid 593a606b-9487-46cd-9172-76d2fb7907bf))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0328") (unit 1)
         )
@@ -4081,7 +4081,7 @@
     (pin "1" (uuid c8762a17-71fe-494c-919f-8a0b31682f39))
     (pin "2" (uuid 7e35d217-b71a-421a-8d1b-c439baa3ff70))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C314") (unit 1)
         )
@@ -4119,7 +4119,7 @@
     (pin "7" (uuid f96bc0cb-62e7-49e9-9588-b478a8e84286))
     (pin "8" (uuid 082a973c-b60d-4289-9821-3d6bac4a5b88))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "IC301") (unit 1)
         )
@@ -4148,7 +4148,7 @@
     (pin "1" (uuid 605cd739-ba67-4da7-863e-25908133568f))
     (pin "2" (uuid c7e198d3-43c3-4013-a3da-2c3fdc1c4e41))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R318") (unit 1)
         )
@@ -4177,7 +4177,7 @@
     (pin "1" (uuid 5d10e8a9-ce57-4aa6-8e7f-0e7d47f86708))
     (pin "2" (uuid 1d14ec68-a339-4622-9b43-33dfd67f8b68))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "C303") (unit 1)
         )
@@ -4206,7 +4206,7 @@
     (pin "1" (uuid ba37767f-571f-4bd8-84ba-bbe172f50efa))
     (pin "2" (uuid 15fc8bb4-7077-41a2-baa1-f1b7de99aff4))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "R309") (unit 1)
         )
@@ -4231,7 +4231,7 @@
     )
     (pin "1" (uuid 73199e88-068c-463e-8305-1aff62a0f8e7))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0308") (unit 1)
         )
@@ -4276,7 +4276,7 @@
     (pin "8" (uuid 4a4104d0-3015-4d00-b3e1-f1dec965be48))
     (pin "9" (uuid f20cfdc2-70ea-4ae5-870f-9410c7b4d536))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "U302") (unit 1)
         )
@@ -4314,7 +4314,7 @@
     (pin "4" (uuid 6a3c0ce0-8dbc-470f-99c7-b71188e3de50))
     (pin "8" (uuid 3225fe5e-97b7-4e7a-ae65-27a458d559dc))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "U301") (unit 3)
         )
@@ -4339,7 +4339,7 @@
     )
     (pin "1" (uuid ef32c261-e7c3-444f-acb5-d945086ae5dc))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0313") (unit 1)
         )
@@ -4367,7 +4367,7 @@
     )
     (pin "1" (uuid 95cccca5-37e1-49f7-b74b-0e6042303c99))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "TP303") (unit 1)
         )
@@ -4392,7 +4392,7 @@
     )
     (pin "1" (uuid c6d46240-a48d-45cf-8e7c-b59d8c8469db))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0331") (unit 1)
         )
@@ -4417,7 +4417,7 @@
     )
     (pin "1" (uuid 19635fa2-79be-4534-8f5b-e6ba7f645d77))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
           (reference "#PWR0327") (unit 1)
         )

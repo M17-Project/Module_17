@@ -3054,7 +3054,7 @@
     )
     (pin "1" (uuid d52d8ac2-882e-4506-8c1b-099180f76720))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0320") (unit 1)
         )
@@ -3081,7 +3081,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "LOGO102") (unit 1)
         )
@@ -3106,7 +3106,7 @@
     )
     (pin "1" (uuid 31851ad4-f799-43c4-88e1-e2cedb7cfe91))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0319") (unit 1)
         )
@@ -3137,7 +3137,7 @@
     )
     (pin "1" (uuid 862b7470-311c-4aee-b427-fa876eaee84b))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "H301") (unit 1)
         )
@@ -3164,7 +3164,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "LOGO101") (unit 1)
         )
@@ -3188,7 +3188,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "LOGO103") (unit 1)
         )
@@ -3213,7 +3213,7 @@
     )
     (pin "1" (uuid 20a5b40b-ff74-4aec-874f-de91e3f54ed6))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0323") (unit 1)
         )
@@ -3244,7 +3244,7 @@
     )
     (pin "1" (uuid 78fa7ddd-ba0f-4fc2-b767-01891b623ae0))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "H302") (unit 1)
         )
@@ -3272,7 +3272,7 @@
     )
     (pin "1" (uuid 6f642fa0-d0b6-4e4e-be0f-347a9ca2fc51))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0327") (unit 1)
         )
@@ -3303,7 +3303,7 @@
     )
     (pin "1" (uuid 90ff5e62-202f-41ae-844c-a8d93abfb8d9))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "H303") (unit 1)
         )
@@ -3334,7 +3334,7 @@
     )
     (pin "1" (uuid 76c1c094-cfe4-4ec3-8074-70ec6c00d13c))
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "H304") (unit 1)
         )
@@ -3356,7 +3356,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "2"))
       )
     )
@@ -3373,7 +3373,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "3"))
       )
     )
@@ -3390,7 +3390,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "5"))
       )
     )
@@ -3407,7 +3407,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "M17-SmartMic"
+      (project "Module17-Mainboard"
         (path "/59592280-3207-432b-a891-cd517ec5cf12" (page "4"))
       )
     )
