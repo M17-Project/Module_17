@@ -3040,7 +3040,7 @@
   (symbol (lib_id "power:GND") (at 25.4 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bd1e223-2aae-4880-aab7-c064788ddf7b)
-    (property "Reference" "#PWR0320" (at 25.4 57.785 0)
+    (property "Reference" "#PWR0102" (at 25.4 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 25.527 55.8292 0)
@@ -3055,9 +3055,6 @@
     (pin "1" (uuid d52d8ac2-882e-4506-8c1b-099180f76720))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0320") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "#PWR0102") (unit 1)
         )
@@ -3092,7 +3089,7 @@
   (symbol (lib_id "power:GND") (at 15.24 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a2585f2-53f4-48df-9eca-6bf41a887530)
-    (property "Reference" "#PWR0319" (at 15.24 57.785 0)
+    (property "Reference" "#PWR0101" (at 15.24 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 15.367 55.8292 0)
@@ -3107,9 +3104,6 @@
     (pin "1" (uuid 31851ad4-f799-43c4-88e1-e2cedb7cfe91))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0319") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "#PWR0101") (unit 1)
         )
@@ -3120,7 +3114,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 15.24 46.355 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5afb6c73-acec-4445-80ca-c9cdbd68065d)
-    (property "Reference" "H301" (at 17.78 43.815 0)
+    (property "Reference" "H101" (at 17.78 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (at 17.78 46.355 0)
@@ -3138,9 +3132,6 @@
     (pin "1" (uuid 862b7470-311c-4aee-b427-fa876eaee84b))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "H301") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "H101") (unit 1)
         )
@@ -3199,7 +3190,7 @@
   (symbol (lib_id "power:GND") (at 35.56 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88ea1182-9bfe-40bf-a229-b21402860083)
-    (property "Reference" "#PWR0323" (at 35.56 57.785 0)
+    (property "Reference" "#PWR0103" (at 35.56 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.687 55.8292 0)
@@ -3214,9 +3205,6 @@
     (pin "1" (uuid 20a5b40b-ff74-4aec-874f-de91e3f54ed6))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0323") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "#PWR0103") (unit 1)
         )
@@ -3227,7 +3215,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 25.4 46.355 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c085201c-71d6-46b8-b570-35427ee721bf)
-    (property "Reference" "H302" (at 27.94 43.815 0)
+    (property "Reference" "H102" (at 27.94 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (at 27.94 46.355 0)
@@ -3245,9 +3233,6 @@
     (pin "1" (uuid 78fa7ddd-ba0f-4fc2-b767-01891b623ae0))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "H302") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "H102") (unit 1)
         )
@@ -3258,7 +3243,7 @@
   (symbol (lib_id "power:GND") (at 45.72 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3b7f080-e7e4-4ba0-918e-932f0270f0d2)
-    (property "Reference" "#PWR0327" (at 45.72 57.785 0)
+    (property "Reference" "#PWR0104" (at 45.72 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.847 55.8292 0)
@@ -3273,9 +3258,6 @@
     (pin "1" (uuid 6f642fa0-d0b6-4e4e-be0f-347a9ca2fc51))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0327") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "#PWR0104") (unit 1)
         )
@@ -3286,7 +3268,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 35.56 46.355 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3d0fc71-5154-4b14-ae08-7ec372bcae8b)
-    (property "Reference" "H303" (at 38.1 43.815 0)
+    (property "Reference" "H103" (at 38.1 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (at 38.1 46.355 0)
@@ -3304,9 +3286,6 @@
     (pin "1" (uuid 90ff5e62-202f-41ae-844c-a8d93abfb8d9))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "H303") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "H103") (unit 1)
         )
@@ -3317,7 +3296,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 45.72 46.355 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff26a434-b61d-4f6a-8a02-2ca45f66b46e)
-    (property "Reference" "H304" (at 48.26 43.815 0)
+    (property "Reference" "H104" (at 48.26 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (at 48.26 46.355 0)
@@ -3335,9 +3314,6 @@
     (pin "1" (uuid 76c1c094-cfe4-4ec3-8074-70ec6c00d13c))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "H304") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12"
           (reference "H104") (unit 1)
         )

@@ -3366,7 +3366,7 @@
   (symbol (lib_id "Connector:8P8C_Shielded") (at 86.36 165.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0220f6c9-4581-4a4f-b3fb-95a4122aebca)
-    (property "Reference" "J13" (at 86.36 148.59 0)
+    (property "Reference" "J407" (at 86.36 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KH-RJ45-58-8P8C" (at 86.36 151.13 0)
@@ -3395,9 +3395,6 @@
     (pin "SH" (uuid c08db157-cf5d-47b9-a082-ea5d93a4cc0d))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "J13") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J407") (unit 1)
         )
@@ -3458,7 +3455,7 @@
   (symbol (lib_id "power:GND") (at 86.36 179.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 109c73e3-7307-4295-8263-d6570a206313)
-    (property "Reference" "#PWR0201" (at 86.36 186.055 0)
+    (property "Reference" "#PWR0416" (at 86.36 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.487 184.0992 0)
@@ -3473,9 +3470,6 @@
     (pin "1" (uuid cd68d18e-ec59-4405-9dc4-96133cd744b5))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0201") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0416") (unit 1)
         )
@@ -3486,7 +3480,7 @@
   (symbol (lib_id "Device:R_Small") (at 57.15 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13af5e6c-bca4-40ca-b0f7-154ed50b0d2b)
-    (property "Reference" "R16" (at 57.15 90.805 90)
+    (property "Reference" "R402" (at 57.15 90.805 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 57.15 88.265 90)
@@ -3505,9 +3499,6 @@
     (pin "2" (uuid 07c5e351-0dec-42cb-8899-a63eb2cd7587))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "R16") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R402") (unit 1)
         )
@@ -3543,7 +3534,7 @@
   (symbol (lib_id "power:GND") (at 33.02 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21f8b090-ae72-4eb5-bf17-09755eb2988a)
-    (property "Reference" "#PWR096" (at 33.02 63.5 0)
+    (property "Reference" "#PWR0401" (at 33.02 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.147 61.5442 0)
@@ -3558,9 +3549,6 @@
     (pin "1" (uuid f2ad014e-e422-4658-b5ff-8643b9fd0630))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR096") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0401") (unit 1)
         )
@@ -3571,7 +3559,7 @@
   (symbol (lib_id "power:GND") (at 116.205 179.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27152175-f9f2-4f0c-851b-0bcab3fb189f)
-    (property "Reference" "#PWR0202" (at 116.205 186.055 0)
+    (property "Reference" "#PWR0419" (at 116.205 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.332 184.0992 0)
@@ -3586,9 +3574,6 @@
     (pin "1" (uuid 2fe32c0d-a8b0-4855-8c6d-98623f9fe841))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0202") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0419") (unit 1)
         )
@@ -3599,7 +3584,7 @@
   (symbol (lib_id "power:VDD") (at 137.795 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ab02d8d-9c3d-4373-971b-41a3eeb498b2)
-    (property "Reference" "#PWR0312" (at 137.795 28.575 0)
+    (property "Reference" "#PWR0413" (at 137.795 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 138.176 20.3708 0)
@@ -3614,9 +3599,6 @@
     (pin "1" (uuid 3577e257-b94b-4182-aa32-58222b83c828))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0312") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0413") (unit 1)
         )
@@ -3734,7 +3716,7 @@
   (symbol (lib_id "power:GND") (at 135.255 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33ebee32-bc00-412e-8da3-cf41dd93f2a2)
-    (property "Reference" "#PWR0310" (at 135.255 53.975 0)
+    (property "Reference" "#PWR0412" (at 135.255 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.382 52.0192 0)
@@ -3749,9 +3731,6 @@
     (pin "1" (uuid 8cda3dea-af67-4f9e-b6db-00b4469e6458))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0310") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0412") (unit 1)
         )
@@ -3762,7 +3741,7 @@
   (symbol (lib_id "power:GND") (at 63.5 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f67dfa-3f7c-4519-b764-0de588a45e25)
-    (property "Reference" "#PWR053" (at 63.5 109.855 0)
+    (property "Reference" "#PWR0405" (at 63.5 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.627 107.8992 0)
@@ -3777,9 +3756,6 @@
     (pin "1" (uuid 0faef1b1-c270-4d8c-8fee-237af1739746))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR053") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0405") (unit 1)
         )
@@ -3840,7 +3816,7 @@
   (symbol (lib_id "Device:C_Small") (at 53.34 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ff6e283-19b8-45e0-a450-aad039d44746)
-    (property "Reference" "C32" (at 55.6768 157.5816 0)
+    (property "Reference" "C401" (at 55.6768 157.5816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 55.6768 159.893 0)
@@ -3859,9 +3835,6 @@
     (pin "2" (uuid d92b1262-11a3-40cb-a347-05df5a9f5c19))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "C32") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "C401") (unit 1)
         )
@@ -3922,7 +3895,7 @@
   (symbol (lib_id "Device:R_Small") (at 53.34 150.495 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a5830d3-39a9-4f74-bbc3-3127a946ac18)
-    (property "Reference" "R34" (at 51.8414 149.3266 0)
+    (property "Reference" "R405" (at 51.8414 149.3266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 51.8414 151.638 0)
@@ -3941,9 +3914,6 @@
     (pin "2" (uuid b27f3ec2-01e7-40f8-971a-b19d152d50a2))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "R34") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R405") (unit 1)
         )
@@ -3954,7 +3924,7 @@
   (symbol (lib_id "power:+5V") (at 93.345 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c843f8a-ac21-4dc4-945f-82e3109d77a8)
-    (property "Reference" "#PWR057" (at 93.345 94.615 0)
+    (property "Reference" "#PWR0409" (at 93.345 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 93.726 86.4108 0)
@@ -3969,9 +3939,6 @@
     (pin "1" (uuid c5515a8b-6181-4c3b-b4e6-8f06af14eed1))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR057") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0409") (unit 1)
         )
@@ -3982,7 +3949,7 @@
   (symbol (lib_id "power:GND") (at 43.18 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cd391c4-a6ea-46b2-b273-1e6c3838d97f)
-    (property "Reference" "#PWR099" (at 43.18 63.5 0)
+    (property "Reference" "#PWR0403" (at 43.18 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.307 61.5442 0)
@@ -3997,9 +3964,6 @@
     (pin "1" (uuid 765125f2-e631-4c19-b979-7f8fdf7453d5))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR099") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0403") (unit 1)
         )
@@ -4010,7 +3974,7 @@
   (symbol (lib_id "Diode:BAT60A") (at 58.42 80.645 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 622ad8d4-5255-47eb-9abc-47a2523394da)
-    (property "Reference" "D9" (at 58.7375 74.295 0)
+    (property "Reference" "D401" (at 58.7375 74.295 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT60A" (at 58.7375 76.835 0)
@@ -4032,9 +3996,6 @@
     (pin "2" (uuid 3ebb499b-337d-4339-b736-2e13659672dc))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "D9") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "D401") (unit 1)
         )
@@ -4045,13 +4006,13 @@
   (symbol (lib_id "Device:R_Small") (at 100.33 155.575 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 629e2cd1-f74d-4567-99ec-413a5ad90791)
-    (property "Reference" "R70" (at 100.33 153.67 90)
+    (property "Reference" "R409" (at 100.33 153.67 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0" (at 100.33 155.575 90)
+    (property "Value" "100" (at 100.33 155.575 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 100.33 155.575 0)
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 100.33 155.575 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 100.33 155.575 0)
@@ -4064,9 +4025,6 @@
     (pin "2" (uuid a903e458-4512-4221-b200-b2ed1557a936))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "R70") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R409") (unit 1)
         )
@@ -4077,7 +4035,7 @@
   (symbol (lib_id "power:GND") (at 62.23 86.995 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 642e2ca2-cc8d-4048-acec-7b4d2358d016)
-    (property "Reference" "#PWR054" (at 68.58 86.995 0)
+    (property "Reference" "#PWR0407" (at 68.58 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 65.4812 86.868 90)
@@ -4092,9 +4050,6 @@
     (pin "1" (uuid c75fed7a-a0e5-4ee2-83fa-f6b138f238d8))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR054") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0407") (unit 1)
         )
@@ -4130,7 +4085,7 @@
   (symbol (lib_id "power:VDD") (at 53.34 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66c26554-96d5-4131-86a5-70fb0fbad343)
-    (property "Reference" "#PWR072" (at 53.34 149.86 0)
+    (property "Reference" "#PWR0414" (at 53.34 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 53.721 141.6558 0)
@@ -4145,9 +4100,6 @@
     (pin "1" (uuid a1950ba4-9b60-4fd6-84a5-28ec2864d785))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR072") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0414") (unit 1)
         )
@@ -4158,7 +4110,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch_Pin3Ring") (at 238.125 29.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6be282ff-3fdf-4a17-97f7-d4831ba00d0d)
-    (property "Reference" "J301" (at 238.125 20.955 0)
+    (property "Reference" "J411" (at 238.125 20.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "+12V" (at 238.125 23.495 0)
@@ -4181,9 +4133,6 @@
     (pin "3" (uuid a1a4852f-ea90-4da8-b03f-d959fdb0e40d))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "J301") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J411") (unit 1)
         )
@@ -4194,7 +4143,7 @@
   (symbol (lib_id "power:GND") (at 53.34 163.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 702a0a30-556f-467d-8a66-9d7d79514d54)
-    (property "Reference" "#PWR073" (at 53.34 169.545 0)
+    (property "Reference" "#PWR0415" (at 53.34 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.467 167.5892 0)
@@ -4209,9 +4158,6 @@
     (pin "1" (uuid bacab7c0-1f19-4013-a5ff-ea77b7e35822))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR073") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0415") (unit 1)
         )
@@ -4222,7 +4168,7 @@
   (symbol (lib_id "power:VDD") (at 198.12 136.525 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70a043f5-8d4d-43ea-b2a3-9eaf43e173aa)
-    (property "Reference" "#PWR072" (at 201.93 136.525 0)
+    (property "Reference" "#PWR0423" (at 201.93 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 193.04 136.525 90)
@@ -4237,9 +4183,6 @@
     (pin "1" (uuid 45d125eb-5ef7-4b55-8bb5-53fb2733b6fa))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR072") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0423") (unit 1)
         )
@@ -4250,7 +4193,7 @@
   (symbol (lib_id "power:+5V") (at 44.45 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72487ce6-4f2d-438e-a369-46c786ce70cd)
-    (property "Reference" "#PWR068" (at 44.45 154.94 0)
+    (property "Reference" "#PWR0410" (at 44.45 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 44.831 146.7358 0)
@@ -4265,9 +4208,6 @@
     (pin "1" (uuid 7df4d916-e081-49ac-a290-9b9930cda931))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR068") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0410") (unit 1)
         )
@@ -4278,7 +4218,7 @@
   (symbol (lib_id "Device:Ferrite_Bead_Small") (at 69.85 80.645 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 841ef80f-0a00-4f26-b6a1-08ea539d10b9)
-    (property "Reference" "FB202" (at 69.85 74.6252 90)
+    (property "Reference" "FB401" (at 69.85 74.6252 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805" (at 69.85 76.9366 90)
@@ -4300,9 +4240,6 @@
     (pin "2" (uuid 8ba4553d-6f20-409b-a8e0-aa7cdc19991c))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "FB202") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "FB401") (unit 1)
         )
@@ -4313,7 +4250,7 @@
   (symbol (lib_id "power:GND") (at 248.285 37.465 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84fe1fd2-b809-45ab-94cc-47c757ed0f42)
-    (property "Reference" "#PWR0303" (at 248.285 43.815 0)
+    (property "Reference" "#PWR0422" (at 248.285 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.412 41.8592 0)
@@ -4328,9 +4265,6 @@
     (pin "1" (uuid a582829a-236d-45aa-9a2d-eaf1346a795e))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0303") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0422") (unit 1)
         )
@@ -4374,7 +4308,7 @@
   (symbol (lib_id "power:GND") (at 202.565 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 891dbbc7-a904-4aec-b83a-1a34f48bb68a)
-    (property "Reference" "#PWR0125" (at 202.565 62.865 0)
+    (property "Reference" "#PWR0418" (at 202.565 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 202.692 60.9092 0)
@@ -4389,9 +4323,6 @@
     (pin "1" (uuid 1694d3c7-25ee-456d-a95e-9395431cbcda))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR0125") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0418") (unit 1)
         )
@@ -4402,7 +4333,7 @@
   (symbol (lib_id "Connector:DB9_Female_MountingHoles") (at 33.02 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89af47f6-11eb-44ab-a31a-db3e48ba61b4)
-    (property "Reference" "J7" (at 35.1028 21.7932 0)
+    (property "Reference" "J401" (at 35.1028 21.7932 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Radio" (at 35.1028 24.1046 0)
@@ -4432,9 +4363,6 @@
     (pin "9" (uuid 642643eb-26f4-4678-9e58-970f6d5b2719))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "J7") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J401") (unit 1)
         )
@@ -4445,7 +4373,7 @@
   (symbol (lib_id "Device:R_Small") (at 59.69 154.305 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e2b5c03-4675-4211-9bc7-37c3a7745880)
-    (property "Reference" "R35" (at 59.69 149.3266 90)
+    (property "Reference" "R406" (at 59.69 149.3266 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k2" (at 59.69 151.638 90)
@@ -4464,9 +4392,6 @@
     (pin "2" (uuid 94272704-207a-43ca-912f-73066ea92710))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "R35") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R406") (unit 1)
         )
@@ -4477,7 +4402,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 210.185 51.435 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 91af373d-d2be-460f-93a5-2b3f5d25d25c)
-    (property "Reference" "J10" (at 212.725 50.165 0)
+    (property "Reference" "J409" (at 212.725 50.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "UART" (at 212.725 52.705 0)
@@ -4497,9 +4422,6 @@
     (pin "3" (uuid c0f4e1cc-24c8-4663-b274-b57c875ddda6))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "J10") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J409") (unit 1)
         )
@@ -4510,7 +4432,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 88.265 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 928fbb0a-f0fd-4086-9aa7-645e9db6ba3a)
-    (property "Reference" "J11" (at 90.805 39.37 0)
+    (property "Reference" "J403" (at 90.805 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Radio_Opt" (at 90.805 41.91 0)
@@ -4536,9 +4458,6 @@
     (pin "6" (uuid 6393ea5d-3808-45c4-8e64-2fbd5cc6a0f3))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "J11") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J403") (unit 1)
         )
@@ -4549,7 +4468,7 @@
   (symbol (lib_id "Connector:AudioJack3") (at 36.83 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9490d40a-f401-48a9-8407-df344df03b6a)
-    (property "Reference" "J1" (at 36.3728 165.735 0)
+    (property "Reference" "J405" (at 36.3728 165.735 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Kenwood-2.5" (at 36.3728 168.0464 0)
@@ -4572,9 +4491,6 @@
     (pin "T" (uuid ac55fdd5-f69f-418d-bacb-809c89c17e64))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "J1") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J405") (unit 1)
         )
@@ -4585,7 +4501,7 @@
   (symbol (lib_id "power:GND") (at 80.645 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96c82283-2779-4bdd-bdf4-d43e875c722f)
-    (property "Reference" "#PWR0154" (at 80.645 55.88 0)
+    (property "Reference" "#PWR0408" (at 80.645 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.772 53.9242 0)
@@ -4600,9 +4516,6 @@
     (pin "1" (uuid 2b2b4196-b0bf-4d8a-a099-3750ae7be8c6))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0154") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0408") (unit 1)
         )
@@ -4638,7 +4551,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 139.065 163.195 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid aa568c21-038a-42b1-88c5-df9eb82001ea)
-    (property "Reference" "J12" (at 142.24 163.195 0)
+    (property "Reference" "J410" (at 142.24 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Speaker" (at 142.24 165.735 0)
@@ -4657,9 +4570,6 @@
     (pin "2" (uuid fb735f72-74d9-4e02-b855-77fe180a9bd9))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "J12") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J410") (unit 1)
         )
@@ -4756,7 +4666,7 @@
   (symbol (lib_id "power:GND") (at 36.83 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bda905bc-e2c1-4d49-b9ef-422bee7e1860)
-    (property "Reference" "#PWR047" (at 36.83 127.635 0)
+    (property "Reference" "#PWR0402" (at 36.83 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.957 125.6792 0)
@@ -4771,9 +4681,6 @@
     (pin "1" (uuid 16d80504-01ca-48e2-a9fa-6a535ba9fde9))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR047") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0402") (unit 1)
         )
@@ -4784,7 +4691,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 210.185 27.94 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid c01c7bad-5e5f-4f75-b3b2-ec60c667db27)
-    (property "Reference" "J9" (at 212.725 27.94 0)
+    (property "Reference" "J408" (at 212.725 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STLink" (at 212.725 30.48 0)
@@ -4805,9 +4712,6 @@
     (pin "4" (uuid 022b9720-6825-4458-9f84-8b49ee9c395e))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "J9") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J408") (unit 1)
         )
@@ -4818,7 +4722,7 @@
   (symbol (lib_id "power:GND") (at 202.565 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c09c4dac-680e-4451-a534-aa724234e2ef)
-    (property "Reference" "#PWR07" (at 202.565 41.91 0)
+    (property "Reference" "#PWR0417" (at 202.565 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 202.692 39.9542 0)
@@ -4833,9 +4737,6 @@
     (pin "1" (uuid 3a21d2d5-2e3f-4ce7-8375-192edb52c253))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0417") (unit 1)
         )
@@ -4846,7 +4747,7 @@
   (symbol (lib_id "Connector:AudioJack3") (at 36.83 156.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d22fa10c-af43-404c-9a8a-4e9ca94e0bc4)
-    (property "Reference" "J5" (at 36.3728 148.59 0)
+    (property "Reference" "J404" (at 36.3728 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Kenwood-3.5" (at 36.3728 150.9014 0)
@@ -4869,9 +4770,6 @@
     (pin "T" (uuid e5620d1b-67be-4187-bbe0-1a3b9e8d1b4f))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "J5") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J404") (unit 1)
         )
@@ -4882,7 +4780,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x07") (at 145.415 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2b2012e-bc80-46c0-bb22-fd90c75ebaae)
-    (property "Reference" "J301" (at 147.4471 34.0165 0)
+    (property "Reference" "J406" (at 147.4471 34.0165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.54mm Header 7p" (at 147.4471 36.7916 0)
@@ -4912,9 +4810,6 @@
     (pin "7" (uuid dc10aab5-1d53-49ae-8c40-f7369703829b))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "J301") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J406") (unit 1)
         )
@@ -4925,7 +4820,7 @@
   (symbol (lib_id "power:GND") (at 131.445 168.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d397d5d2-f923-48a2-8c95-872860bfe4b0)
-    (property "Reference" "#PWR083" (at 131.445 174.625 0)
+    (property "Reference" "#PWR0420" (at 131.445 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 131.445 173.355 0)
@@ -4940,9 +4835,6 @@
     (pin "1" (uuid 7b775b5a-3c9a-4e25-b45f-0891e331833a))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR083") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0420") (unit 1)
         )
@@ -4953,7 +4845,7 @@
   (symbol (lib_id "power:+5V") (at 79.375 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6fbc373-c9cb-4391-9dec-4537d10daea8)
-    (property "Reference" "#PWR048" (at 79.375 82.55 0)
+    (property "Reference" "#PWR0406" (at 79.375 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 79.756 74.3458 0)
@@ -4968,9 +4860,6 @@
     (pin "1" (uuid 33b32548-bfe9-4f42-80b8-1647443b5dcc))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "#PWR048") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0406") (unit 1)
         )
@@ -4981,7 +4870,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 36.83 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e02f476f-2afd-42c3-83e9-e57308bf91ef)
-    (property "Reference" "J2" (at 39.5478 73.8632 0)
+    (property "Reference" "J402" (at 39.5478 73.8632 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C" (at 39.5478 76.1746 0)
@@ -5018,9 +4907,6 @@
     (pin "S1" (uuid 55bb2128-c370-450f-951b-fd14660cba2c))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "J2") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "J402") (unit 1)
         )
@@ -5031,7 +4917,7 @@
   (symbol (lib_id "Device:R_Small") (at 57.15 85.725 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2a30fc2-0ac0-4989-9967-5c0c179ad61b)
-    (property "Reference" "R15" (at 57.15 83.185 90)
+    (property "Reference" "R401" (at 57.15 83.185 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 57.15 85.725 90)
@@ -5050,9 +4936,6 @@
     (pin "2" (uuid f88887e5-3912-418c-a8da-a5fcc081ef76))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "R15") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R401") (unit 1)
         )
@@ -5063,7 +4946,7 @@
   (symbol (lib_id "Device:R_Small") (at 193.675 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8f312c4-5c3e-4d38-ba5a-1ec5e638cbaa)
-    (property "Reference" "R4" (at 193.675 20.32 90)
+    (property "Reference" "R407" (at 193.675 20.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 193.675 22.86 90)
@@ -5082,9 +4965,6 @@
     (pin "2" (uuid 41a080f0-e5c1-4190-a8c0-b8017e0a9c0a))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "R4") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R407") (unit 1)
         )
@@ -5120,7 +5000,7 @@
   (symbol (lib_id "Device:R_Small") (at 193.675 27.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1984512-9119-493f-a331-60d7903fecb1)
-    (property "Reference" "R3" (at 193.675 33.02 90)
+    (property "Reference" "R408" (at 193.675 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 193.675 30.607 90)
@@ -5139,9 +5019,6 @@
     (pin "2" (uuid 6de22a78-d5d7-47f7-a96e-c0916d0a2670))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
-          (reference "R3") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R408") (unit 1)
         )
@@ -5152,13 +5029,13 @@
   (symbol (lib_id "Device:R_Small") (at 100.33 165.735 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2a67885-0c49-4776-8a44-3e6a43799622)
-    (property "Reference" "R69" (at 100.33 163.83 90)
+    (property "Reference" "R410" (at 100.33 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0" (at 100.33 165.735 90)
+    (property "Value" "100" (at 100.33 165.735 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 100.33 165.735 0)
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 100.33 165.735 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 100.33 165.735 0)
@@ -5171,9 +5048,6 @@
     (pin "2" (uuid e3ce86db-0894-41ca-879f-7d91aac231c0))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "R69") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "R410") (unit 1)
         )
@@ -5184,7 +5058,7 @@
   (symbol (lib_id "power:GND") (at 44.45 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdb88881-716e-4c54-8128-f237683b9e4d)
-    (property "Reference" "#PWR067" (at 44.45 185.42 0)
+    (property "Reference" "#PWR0411" (at 44.45 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 184.15 0)
@@ -5199,9 +5073,6 @@
     (pin "1" (uuid f58e116a-ae15-4ce7-8224-ed02d2f81d6b))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR067") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/7f9420e4-5dd1-4e05-8205-18dae2029540"
           (reference "#PWR0411") (unit 1)
         )

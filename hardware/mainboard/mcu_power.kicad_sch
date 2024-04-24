@@ -4752,13 +4752,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 257.81 40.64 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 257.81 40.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000613fe150)
-    (property "Reference" "R223" (at 259.3086 39.4716 0)
+    (property "Reference" "R223" (at 256.3114 39.4716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 259.3086 41.783 0)
+    (property "Value" "10k" (at 256.3114 41.783 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 257.81 40.64 0)
@@ -4806,13 +4806,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 229.235 40.005 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 229.235 40.005 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061402439)
-    (property "Reference" "R219" (at 230.7336 38.8366 0)
+    (property "Reference" "R219" (at 227.7364 38.8366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 230.7336 41.148 0)
+    (property "Value" "10k" (at 227.7364 41.148 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 229.235 40.005 0)
@@ -4990,13 +4990,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 229.235 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 229.235 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061417fa7)
-    (property "Reference" "R220" (at 230.7336 76.3016 0)
+    (property "Reference" "R220" (at 227.7364 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 230.7336 78.613 0)
+    (property "Value" "10k" (at 227.7364 78.613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 229.235 77.47 0)
@@ -5190,13 +5190,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 201.295 40.005 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 201.295 40.005 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006142ea52)
-    (property "Reference" "R215" (at 202.7936 38.8366 0)
+    (property "Reference" "R215" (at 199.7964 38.8366 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 202.7936 41.148 0)
+    (property "Value" "10k" (at 199.7964 41.148 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 201.295 40.005 0)
@@ -5336,13 +5336,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 201.295 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 201.295 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006145aa03)
-    (property "Reference" "R216" (at 202.7936 76.3016 0)
+    (property "Reference" "R216" (at 199.7964 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 202.7936 78.613 0)
+    (property "Value" "10k" (at 199.7964 78.613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 201.295 77.47 0)
@@ -5482,13 +5482,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 257.81 77.47 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 257.81 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006145aa3d)
-    (property "Reference" "R224" (at 259.3086 76.3016 0)
+    (property "Reference" "R224" (at 256.3114 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 259.3086 78.613 0)
+    (property "Value" "10k" (at 256.3114 78.613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 257.81 77.47 0)
@@ -6184,7 +6184,7 @@
   (symbol (lib_id "Device:Ferrite_Bead_Small") (at 257.81 147.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27b20226-e1b4-4adb-b358-1f5a276a4bed)
-    (property "Reference" "FB301" (at 257.81 141.3002 90)
+    (property "Reference" "FB203" (at 257.81 141.3002 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB0805" (at 257.81 143.6116 90)
@@ -6206,9 +6206,6 @@
     (pin "2" (uuid aacc16b1-919b-4cff-b8a0-586886b2af8b))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "FB301") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "FB203") (unit 1)
         )
@@ -6326,7 +6323,7 @@
   (symbol (lib_id "power:+5V") (at 249.555 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d3ca4ac-cc2e-4efa-969b-432c4ad40232)
-    (property "Reference" "#PWR0326" (at 249.555 148.59 0)
+    (property "Reference" "#PWR0263" (at 249.555 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 249.555 141.1754 0)
@@ -6341,9 +6338,6 @@
     (pin "1" (uuid 69c7b4f6-29d1-4168-94a5-0802ad1dcae7))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0326") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0263") (unit 1)
         )
@@ -6487,7 +6481,7 @@
   (symbol (lib_id "power:GND") (at 263.525 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c9f2b61-0d02-46e2-89f7-c7c34ad086ab)
-    (property "Reference" "#PWR0330" (at 263.525 161.29 0)
+    (property "Reference" "#PWR0265" (at 263.525 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 263.652 159.3342 0)
@@ -6502,9 +6496,6 @@
     (pin "1" (uuid cd99d9bc-5f2b-4bd3-a5fb-e2a45c3f40b6))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0330") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0265") (unit 1)
         )
@@ -6540,7 +6531,7 @@
   (symbol (lib_id "Device:C_Small") (at 182.245 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ec5eba9-832e-4e08-a116-9a7a15ce3dd6)
-    (property "Reference" "C315" (at 184.5818 149.9616 0)
+    (property "Reference" "C223" (at 184.5818 149.9616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 184.5818 152.273 0)
@@ -6559,9 +6550,6 @@
     (pin "2" (uuid c7453282-f19a-449e-9313-a3e8f3499557))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "C315") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "C223") (unit 1)
         )
@@ -6597,7 +6585,7 @@
   (symbol (lib_id "Device:C_Small") (at 273.685 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61c5329f-1255-436f-9d6f-d69bdae152b2)
-    (property "Reference" "C319" (at 276.0218 151.2316 0)
+    (property "Reference" "C225" (at 276.0218 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 276.0218 153.543 0)
@@ -6616,9 +6604,6 @@
     (pin "2" (uuid 7d451f6d-42cd-4577-baff-94b0d00710ea))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "C319") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "C225") (unit 1)
         )
@@ -6708,7 +6693,7 @@
   (symbol (lib_id "power:GND") (at 182.245 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e59ddfa-fc26-464e-a2c4-2efcfc8fa42d)
-    (property "Reference" "#PWR0327" (at 182.245 160.02 0)
+    (property "Reference" "#PWR0264" (at 182.245 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.372 158.0642 0)
@@ -6723,9 +6708,6 @@
     (pin "1" (uuid 7d882ad1-a5ed-4f8f-9183-7a34357b6512))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0327") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0264") (unit 1)
         )
@@ -6768,7 +6750,7 @@
   (symbol (lib_id "Device:C_Small") (at 263.525 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 738c097b-6275-4aaf-87ab-c99ba98c3a3f)
-    (property "Reference" "C317" (at 265.8618 151.2316 0)
+    (property "Reference" "C224" (at 265.8618 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 265.8618 153.543 0)
@@ -6787,9 +6769,6 @@
     (pin "2" (uuid 8dfefb5b-8159-427b-9aa5-f3fd32dea279))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "C317") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "C224") (unit 1)
         )
@@ -6999,7 +6978,7 @@
   (symbol (lib_id "power:GND") (at 273.685 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 859143fd-ddfb-421f-8029-64087ada2828)
-    (property "Reference" "#PWR0333" (at 273.685 161.29 0)
+    (property "Reference" "#PWR0266" (at 273.685 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.812 159.3342 0)
@@ -7014,9 +6993,6 @@
     (pin "1" (uuid 877a4b23-8f52-4a41-9500-9b310e1bd909))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0333") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0266") (unit 1)
         )
@@ -7592,7 +7568,7 @@
   (symbol (lib_id "Device:C_Small") (at 159.385 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cac0527c-c3a9-4044-ab9f-78b0d0f8da61)
-    (property "Reference" "C315" (at 161.7218 151.2316 0)
+    (property "Reference" "C212" (at 161.7218 151.2316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 161.7218 153.543 0)
@@ -7611,9 +7587,6 @@
     (pin "2" (uuid dce84086-5f85-4ac4-b6a5-2a21448b7a1e))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "C315") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "C212") (unit 1)
         )
@@ -7824,7 +7797,7 @@
   (symbol (lib_id "power:VAA") (at 273.685 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9ee4d91-9465-4d71-84ef-0689025e83e0)
-    (property "Reference" "#PWR0334" (at 273.685 148.59 0)
+    (property "Reference" "#PWR0267" (at 273.685 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VAA" (at 274.066 140.3858 0)
@@ -7839,9 +7812,6 @@
     (pin "1" (uuid 835e6bd8-e80e-4fe3-80a9-760b958e78bd))
     (instances
       (project "Module17-Mainboard"
-        (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-          (reference "#PWR0334") (unit 1)
-        )
         (path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
           (reference "#PWR0267") (unit 1)
         )
