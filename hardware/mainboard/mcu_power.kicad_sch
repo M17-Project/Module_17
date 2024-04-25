@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Module17")
-		(date "2023-12-06")
-		(rev "Rev 0.99")
+		(date "2024-04-25")
+		(rev "Rev 0.99b")
 		(company "M17Project")
 		(comment 1 "Morgan ON4MOD")
 		(comment 2 "Mathis - DB9MAT")
@@ -1118,6 +1118,127 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -5211,6 +5332,12 @@
 		(uuid "664d1420-f610-4501-8f7e-6767c6fba654")
 	)
 	(junction
+		(at 198.755 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "668fd4f4-199b-439d-b6c2-8f59d3dd26ab")
+	)
+	(junction
 		(at 146.685 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5233,6 +5360,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79770cd5-32d7-429a-8248-0d9e6212231a")
+	)
+	(junction
+		(at 187.325 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bcf4947-76f9-4c29-82ce-005ec68b35b3")
 	)
 	(junction
 		(at 273.685 147.32)
@@ -5446,6 +5579,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.755 146.05) (xy 198.755 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0182dfb1-2771-4f8a-b354-6326cec1590f")
+	)
+	(wire
+		(pts
 			(xy 106.045 99.695) (xy 108.585 99.695)
 		)
 		(stroke
@@ -5646,7 +5789,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 146.05) (xy 187.96 146.05)
+			(xy 182.245 146.05) (xy 187.325 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5696,7 +5839,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 146.05) (xy 182.245 148.59)
+			(xy 182.245 146.05) (xy 182.245 154.305)
 		)
 		(stroke
 			(width 0)
@@ -5866,6 +6009,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 149.225) (xy 198.755 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20abce16-6181-44cb-9aef-390f8770f278")
+	)
+	(wire
+		(pts
 			(xy 137.795 79.375) (xy 137.795 80.645)
 		)
 		(stroke
@@ -5993,6 +6146,16 @@
 			(type default)
 		)
 		(uuid "2dd020ad-cc8f-48b4-9d44-9d0d2c43fc3c")
+	)
+	(wire
+		(pts
+			(xy 187.325 146.05) (xy 187.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "326173a3-c9e0-4785-964f-a2cb727277ca")
 	)
 	(wire
 		(pts
@@ -7056,6 +7219,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.325 146.05) (xy 187.325 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a482a7-ab9b-4284-bdf1-54c481f9ae9d")
+	)
+	(wire
+		(pts
 			(xy 159.385 154.94) (xy 159.385 158.75)
 		)
 		(stroke
@@ -7766,6 +7939,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.755 146.05) (xy 203.835 146.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d7f7cda3-01f0-4c5c-ad1b-2cb445f46d5f")
+	)
+	(wire
+		(pts
 			(xy 239.395 34.925) (xy 241.935 34.925)
 		)
 		(stroke
@@ -7836,6 +8019,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.325 149.225) (xy 189.23 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6517ea-5b60-428d-b092-0859fef7f398")
+	)
+	(wire
+		(pts
 			(xy 32.385 81.915) (xy 34.925 81.915)
 		)
 		(stroke
@@ -7846,7 +8039,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 146.05) (xy 203.835 146.05)
+			(xy 198.12 146.05) (xy 198.755 146.05)
 		)
 		(stroke
 			(width 0)
@@ -9805,7 +9998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/2.2uF/C0G/25V/0603"
+		(property "MPN" "Generic C/2.2uF/X5R/25V/0603"
 			(at 67.945 53.975 0)
 			(effects
 				(font
@@ -9883,7 +10076,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/2.2uF/C0G/25V/0603"
+		(property "MPN" "Generic C/2.2uF/X5R/25V/0603"
 			(at 57.785 53.975 0)
 			(effects
 				(font
@@ -10176,7 +10369,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/1uF/C0G/25V/0603"
+		(property "MPN" "Generic C/1uF/X7R/25V/0603"
 			(at 228.6 152.4 0)
 			(effects
 				(font
@@ -10253,7 +10446,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 238.125 152.4 0)
 			(effects
 				(font
@@ -10525,7 +10718,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -10602,7 +10795,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10nF/C0G/25V/0603"
+		(property "MPN" "Generic C/10nF/X7R/25V/0603"
 			(at 160.02 107.95 0)
 			(effects
 				(font
@@ -10679,7 +10872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 170.18 107.95 0)
 			(effects
 				(font
@@ -10756,7 +10949,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 189.23 107.95 0)
 			(effects
 				(font
@@ -10833,7 +11026,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10nF/C0G/25V/0603"
+		(property "MPN" "Generic C/10nF/X7R/25V/0603"
 			(at 198.12 107.95 0)
 			(effects
 				(font
@@ -10910,7 +11103,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/1uF/C0G/25V/0603"
+		(property "MPN" "Generic C/1uF/X7R/25V/0603"
 			(at 227.33 107.95 0)
 			(effects
 				(font
@@ -11612,7 +11805,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 187.325 77.47 0)
 			(effects
 				(font
@@ -14946,7 +15139,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 109.855 182.88 0)
 			(effects
 				(font
@@ -15283,7 +15476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 140.335 182.88 0)
 			(effects
 				(font
@@ -15360,7 +15553,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/1uF/C0G/25V/0603"
+		(property "MPN" "Generic C/1uF/X7R/25V/0603"
 			(at 149.225 182.88 0)
 			(effects
 				(font
@@ -15834,7 +16027,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1249f9e9-7e3f-4639-ad70-86cde4c57138")
 		(property "Reference" "JP201"
@@ -16896,7 +17089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 208.28 107.95 0)
 			(effects
 				(font
@@ -17251,7 +17444,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.245 151.13 0)
+		(at 182.245 156.845 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17259,7 +17452,7 @@
 		(dnp no)
 		(uuid "5ec5eba9-832e-4e08-a116-9a7a15ce3dd6")
 		(property "Reference" "C223"
-			(at 184.5818 149.9616 0)
+			(at 184.5818 155.6766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17268,7 +17461,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 184.5818 152.273 0)
+			(at 184.5818 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17277,7 +17470,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 182.245 151.13 0)
+			(at 182.245 156.845 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17286,7 +17479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.245 151.13 0)
+			(at 182.245 156.845 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17294,7 +17487,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.245 151.13 0)
+			(at 182.245 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17303,7 +17496,7 @@
 			)
 		)
 		(property "MPN" "Generic C/22uF/X7R/10V/1206"
-			(at 182.245 151.13 0)
+			(at 182.245 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17444,7 +17637,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 273.685 152.4 0)
 			(effects
 				(font
@@ -17600,6 +17793,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 193.04 149.225 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64713e6b-0bb4-4e05-b4aa-38fbc335069f")
+		(property "Reference" "R233"
+			(at 193.04 151.765 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 193.04 149.225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 193.04 147.447 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Generic R/0R/0603"
+			(at 193.04 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "932a9bfb-eae7-486a-8821-1ba402dda7b8")
+		)
+		(pin "1"
+			(uuid "8696efc1-154f-475e-98e7-7c589e095447")
+		)
+		(instances
+			(project "Module17-Mainboard"
+				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c95ef"
+					(reference "R233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 81.915 149.86 0)
 		(mirror y)
@@ -17680,7 +17949,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.245 153.67 0)
+		(at 182.245 159.385 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17688,7 +17957,7 @@
 		(dnp no)
 		(uuid "6e59ddfa-fc26-464e-a2c4-2efcfc8fa42d")
 		(property "Reference" "#PWR0264"
-			(at 182.245 160.02 0)
+			(at 182.245 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17697,7 +17966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.372 158.0642 0)
+			(at 182.372 163.7792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17705,7 +17974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.245 153.67 0)
+			(at 182.245 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17714,7 +17983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.245 153.67 0)
+			(at 182.245 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17723,7 +17992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.245 153.67 0)
+			(at 182.245 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17881,7 +18150,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/1uF/C0G/25V/0603"
+		(property "MPN" "Generic C/1uF/X7R/25V/0603"
 			(at 263.525 152.4 0)
 			(effects
 				(font
@@ -17957,7 +18226,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 141.605 134.62 0)
 			(effects
 				(font
@@ -18101,7 +18370,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10nF/C0G/25V/0603"
+		(property "MPN" "Generic C/10nF/X7R/25V/0603"
 			(at 34.925 152.4 0)
 			(effects
 				(font
@@ -18178,7 +18447,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10nF/C0G/25V/0603"
+		(property "MPN" "Generic C/10nF/X7R/25V/0603"
 			(at 179.07 107.95 0)
 			(effects
 				(font
@@ -18698,7 +18967,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10nF/C0G/25V/0603"
+		(property "MPN" "Generic C/10nF/X7R/25V/0603"
 			(at 217.17 107.95 0)
 			(effects
 				(font
@@ -20505,7 +20774,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10uF/C0G/25V/1210"
+		(property "MPN" "Generic C/10uF/X7R/25V/1210"
 			(at 107.315 151.13 0)
 			(effects
 				(font

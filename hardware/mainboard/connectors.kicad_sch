@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Module17")
-		(date "2023-12-06")
-		(rev "Rev 0.99")
+		(date "2024-04-25")
+		(rev "Rev 0.99b")
 		(company "M17Project")
 		(comment 1 "Morgan ON4MOD")
 		(comment 2 "Mathis - DB9MAT")
@@ -9631,7 +9631,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f73cff4-29c5-4252-baa8-1893e91da780")
 		(property "Reference" "J412"
@@ -10167,7 +10167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 53.34 158.75 0)
 			(effects
 				(font
@@ -11505,7 +11505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 33.02 39.37 0)
 			(effects
 				(font

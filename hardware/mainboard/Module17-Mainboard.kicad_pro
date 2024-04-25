@@ -60,15 +60,10 @@
         }
       ],
       "drc_exclusions": [
-        "footprint_type_mismatch|217800000|49150000|52f86bf7-c59a-405f-b50e-a0a709eae3e8|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|213280000|126198000|3a5a4a43-8e2f-4d23-a668-992d323e18ec|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|217800000|49710000|52f86bf7-c59a-405f-b50e-a0a709eae3e8|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|224305000|125240000|c2a932de-31f6-478c-afff-dbf69ecbebd4|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|233800000|51700000|fc34260f-390b-490f-899b-646f8a66bfa6|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|217800000|49300000|52f86bf7-c59a-405f-b50e-a0a709eae3e8|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|242500000|135125000|cedaeb60-e080-4c81-9704-2c1a2ba35103|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|245200000|50350000|f9b22e10-57de-4164-9dc3-cbb59cc850f3|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|260700000|50350000|62d76f5a-be60-449f-a9c7-d7313030bcab|00000000-0000-0000-0000-000000000000",
-        "text_thickness|261550000|64575000|964127e3-170a-462e-abd4-7af2a1b9827f|00000000-0000-0000-0000-000000000000"
+        "silk_overlap|239655145|109800441|3e662e36-966a-4074-9d80-de73e8bf0810|214f1ca0-e5ee-4b31-915e-ea9ac7ff1234",
+        "text_thickness|261550000|62575000|964127e3-170a-462e-abd4-7af2a1b9827f|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -644,11 +639,47 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alt LCSC Part #",
+          "name": "Alt LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

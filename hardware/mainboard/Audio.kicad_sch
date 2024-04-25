@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Module17")
-		(date "2023-12-06")
-		(rev "Rev 0.99")
+		(date "2024-04-25")
+		(rev "Rev 0.99b")
 		(company "M17Project")
 		(comment 1 "Morgan ON4MOD")
 		(comment 2 "Mathis - DB9MAT")
@@ -3027,6 +3027,12 @@
 		(uuid "35fc5917-85ed-430a-af29-e1aaa9fddb54")
 	)
 	(junction
+		(at 142.875 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd9b917-ce45-4ee4-b413-1386598983a5")
+	)
+	(junction
 		(at 125.095 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3049,12 +3055,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70b066c4-f4c6-4d66-a47b-701115772bc1")
-	)
-	(junction
-		(at 135.89 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71081c93-c7a5-479e-ac62-4c0f2370e42b")
 	)
 	(junction
 		(at 69.85 78.74)
@@ -3097,6 +3097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c789b85a-1059-4ed2-9cb2-1b2e94c2a486")
+	)
+	(junction
+		(at 147.955 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4429bb9-1e56-466f-ab50-042d56e04191")
 	)
 	(junction
 		(at 130.81 54.61)
@@ -3223,16 +3229,6 @@
 			(type solid)
 		)
 		(uuid "0fc4fb7e-c5fe-4588-9574-c325a7965a34")
-	)
-	(wire
-		(pts
-			(xy 135.89 129.54) (xy 152.4 129.54)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "134d6179-2692-4208-a3df-65cc48d6c7a3")
 	)
 	(wire
 		(pts
@@ -3596,13 +3592,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 129.54) (xy 135.89 125.73)
+			(xy 142.875 135.89) (xy 142.875 137.16)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
-		(uuid "49e57658-05cb-4fd3-88b9-0422a2f1f50c")
+		(uuid "49e35ddc-864f-43fc-b208-09ba48a61b3b")
 	)
 	(wire
 		(pts
@@ -3806,6 +3802,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.875 129.54) (xy 142.875 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a73d77-bdba-450e-ae54-f53cf835e86b")
+	)
+	(wire
+		(pts
 			(xy 196.85 54.61) (xy 196.85 52.07)
 		)
 		(stroke
@@ -3943,6 +3949,16 @@
 			(type default)
 		)
 		(uuid "90856f27-73f9-4473-ae80-bd7f5e1b6adb")
+	)
+	(wire
+		(pts
+			(xy 147.955 123.825) (xy 147.955 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "93295268-791a-4e84-94cd-2a5670a384a7")
 	)
 	(wire
 		(pts
@@ -4136,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 129.54) (xy 135.89 129.54)
+			(xy 133.35 129.54) (xy 135.255 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4223,6 +4239,16 @@
 			(type solid)
 		)
 		(uuid "c4e50d1a-f9d8-4cf3-840e-d09f9e9dd720")
+	)
+	(wire
+		(pts
+			(xy 142.875 129.54) (xy 147.955 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54858b6-0a36-4aa0-bb10-5052c9902a18")
 	)
 	(wire
 		(pts
@@ -4486,6 +4512,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.335 129.54) (xy 142.875 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e02146d6-6d72-45d1-bb0c-3c8e98eacfa1")
+	)
+	(wire
+		(pts
 			(xy 168.91 49.53) (xy 171.45 49.53)
 		)
 		(stroke
@@ -4593,6 +4629,16 @@
 			(type solid)
 		)
 		(uuid "ebbb6239-6dd4-4568-abc1-5516ee0252ca")
+	)
+	(wire
+		(pts
+			(xy 147.955 129.54) (xy 156.845 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9246e3-1d06-4adb-a1a2-d18611be7239")
 	)
 	(wire
 		(pts
@@ -5001,7 +5047,7 @@
 	)
 	(global_label "AUDIO_MIC"
 		(shape input)
-		(at 152.4 129.54 0)
+		(at 156.845 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5011,7 +5057,7 @@
 		)
 		(uuid "de8c7f3e-9ce9-4490-9028-9fe863ae9ca7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 25.4 0)
+			(at 47.625 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5184,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 153.67 115.57 0)
 			(effects
 				(font
@@ -5215,7 +5261,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/2.2uF/C0G/25V/0603"
+		(property "MPN" "Generic C/2.2uF/X5R/25V/0603"
 			(at 163.83 115.57 0)
 			(effects
 				(font
@@ -5487,7 +5533,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 191.77 40.64 0)
 			(effects
 				(font
@@ -6145,7 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -6893,6 +6939,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 142.875 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26d8dcbe-602a-4f77-967d-1bf390779fb7")
+		(property "Reference" "#PWR0333"
+			(at 142.875 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.002 141.5542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.875 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.875 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.875 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5a93c1b-1886-483c-9f7e-74d6f490634a")
+		)
+		(instances
+			(project "Module17-Mainboard"
+				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
+					(reference "#PWR0333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 106.045 180.34 270)
 		(mirror x)
@@ -7550,7 +7661,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 38.735 77.47 0)
 			(effects
 				(font
@@ -7692,7 +7803,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10n/X7R/25V/0603"
+		(property "MPN" "Generic C/10nF/C0G/25V/0603"
 			(at 73.66 36.195 0)
 			(effects
 				(font
@@ -7770,7 +7881,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 176.53 59.69 0)
 			(effects
 				(font
@@ -8018,7 +8129,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10n/X7R/25V/0603"
+		(property "MPN" "Generic C/10nF/C0G/25V/0603"
 			(at 53.34 53.975 0)
 			(effects
 				(font
@@ -8179,82 +8290,6 @@
 			(project "Module17-Mainboard"
 				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
 					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 135.89 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ea62372-4810-4951-9e53-35466d9b06e3")
-		(property "Reference" "TP304"
-			(at 137.2871 122.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_MIC_POST"
-			(at 137.2871 125.7551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 135.89 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da6976b6-f333-4e3b-ad88-2689013d69ef")
-		)
-		(instances
-			(project "Module17-Mainboard"
-				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
-					(reference "TP304")
 					(unit 1)
 				)
 			)
@@ -8845,7 +8880,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/470nF/C0G/25V/0603"
+		(property "MPN" "Generic C/470nF/X7R/50V/0603"
 			(at 76.2 142.24 0)
 			(effects
 				(font
@@ -8923,7 +8958,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 55.88 142.24 0)
 			(effects
 				(font
@@ -9350,7 +9385,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 133.35 59.69 0)
 			(effects
 				(font
@@ -9491,7 +9526,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/220nF/C0G/25V/0603"
+		(property "MPN" "Generic C/220nF/X7R/25V/0603"
 			(at 118.11 54.61 0)
 			(effects
 				(font
@@ -10471,7 +10506,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/2.2uF/C0G/25V/0603"
+		(property "MPN" "Generic C/2.2uF/X5R/25V/0603"
 			(at 85.09 142.24 0)
 			(effects
 				(font
@@ -10596,6 +10631,84 @@
 			(project "Module17-Mainboard"
 				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
 					(reference "IC301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.875 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cef0027b-a9cd-4637-828a-c99d5490ddd4")
+		(property "Reference" "C317"
+			(at 144.78 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 142.875 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.875 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.875 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
+			(at 142.875 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2af68b06-9426-4769-a3e5-a8b1a07786d2")
+		)
+		(pin "1"
+			(uuid "c81eae4a-c306-4376-be45-19e3cc921523")
+		)
+		(instances
+			(project "Module17-Mainboard"
+				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -10760,6 +10873,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.955 123.825 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d19b2109-11f2-432c-82c6-7abf20e0a67d")
+		(property "Reference" "TP304"
+			(at 146.5579 121.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_MIC_POST"
+			(at 146.5579 123.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 142.875 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.875 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.955 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 147.955 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddf8f898-26ae-4867-ab75-dbc3d6910a0c")
+		)
+		(instances
+			(project "Module17-Mainboard"
+				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
+					(reference "TP304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 41.91 124.46 0)
 		(unit 1)
@@ -10832,6 +11021,83 @@
 			(project "Module17-Mainboard"
 				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
 					(reference "R309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 137.795 129.54 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbc4ced1-43c4-4cb0-8fc1-6595b5132fd0")
+		(property "Reference" "R320"
+			(at 137.795 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "430"
+			(at 137.795 131.445 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 137.795 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.795 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 137.795 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Generic R/430/0603"
+			(at 137.795 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dd12d61-61af-472d-b66a-129ddde1e14b")
+		)
+		(pin "2"
+			(uuid "1bbcf085-1bab-4997-81a5-417b9951448d")
+		)
+		(instances
+			(project "Module17-Mainboard"
+				(path "/59592280-3207-432b-a891-cd517ec5cf12/00000000-0000-0000-0000-0000612c969e"
+					(reference "R320")
 					(unit 1)
 				)
 			)

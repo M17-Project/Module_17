@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Module17")
-		(date "2023-12-06")
-		(rev "Rev 0.99")
+		(date "2024-04-25")
+		(rev "Rev 0.99b")
 		(company "M17Project")
 		(comment 1 "Morgan ON4MOD")
 		(comment 2 "Mathis - DB9MAT")
@@ -4465,7 +4465,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 206.375 39.37 0)
 			(effects
 				(font
@@ -4782,7 +4782,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C81348"
+		(property "LCSC Part #" "C465012"
 			(at 120.65 83.185 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.975 161.29 0)
 			(effects
 				(font
@@ -5761,7 +5761,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 53.975 161.29 0)
 			(effects
 				(font
@@ -6395,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C81348"
+		(property "LCSC Part #" "C465012"
 			(at 102.235 167.64 0)
 			(effects
 				(font
@@ -7578,7 +7578,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -8153,7 +8153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.295 76.835 0)
 			(effects
 				(font
@@ -8171,7 +8171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/100nF/C0G/25V/0603"
+		(property "MPN" "Generic C/100nF/X7R/50V/0603"
 			(at 74.295 76.835 0)
 			(effects
 				(font

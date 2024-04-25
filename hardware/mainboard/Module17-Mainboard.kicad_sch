@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Module17")
-		(date "2023-12-06")
-		(rev "Rev 0.99")
+		(date "2024-04-25")
+		(rev "Rev 0.99b")
 		(company "M17Project")
 		(comment 1 "Morgan ON4MOD")
 		(comment 2 "Mathis - DB9MAT")
