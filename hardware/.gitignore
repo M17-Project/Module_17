@@ -27,5 +27,4 @@ fp-info-cache
 *.xml
 
 # do not exclude gerber archive
-!*/production/*gerber.zip
-*/fab
+!*/production/*.zip
