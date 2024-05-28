@@ -1,0 +1,30 @@
+connectors:
+  DE-9:
+    type: D-Sub
+    image: 
+      src: dsub9.png
+    subtype: male
+    pinlabels: [NC, Baseband_TX, CAT_RX, CAT_TX, PTT, Baseband_RX, NC, GND, 12V_In]
+  Mini-DIN 6:
+    type: 6-pin Mini-DIN
+    image:
+      src: minidin6.png
+    subtype: male
+    pinlabels: [Data_In, GND, PTT, RX 9600, RX 1200, PK SQL]
+
+cables:
+  Yaesu CT-39:
+    gauge: 24 AWG
+    length: 1
+    colors: [BK, BN, RD, WH, YE, GN]
+    wirecount: 6
+    shield: false
+    notes: "Yaesu 6 pin MiniDIN to bare wire packet interface cable"
+    pn: "CT-39"
+    manufacturer: "Yaesu"
+
+connections:
+  -
+    - DE-9: [2,5,6,8]
+    - Yaesu CT-39: [1,3,4,2]
+    - Mini-DIN 6: [1,3,4,2]
