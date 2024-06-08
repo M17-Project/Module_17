@@ -1,8 +1,21 @@
 ## Flashing
-### Linux
-You need `dfu-util` 0.11 to start the process. `dfu-util` installation instructions are [here](https://dfu-util.sourceforge.net/build.html). It is recommended to use the most recent version - built from source.
 
-To flash, hold the "Escape" (upper left) button down while plugging in USB (or pressing the reset switch) to boot into DFU mode.
+### Entering DFU mode
+To flash the board, you need to put it in DFU mode. The procedure to do so will depend whether you use the HMI board or not.
+
+#### Using the bare modem board (rev 1.0)
+Hold the "Escape" (upper left) button down while pressing the reset switch (upper left corner of the board) or plugging in the USB cable.
+
+#### Using the HMI and enclosure (rev 1.0)
+First put the switch on the rear of the device to the "FW Update" position then either plug in the USB cable or press the reset switch (bottom left corner of the front face of the device). When the device is in DFU mode, you can then put the switch on the rear of the device back to the "Run" position.
+
+#### Using the bare modem board (revisions 0.1a to 0.1e)
+Hold the "Escape" (upper left) button down while pressing the reset switch (left side of the board, abode the kenwood connectors) or plugging in the USB cable.
+
+### Linux
+To flash, you first need to put the device in DFU mode (see above).
+
+You need `dfu-util` 0.11 to start the process. `dfu-util` installation instructions are [here](https://dfu-util.sourceforge.net/build.html). It is recommended to use the most recent version - built from source.
 
 For your convenience, a pre-built binary is available [here](https://files.openrtx.org/nightly/) and [here](https://openrtx.schinken-radio.de/nightly/). The name of the file is `openrtx_mod17_wrap`.
 You can then follow standard [OpenRTX](https://github.com/OpenRTX/OpenRTX)
@@ -15,7 +28,9 @@ Once flashing is complete, reset the board to boot into the newly flashed applic
 `sudo udevadm control --reload-rules`.
 
 ### Windows
-Be sure that you have WinUSB installed for your DFU device. You can use [Zadig](https://zadig.akeo.ie/). To enter the DFU mode, hold down the upper left button (below the display) while plugging the USB-C cable in. The button can now be released. Nothing should appear on the display at this moment. After the Module17 is connected and in DFU mode, select it from the list in Zadig, then install the driver.
+To flash, you first need to put the device in DFU mode (see above).
+
+Be sure that you have WinUSB installed for your DFU device. You can use [Zadig](https://zadig.akeo.ie/). After the Module17 is connected and in DFU mode, select it from the list in Zadig, then install the driver.
 
 - Download the [dfu-util-0.11-binaries.tar.xz dfu-util binary for Windows](https://dfu-util.sourceforge.net/releases/) and unzip.
 - Download the `openrtx_mod17_wrap` file, it's available [here](https://files.openrtx.org/nightly/) and [here](https://openrtx.schinken-radio.de/nightly/).
@@ -26,4 +41,3 @@ Be sure that you have WinUSB installed for your DFU device. You can use [Zadig](
 
 ### Building the firmware yourself
 Building instructions are available [at the OpenRTX project's website](https://openrtx.org/#/compiling).<br>
-**Note**: it is not yet possible to change the station's callsign using the GUI. To change it, please edit [line #47 of the state.c file](https://github.com/OpenRTX/OpenRTX/blob/master/openrtx/src/core/state.c#L47) before compiling.

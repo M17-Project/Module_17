@@ -1,6 +1,6 @@
 ![logo](_media/m17glow.png ':size=25%')
 
-# Module 17 <small>0.1e</small>
+# Module 17 <small>1.0</small>
 
 > A smart-mic for the M17 Protocol
 
