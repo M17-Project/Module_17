@@ -10,7 +10,7 @@ Hold the "Escape" (upper left) button down while pressing the reset switch (uppe
 First put the switch on the rear of the device to the "FW Update" position then either plug in the USB cable or press the reset switch (bottom left corner of the front face of the device). When the device is in DFU mode, you can then put the switch on the rear of the device back to the "Run" position.
 
 #### Using the bare modem board (revisions 0.1a to 0.1e)
-Hold the "Escape" (upper left) button down while pressing the reset switch (left side of the board, abode the kenwood connectors) or plugging in the USB cable.
+Hold the "Escape" (upper left) button down while pressing the reset switch (left side of the board, above the kenwood connectors) or plugging in the USB cable.
 
 ### Linux
 To flash, you first need to put the device in DFU mode (see above).
