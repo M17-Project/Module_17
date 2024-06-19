@@ -6,9 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Module17 HMI Back Panel")
-		(date "2024-01-11")
-		(rev "Rev 0.99")
+		(date "2024-06-19")
+		(rev "Rev 1.0")
+		(company "M17 Project")
 		(comment 1 "Morgan ON4MOD")
+		(comment 2 "Authors:")
 	)
 	(lib_symbols
 		(symbol "M17_logos:M17_logo"

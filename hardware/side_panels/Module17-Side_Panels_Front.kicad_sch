@@ -5,10 +5,12 @@
 	(uuid "781e5e3e-5d0e-465e-be6a-c37775f661bf")
 	(paper "A4")
 	(title_block
-		(title "Module17 HMI Back Panel")
-		(date "2024-01-11")
-		(rev "Rev 0.99")
+		(title "Module17 HMI Front Panel")
+		(date "2024-06-19")
+		(rev "Rev 1.0")
+		(company "M17 Project")
 		(comment 1 "Morgan ON4MOD")
+		(comment 2 "Authors:")
 	)
 	(lib_symbols
 		(symbol "M17_logos:OHIS_logo"
