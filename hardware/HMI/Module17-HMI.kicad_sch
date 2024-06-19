@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "a2e72162-b48d-4c58-b01e-f32423724fdc")
 	(paper "A4")
+	(title_block
+		(title "Module17 HMI")
+		(date "2024-06-19")
+		(rev "Rev 1.0")
+		(company "M17 Project")
+		(comment 1 "Morgan - ON4MOD")
+		(comment 2 "Authors:")
+	)
 	(lib_symbols
 		(symbol "Capacite_Touch_Button_1"
 			(exclude_from_sim no)
@@ -11650,7 +11658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CAP1206-x-SL"
+		(property "Value" "CAP1206-1-SL"
 			(at 144.4909 128.905 0)
 			(effects
 				(font
