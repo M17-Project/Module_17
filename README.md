@@ -50,3 +50,5 @@ This project is inspired by David Rowe's [SM1000](https://www.rowetel.com/wordpr
 
 ## License
 Module 17 hardware is licensed under the [CERN Open Hardware License - Weakly Reciprocal](https://ohwr.org/cern_ohl_w_v2.txt)
+
+Module 17 is certified by OSHWA under ID BE000019. <img align="right" width="100" height="100" src="./docs/_media/certification-mark-BE000019-stacked.svg">

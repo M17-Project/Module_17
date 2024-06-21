@@ -7,4 +7,5 @@
   (lib (name "M17_power")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_power.kicad_sym")(options "")(descr ""))
   (lib (name "M17_RF")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_RF.kicad_sym")(options "")(descr ""))
   (lib (name "M17_audio")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_audio.kicad_sym")(options "")(descr ""))
+  (lib (name "OSHW_Certification_Mark")(type "KiCad")(uri "${KIPRJMOD}/../../lib/OSHW/OSHW_Certification_Mark.kicad_sym")(options "")(descr ""))
 )
