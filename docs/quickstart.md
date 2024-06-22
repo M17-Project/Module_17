@@ -37,7 +37,8 @@ The most reliable way to tune the TX baseband signal level is using SDR++ and an
 
 - Connect your Module17 to your radio
 - Add an M17 demodulator module to your SDR++ interface and tune it to the frequency of your radio
-- While pressing the PTT, have a look at the symbols graph of the m17\_decoder module and adjust the baseband TX level until the blue dots line-up with the grey lines in the background
+- In the m17_decoder module you added, tick the "Show Reference Lines" box
+- While pressing the PTT, have a look at the symbols graph of the m17\_decoder module and adjust the baseband TX level until the blue dots line-up with the gray lines in the background
 - When the baseband level is properly adjusted, the m17_decoder should correctly decode your signal. If it does not, check your TX baseband polarity. If it still does not work, your radio may be incompatible.
 
 #### Adjusting RX baseband level
