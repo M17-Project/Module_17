@@ -3,3 +3,6 @@
 _autosave-*
 *backups*
 .DS_Store
+lib/external/*
+!lib/external/readme.txt
+*.lck

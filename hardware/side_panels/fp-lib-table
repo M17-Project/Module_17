@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "M17_connectors")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_connectors.pretty")(options "")(descr ""))
+  (lib (name "M17_logos")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_logos.pretty")(options "")(descr ""))
+  (lib (name "M17_misc_active")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_misc_active.pretty")(options "")(descr ""))
+  (lib (name "M17_misc_passive")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_misc_passive.pretty")(options "")(descr ""))
+  (lib (name "M17_QFN")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_QFN.pretty")(options "")(descr ""))
+  (lib (name "M17_mounting_hole")(type "KiCad")(uri "${KIPRJMOD}/../../lib/M17_kicad_library/M17_mounting_hole.pretty")(options "")(descr ""))
+)

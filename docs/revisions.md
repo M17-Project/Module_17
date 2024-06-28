@@ -1,5 +1,7 @@
 ## Revisions
+
 ### Revision 0.1a
+
 This is the initial prototyping revision and not yet designed with "ease of use and enclosing" in mind. Its main purpose is getting OpenRTX up and running on the hardware and providing a proof of concept.
 
 #### Errata of Revision 0.1a
@@ -20,10 +22,12 @@ Fixed some bugs:
 * Added MAX3232 and `CAT_TX`/`CAT_RX` at DE9 connector
 
 ### Revision 0.1c
+
 * Reduced audio amplifier gain (R3 value change 510k->22k)
 * Fixed `RADIO_RX` baseband DC bias
 
 ### Revision 0.1d
+
 * Changed supply voltage for U6 and U7 (baseband filter Op-Amps) to 5V and replaced MCP602 with MCP6002 as the former ICs are not rail2rail capable on their input
 * Fixed `CAT_TX` and `CAT_RX` solder jumpers
 * Fixed volume knob direction
@@ -32,13 +36,26 @@ Fixed some bugs:
 * Replaced STM32F405RGT6 with GD32F405RGT6 - these ICs are pin and code compatible
 
 ### Revision 0.1e
+
 * Replaced digital potentiometers with multiturn ones to improve parts availability
 * Moved the TX potentiometer from the op-amp's output to between STM32 and the first op-amp
 * Added power-on button
 * Fixed misc BOM errors and removed a few unnecessary components from the schematic
 
 #### Errata of Revision 0.1e
+
 ~~R31 has too high value. Add a 2.2k resistor across it (in parallel) to increase the sound volume coming from the speaker. Alternatively, replace R31 with a 1.8k or 2k resistor.~~ Resolved.
 
+### Revision 1.0
+
+* Completely redesigned the board, making a design compatible with Hammond enlosures.
+* Added connector for HMI board containing buttons and OLED screen.
+* Added back digital potentiometers, keeping the footprint for multiturn potentiometers.
+* Replaced RC low-pass filter between MCU and speaker power amplifier with an active Sallen-Key (3rd order) topology.
+* Added OHIS connector
+* Added connector for RTC battery
+* Added pull-down resistor on shutdown-line (fixes the board not powering down from OpenRTX menu)
+
 ### Future revisions
-Future revisions will feature at least additional power supply options and will be designed with an enclosure in mind.
+
+Discovered an issue? Some suggestions for the next revision? Get in touch with us.

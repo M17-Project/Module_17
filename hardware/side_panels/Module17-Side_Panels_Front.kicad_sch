@@ -1,0 +1,1047 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "781e5e3e-5d0e-465e-be6a-c37775f661bf")
+	(paper "A4")
+	(title_block
+		(title "Module17 HMI Front Panel")
+		(date "2024-06-19")
+		(rev "Rev 1.0")
+		(company "M17 Project")
+		(comment 1 "Morgan ON4MOD")
+		(comment 2 "Authors:")
+	)
+	(lib_symbols
+		(symbol "M17_logos:OHIS_logo"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 2.8299 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "OHIS_logo"
+				(at 0 -2.8299 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "M17_logos:OHIS_logo_15x6.9mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OHIS_logo_0_0"
+				(polyline
+					(pts
+						(xy 2.3987 0.1866) (xy 2.3987 2.1322) (xy 2.0655 2.1322) (xy 1.7324 2.1322) (xy 1.7324 0.1866)
+						(xy 1.7324 -1.7591) (xy 2.0655 -1.7591) (xy 2.3987 -1.7591) (xy 2.3987 0.1866)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.773 -0.9062) (xy -0.773 -0.0533) (xy -0.2932 -0.0533) (xy 0.1865 -0.0533) (xy 0.1865 -0.9062)
+						(xy 0.1865 -1.7591) (xy 0.5463 -1.7591) (xy 0.9061 -1.7591) (xy 0.9061 0.1866) (xy 0.9061 2.1322)
+						(xy 0.5463 2.1322) (xy 0.1865 2.1322) (xy 0.1865 1.3593) (xy 0.1865 0.5864) (xy -0.2932 0.5864)
+						(xy -0.773 0.5864) (xy -0.773 1.3593) (xy -0.773 2.1322) (xy -1.1328 2.1322) (xy -1.4926 2.1322)
+						(xy -1.4926 0.1866) (xy -1.4926 -1.7591) (xy -1.1328 -1.7591) (xy -0.773 -1.7591) (xy -0.773 -0.9062)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.2111 -1.7879) (xy -3.0035 -1.7382) (xy -2.8273 -1.6606) (xy -2.8084 -1.6493) (xy -2.6111 -1.5017)
+						(xy -2.4457 -1.3176) (xy -2.3117 -1.0957) (xy -2.2084 -0.8343) (xy -2.1354 -0.5323) (xy -2.092 -0.188)
+						(xy -2.0777 0.1999) (xy -2.0778 0.2382) (xy -2.0926 0.6023) (xy -2.1331 0.923) (xy -2.2003 1.204)
+						(xy -2.2952 1.4489) (xy -2.4191 1.6615) (xy -2.5731 1.8453) (xy -2.7028 1.9603) (xy -2.8788 2.0698)
+						(xy -3.075 2.1411) (xy -3.2994 2.177) (xy -3.5599 2.18) (xy -3.6526 2.1751) (xy -3.7604 2.165)
+						(xy -3.8463 2.1475) (xy -3.9292 2.1185) (xy -4.028 2.0736) (xy -4.0415 2.067) (xy -4.2505 1.9342)
+						(xy -4.4299 1.7583) (xy -4.5789 1.541) (xy -4.697 1.2839) (xy -4.7836 0.9886) (xy -4.8381 0.6566)
+						(xy -4.8599 0.2902) (xy -4.123 0.2902) (xy -4.1068 0.5524) (xy -4.0665 0.8327) (xy -4.0066 1.0663)
+						(xy -3.9265 1.2528) (xy -3.8258 1.3935) (xy -3.7037 1.4899) (xy -3.6892 1.4979) (xy -3.6139 1.5305)
+						(xy -3.535 1.5434) (xy -3.4282 1.5412) (xy -3.3821 1.5371) (xy -3.2371 1.5007) (xy -3.1222 1.4264)
+						(xy -3.0261 1.3075) (xy -2.9609 1.1764) (xy -2.9008 0.9879) (xy -2.8559 0.767) (xy -2.8264 0.5237)
+						(xy -2.8124 0.268) (xy -2.8141 0.0098) (xy -2.8318 -0.2407) (xy -2.8657 -0.4737) (xy -2.9159 -0.6792)
+						(xy -2.9827 -0.847) (xy -3.0143 -0.9008) (xy -3.1025 -1.0094) (xy -3.205 -1.0961) (xy -3.3065 -1.1465)
+						(xy -3.3103 -1.1476) (xy -3.4744 -1.1687) (xy -3.6276 -1.1394) (xy -3.7653 -1.0621) (xy -3.8831 -0.9394)
+						(xy -3.9766 -0.7738) (xy -4.014 -0.6721) (xy -4.065 -0.4684) (xy -4.101 -0.2322) (xy -4.1207 0.0247)
+						(xy -4.123 0.2902) (xy -4.8599 0.2902) (xy -4.8599 0.2896) (xy -4.8484 -0.1109) (xy -4.8365 -0.2502)
+						(xy -4.7836 -0.5921) (xy -4.6998 -0.8936) (xy -4.5859 -1.1537) (xy -4.4422 -1.3717) (xy -4.2693 -1.5466)
+						(xy -4.0677 -1.6777) (xy -3.838 -1.764) (xy -3.6618 -1.7971) (xy -3.4355 -1.808) (xy -3.2111 -1.7879)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1138 -1.793) (xy 4.2753 -1.7697) (xy 4.4016 -1.7353) (xy 4.5544 -1.6595) (xy 4.7168 -1.5277)
+						(xy 4.8438 -1.3567) (xy 4.9348 -1.148) (xy 4.9888 -0.9026) (xy 4.9998 -0.7978) (xy 4.9984 -0.5513)
+						(xy 4.9538 -0.3249) (xy 4.8639 -0.1146) (xy 4.7267 0.0835) (xy 4.5403 0.2734) (xy 4.3026 0.4592)
+						(xy 4.2034 0.5313) (xy 4.0412 0.6676) (xy 3.9252 0.7969) (xy 3.8521 0.9241) (xy 3.8187 1.0544)
+						(xy 3.8214 1.1929) (xy 3.8475 1.3097) (xy 3.91 1.4308) (xy 4.0033 1.5087) (xy 4.009 1.5115) (xy 4.1236 1.5415)
+						(xy 4.2655 1.5389) (xy 4.4216 1.5052) (xy 4.5789 1.4419) (xy 4.7461 1.3575) (xy 4.7878 1.4584)
+						(xy 4.8186 1.5323) (xy 4.8616 1.6349) (xy 4.9067 1.7419) (xy 4.9127 1.7562) (xy 4.9489 1.8435)
+						(xy 4.9744 1.9079) (xy 4.984 1.9365) (xy 4.9802 1.9427) (xy 4.9403 1.9683) (xy 4.8668 2.004) (xy 4.7717 2.0449)
+						(xy 4.6671 2.0858) (xy 4.5651 2.1218) (xy 4.4776 2.1479) (xy 4.4011 2.1642) (xy 4.2104 2.1833)
+						(xy 4.013 2.1781) (xy 3.8275 2.1497) (xy 3.6725 2.0992) (xy 3.4995 1.9986) (xy 3.3429 1.852) (xy 3.2259 1.6696)
+						(xy 3.1823 1.5671) (xy 3.1213 1.3351) (xy 3.1016 1.0914) (xy 3.1227 0.8481) (xy 3.1841 0.6171)
+						(xy 3.2851 0.4103) (xy 3.3335 0.3427) (xy 3.4561 0.2082) (xy 3.6212 0.0594) (xy 3.8247 -0.0996)
+						(xy 3.8737 -0.1366) (xy 3.9739 -0.2169) (xy 4.0593 -0.2916) (xy 4.1154 -0.3482) (xy 4.142 -0.3813)
+						(xy 4.2348 -0.5346) (xy 4.2819 -0.6889) (xy 4.2832 -0.8377) (xy 4.2383 -0.9741) (xy 4.147 -1.0915)
+						(xy 4.1405 -1.0974) (xy 4.0844 -1.1348) (xy 4.0114 -1.1564) (xy 3.9035 -1.168) (xy 3.8961 -1.1684)
+						(xy 3.7457 -1.1675) (xy 3.6019 -1.1436) (xy 3.4492 -1.0928) (xy 3.2717 -1.0111) (xy 3.065 -0.9069)
+						(xy 3.065 -1.2631) (xy 3.065 -1.6192) (xy 3.2024 -1.6783) (xy 3.2634 -1.7023) (xy 3.3852 -1.7428)
+						(xy 3.5022 -1.7744) (xy 3.5868 -1.7895) (xy 3.7525 -1.8036) (xy 3.9338 -1.8046) (xy 4.1138 -1.793)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.1194 -2.9587) (xy 1.1194 -2.452) (xy 0.0133 -2.452) (xy -1.0928 -2.452) (xy -1.0928 -2.6919)
+						(xy -1.0928 -2.9318) (xy -3.1784 -2.9312) (xy -3.348 -2.9312) (xy -3.7101 -2.9309) (xy -4.0241 -2.9305)
+						(xy -4.2937 -2.9299) (xy -4.5225 -2.9289) (xy -4.7142 -2.9274) (xy -4.8724 -2.9255) (xy -5.0008 -2.9229)
+						(xy -5.103 -2.9197) (xy -5.1828 -2.9157) (xy -5.2438 -2.9109) (xy -5.2895 -2.9051) (xy -5.3238 -2.8983)
+						(xy -5.3501 -2.8905) (xy -5.3723 -2.8814) (xy -5.483 -2.8194) (xy -5.6316 -2.6889) (xy -5.7419 -2.5256)
+						(xy -5.8103 -2.3883) (xy -5.8103 0) (xy -5.8103 2.3883) (xy -5.7419 2.5256) (xy -5.6762 2.6335)
+						(xy -5.5403 2.7768) (xy -5.3723 2.8814) (xy -5.3668 2.8838) (xy -5.3514 2.8894) (xy -5.3318 2.8946)
+						(xy -5.3056 2.8993) (xy -5.2708 2.9036) (xy -5.225 2.9075) (xy -5.166 2.9109) (xy -5.0916 2.9141)
+						(xy -4.9996 2.9168) (xy -4.8877 2.9193) (xy -4.7537 2.9214) (xy -4.5954 2.9233) (xy -4.4105 2.9249)
+						(xy -4.1968 2.9263) (xy -3.9522 2.9274) (xy -3.6743 2.9283) (xy -3.3609 2.9291) (xy -3.0098 2.9297)
+						(xy -2.6188 2.9301) (xy -2.1856 2.9304) (xy -1.708 2.9307) (xy -1.1839 2.9308) (xy -0.6108 2.9309)
+						(xy 0.0133 2.931) (xy 5.2905 2.9313) (xy 5.4238 2.8689) (xy 5.4806 2.8375) (xy 5.5816 2.7651)
+						(xy 5.6685 2.6852) (xy 5.6722 2.6812) (xy 5.7106 2.6387) (xy 5.7436 2.5986) (xy 5.7714 2.5566)
+						(xy 5.7945 2.5083) (xy 5.8134 2.4495) (xy 5.8285 2.3759) (xy 5.8403 2.2833) (xy 5.849 2.1673)
+						(xy 5.8552 2.0237) (xy 5.8594 1.8482) (xy 5.8618 1.6365) (xy 5.8631 1.3843) (xy 5.8635 1.0874)
+						(xy 5.8635 0.7414) (xy 5.8635 -0.7996) (xy 6.6244 -0.7996) (xy 7.3852 -0.7996) (xy 7.4506 -0.7342)
+						(xy 7.516 -0.6687) (xy 7.516 0.3998) (xy 7.516 1.4683) (xy 7.4506 1.5337) (xy 7.4384 1.5457) (xy 7.4146 1.5654)
+						(xy 7.3852 1.5795) (xy 7.3425 1.589) (xy 7.2783 1.5948) (xy 7.1847 1.5978) (xy 7.0538 1.599) (xy 6.8776 1.5992)
+						(xy 6.3699 1.5992) (xy 6.3699 1.9577) (xy 6.3699 1.968) (xy 6.3674 2.1158) (xy 6.361 2.2571) (xy 6.3518 2.3761)
+						(xy 6.3406 2.4574) (xy 6.322 2.534) (xy 6.232 2.7645) (xy 6.0993 2.9697) (xy 5.9293 3.1447) (xy 5.7276 3.2847)
+						(xy 5.4995 3.3846) (xy 5.2505 3.4395) (xy 5.2042 3.4427) (xy 5.1006 3.4461) (xy 4.9443 3.4491)
+						(xy 4.7359 3.4518) (xy 4.4757 3.4542) (xy 4.1641 3.4561) (xy 3.8014 3.4578) (xy 3.3881 3.459)
+						(xy 2.9246 3.46) (xy 2.4112 3.4605) (xy 1.8483 3.4607) (xy 1.2363 3.4605) (xy 0.5757 3.46) (xy -0.1333 3.4591)
+						(xy -5.2906 3.4515) (xy -5.4571 3.3944) (xy -5.6381 3.3178) (xy -5.8549 3.1792) (xy -6.0362 3.0039)
+						(xy -6.178 2.7957) (xy -6.2766 2.5587) (xy -6.2861 2.5222) (xy -6.3077 2.3936) (xy -6.3245 2.2196)
+						(xy -6.336 2.0056) (xy -6.351 1.5992) (xy -6.8469 1.5983) (xy -6.9534 1.598) (xy -7.115 1.596)
+						(xy -7.2347 1.5907) (xy -7.3197 1.5805) (xy -7.3776 1.5635) (xy -7.4156 1.5382) (xy -7.4412 1.5027)
+						(xy -7.4617 1.4553) (xy -7.464 1.447) (xy -7.471 1.3867) (xy -7.4769 1.2827) (xy -7.4817 1.1425)
+						(xy -7.4854 0.9735) (xy -7.488 0.7833) (xy -7.4894 0.5793) (xy -7.4898 0.3689) (xy -7.4892 0.1596)
+						(xy -7.4874 -0.0412) (xy -7.4845 -0.2259) (xy -7.4804 -0.3872) (xy -7.4753 -0.5176) (xy -7.4691 -0.6096)
+						(xy -7.4617 -0.6557) (xy -7.4503 -0.6841) (xy -7.4279 -0.7244) (xy -7.3963 -0.7539) (xy -7.3482 -0.7743)
+						(xy -7.2761 -0.7873) (xy -7.1728 -0.7945) (xy -7.031 -0.7978) (xy -6.8431 -0.7987) (xy -6.3434 -0.7996)
+						(xy -6.3427 -1.4592) (xy -6.3427 -1.4645) (xy -6.3419 -1.71) (xy -6.3398 -1.9097) (xy -6.3359 -2.071)
+						(xy -6.3297 -2.2012) (xy -6.3207 -2.3077) (xy -6.3085 -2.3979) (xy -6.2927 -2.4791) (xy -6.2727 -2.5587)
+						(xy -6.2067 -2.7396) (xy -6.0831 -2.9475) (xy -5.9204 -3.1258) (xy -5.7238 -3.2697) (xy -5.4987 -3.3748)
+						(xy -5.2506 -3.4362) (xy -5.2349 -3.4376) (xy -5.1647 -3.4405) (xy -5.0464 -3.4432) (xy -4.8836 -3.4459)
+						(xy -4.6797 -3.4485) (xy -4.4383 -3.4509) (xy -4.1628 -3.4532) (xy -3.8568 -3.4552) (xy -3.5239 -3.457)
+						(xy -3.1674 -3.4586) (xy -2.791 -3.4599) (xy -2.3982 -3.4609) (xy -1.9923 -3.4616) (xy 1.1194 -3.4653)
+						(xy 1.1194 -2.9587)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 100.33 102.87) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211a6d39-7f7f-4b8b-8686-1efa6acbeb3d")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca65117-4d60-4b4b-b11d-ce73dac2184c")
+	)
+	(wire
+		(pts
+			(xy 100.33 87.63) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7719ba7-4351-4888-9428-16eadf606dda")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8463be1-118f-4245-b17b-3ff118db90bd")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 100.33 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d425e0c-8724-4bb7-bca1-bd53fc77179c")
+		(property "Reference" "H3"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M17_mounting_hole:MountingHole_3.7mm_Pad_Via_Small_Pad"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17e2f0d-1abd-4f9b-b28d-64b9df1d2134")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 100.33 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "499f099f-b083-4585-87b2-715c76d2c31a")
+		(property "Reference" "H1"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M17_mounting_hole:MountingHole_3.7mm_Pad_Via_Small_Pad"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "593ee119-0795-4cd3-b4f4-8faab410020f")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 128.27 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ac89c4e-5351-4866-a952-4d35ed527daa")
+		(property "Reference" "H4"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M17_mounting_hole:MountingHole_3.7mm_Pad_Via_Small_Pad"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e8c355-9372-4419-9082-b23f13385a5b")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5693bff9-334f-43e3-bd6a-296cf6c26eeb")
+		(property "Reference" "#PWR02"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de702ebe-a49f-4858-9159-389f9fb51a13")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "611e085f-d854-4be9-8efe-0c8b0928cb1c")
+		(property "Reference" "#PWR04"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b320e7a0-72d2-42ce-8e6d-133aebdf2a52")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "674de1cd-655f-4439-bbde-b3fb00918149")
+		(property "Reference" "#PWR03"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6d8d067-e84a-4395-9e34-e5c6bdeff93b")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M17_logos:OHIS_logo")
+		(at 273.685 173.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc47997-9797-446b-9d9e-9d62e67e2520")
+		(property "Reference" "LOGO2"
+			(at 273.685 170.5251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OHIS_logo"
+			(at 273.685 176.1849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M17_logos:OHIS_logo_10.8x5mm"
+			(at 273.685 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.685 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.685 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 128.27 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "784c8b51-4882-4d77-990b-49d12c450abb")
+		(property "Reference" "H2"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M17_mounting_hole:MountingHole_3.7mm_Pad_Via_Small_Pad"
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31a376e2-a6c1-4db2-bc22-77ddec3c70b1")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee94974d-e56b-4f11-a861-8f562b44c30a")
+		(property "Reference" "#PWR01"
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24bb9c6f-dbd1-4ed4-9b0d-7f270caa0558")
+		)
+		(instances
+			(project "Module17-Side_Panels_Front"
+				(path "/781e5e3e-5d0e-465e-be6a-c37775f661bf"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

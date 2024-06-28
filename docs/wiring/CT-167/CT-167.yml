@@ -1,0 +1,32 @@
+connectors:
+  DE-9:
+    type: D-Sub
+    image: 
+      src: dsub9.svg
+    subtype: male
+    pinlabels: [NC, Baseband_TX, CAT_RX, CAT_TX, PTT, Baseband_RX, NC, GND, 12V_In]
+  mini-DIN-10:
+    type: 10-pin miniDIN
+    image:
+      src: minidin10.png
+    subtype: male
+    pinlabels: [PKD, GND, PSK, RX 9600, RX 1200, PK SQL, TXD, RXD, CTS, RTS]
+
+cables:
+  CT-167:
+    gauge: 24 AWG
+    length: 1
+    colors: [BN, BK, RD, OG, YE, GN, BU, GY, WH, BK]
+    wirecount: 10
+    shield: false
+    notes: "NOTE: The CT-167 cable uses the thick black wire for GND"
+    type: "Cable CT-167 (pigtail)"
+    pn: "CT-167"
+    manufacturer: "Yaesu"
+
+connections:
+  -
+    - DE-9: [2,3,4,5,6,8]
+    - CT-167: [1,7,8,3,4,2]
+    - mini-DIN-10: [1,7,8,3,4,2]
+
