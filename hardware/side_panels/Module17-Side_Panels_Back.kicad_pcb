@@ -987,6 +987,140 @@
 			)
 		)
 	)
+	(footprint "Symbol:Symbol_Barrel_Polarity"
+		(layer "F.Cu")
+		(uuid "5422d208-a51c-499f-aa97-0a42175f7914")
+		(at 100.575 98.57)
+		(descr "Barrel connector polarity indicator")
+		(tags "barrel polarity")
+		(property "Reference" "REF**"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b49fe74-b2d7-41f5-846c-e52ad657b9ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Symbol_Barrel_Polarity"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "3a1660b8-f69d-4608-b7bb-7f71701cb529")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_Barrel_Polarity"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b912b3e3-fcd3-4dd8-ab4b-f5a1ddbd47f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "870c223d-1df9-4fb5-ac3a-346a982abcff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a48b14-567c-47cb-a085-03013bddb27c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_line
+			(start -2 0.075)
+			(end -1.1 0.075)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58bee2b2-5f93-4ee3-879d-9d39b83cca16")
+		)
+		(fp_line
+			(start 0 0.075)
+			(end 2 0.075)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8495c29a-0e10-4f2d-8820-9a7d6f9986dc")
+		)
+		(fp_arc
+			(start 0.75 0.75)
+			(mid -1.007627 0.128033)
+			(end 0.675 -0.675)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36e9aad8-946f-48ca-9a3b-bc09bb0dfa1b")
+		)
+		(fp_circle
+			(center -3 0.075)
+			(end -3 1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "e52cabfa-54ac-44c6-8a21-a70075817099")
+		)
+		(fp_circle
+			(center 0 0.075)
+			(end 0 0.25)
+			(stroke
+				(width 0.5)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "496aba0b-3b1f-429d-bdc5-0e9f0ca79e37")
+		)
+		(fp_circle
+			(center 3 0.075)
+			(end 3 1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "d25c04cc-43ae-4d64-a047-b00d319d3184")
+		)
+	)
 	(footprint "M17_mounting_hole:MountingHole_3.7mm_Pad_Via_Small_Pad"
 		(layer "F.Cu")
 		(uuid "cdad0838-656c-4b75-9221-1fe3a3e5328d")
@@ -3046,7 +3180,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 103.575 98.68 0)
+		(at 103.575 98.645 0)
 		(layer "F.SilkS")
 		(uuid "e67ee880-9b21-41aa-b983-283fe6203359")
 		(effects
@@ -3059,9 +3193,9 @@
 		(render_cache "+" 0
 			(polygon
 				(pts
-					(xy 103.503999 99.119764) (xy 103.503999 98.72116) (xy 103.099582 98.72116) (xy 103.099582 98.588292)
-					(xy 103.503999 98.588292) (xy 103.503999 98.163114) (xy 103.646832 98.163114) (xy 103.646832 98.588292)
-					(xy 104.051249 98.588292) (xy 104.051249 98.72116) (xy 103.646832 98.72116) (xy 103.646832 99.119764)
+					(xy 103.503999 99.084764) (xy 103.503999 98.68616) (xy 103.099582 98.68616) (xy 103.099582 98.553292)
+					(xy 103.503999 98.553292) (xy 103.503999 98.128114) (xy 103.646832 98.128114) (xy 103.646832 98.553292)
+					(xy 104.051249 98.553292) (xy 104.051249 98.68616) (xy 103.646832 98.68616) (xy 103.646832 99.084764)
 				)
 			)
 		)
