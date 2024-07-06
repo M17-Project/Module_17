@@ -7,7 +7,7 @@ To use Module17 with the enclosure, you need:
 * One Module17 revision 1.0
 * One Hammond 1455L801 enclosure (you do not need the sliding plate or the end panels)
 * One Module17 HMI board revision 1.0
-* One flex 24 pins flex connector (FFC cable, pitch of 0.5mm, connectors thickness of 0.3mm, length of minimum 50mm, edge connectors on the same side)
+* One flex 26 pins flex connector (FFC cable, pitch of 0.5mm, connectors thickness of 0.3mm, length of minimum 50mm, edge connectors on the same side)
 * One of each side panel PCB
 * One 128x64 OLED screen (1.54" diagonal, SSD1309 driver)
 * Optional: 8 self-tapping screws with non-tapered head (one standard that might fit is DIN 7500 with size M3.5). This is optional as the screws that came with the enclosure can be used, but the side panels PCBs do not have tapered holes so the fit will not be perfect.
