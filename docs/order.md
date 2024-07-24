@@ -92,13 +92,13 @@ It is recommended to order the PCB by selecting the following parameters:
 
 It is advised to pay attention to these components when ordering:
 
-* The components selected for some of the **10 nF capacitors** (C304, C315, C503, C505, C506, C508), the **680pF capacitors** (C504, C509), 1.5nF capacitor and some of the **100 nF capacitors** (C306, C308, C309, C310, C401, C501, C502)  can be matched by JLCPCB with components using X7R dielectric. It is advised to use C0G dielectric capacitors.
+* The components selected for some of the **10 nF capacitors** (C304, C315, C503, C505, C506, C508), the **680pF capacitors** (C504, C509) and **1.5nF capacitor** (C303) can be matched by JLCPCB with components using X7R dielectric. It is advised to use C0G dielectric capacitors. You can search for components by appending "0603 COG" to the value of the component (example: "10nF 0603 C0G" will list compatible 10nF capacitors using C0G dielectric).
 
-* **The LEDs** (D204-207) are pre-populated by JLCPCB with RED leds. You should change the components selected for the blue (power), green (sync) and orange (error) LEDs.
+* **The LEDs** (D204-207) are pre-populated by JLCPCB with RED leds. You should change the components selected for the blue (power), green (sync) and orange (error) LEDs. You can use components from the KT-0603 series (KT-0603R, KT0603B,...). The last letter refers to the color of the LED.
 
-* Check that the **crystal** pre-populated by JLCPCB is designed to run with a 12pF capacitive load. Make sure to pick a crystal with a tolerance of 10ppm.
+* Check that the **crystal** pre-populated by JLCPCB is designed to run with a 12pF capacitive load. Make sure to pick a crystal with a tolerance of 10ppm. You can use the keywords "8MHz 12pf SMD3225 10ppm" for the search.
 
-* The tactile switches pre-selected in the BOM may not be available. You can pick another switch from the PTS645 series of surface-mount tactile switches (PTS645-S-\*-\*\*-SMTR92). This can also help reduce the cost of the BOM depending on the prices at the time of ordering.
+* The tactile switches pre-selected in the BOM may not be available. You can pick another switch from the PTS645 series of surface-mount tactile switches (PTS645-S-\*-\*\*-SMTR92) using the keywords "PTS645S SMTR92". This can also help reduce the cost of the BOM depending on the prices at the time of ordering.
 
 * D203, D401 are supposed to be BAT60A diodes but those can sometimes be hard to find. You can replace those with other low-Vf Schottky diodes, most notably the 1N5819WS (JLCPCB ID: C191023) is a basic part at JLCPCB (no additional fees) that is easily available.
 
@@ -135,13 +135,15 @@ It is recommended to order the PCB by selecting the following parameters:
 
 It is advised to pay attention to these components when ordering:
 
-* R1 is often matched to a 1.3 Mohm resistor instead of a 1.37 Mohm resistor
+* R1 is often matched to a 1.3 Mohm resistor instead of a 1.37 Mohm resistor.
 
 * D1 is supposed to be a BAT60A diode but those can sometimes be out-of-stock. You can replace it with other low-Vf Schottky diodes, most notably the 1N5819WS (JLCPCB ID: C191023) is a basic part at JLCPCB (no additional fees) that is easily available.
 
 * SW9 is often out-of-stock. This component can be ordered somewhere else and soldered by hand.
 
-* U3 and U4 are not part of JLCPCB's catalog (at least at the time of writing this). Those have to be ordered somewhere else and can easily be soldered by hand (full parts numbers: U3: IQS211B00000000TS; U4: CAP1206-1-SL)
+* U4 can sometimes be matched with another (incompatible) reference. Check that the reference selected for this component is CAP1206-1-SL. If not, change it. It may also not be in stock at JLCPCB and you may need to order it elsewhere. It is easy to solder by hand.
+
+* U3 is not part of JLCPCB's catalog (at least at the time of writing this). You will have to ordered it somewhere else. It can easily be soldered by hand (full parts numbers: IQS211B00000000TS).
 
 ### Components placement
 
