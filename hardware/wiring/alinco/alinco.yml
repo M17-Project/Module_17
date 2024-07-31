@@ -1,0 +1,29 @@
+connectors:
+  "to Module17":
+    type: D-Sub
+    image:
+      src: de9_male.png
+    subtype: male
+    pinlabels: [NC, Baseband_TX, CAT_RX, CAT_TX, PTT, Baseband_RX, NC, GND, 12V_In]
+  "to Alinco":
+    type: D-Sub
+    image:
+      src: de9_male.png
+    subtype: male
+    pinlabels: [SQC, 9600_Out, 9600_In, 1200_Out, GND, NC, PTT, 5V_Out, 1200_In]
+
+cables:
+  Cable:
+    gauge: 24 AWG
+    length: 1
+    colors: [RD, GN, WH, BK]
+    wirecount: 4
+    shield: true
+    pn: 9534
+    manufacturer: "Belden"
+
+connections:
+  -
+    - "to Module17": [2,5,6,8]
+    - Cable: [1,2,3,4]
+    - "to Alinco": [3,7,2,5]
