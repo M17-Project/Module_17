@@ -1,7 +1,7 @@
 # Module 17
 Welcome to Module 17 repository!
 
-This project provides a standalone _smart microphone_ that transforms any 9600 baud capable transceiver into an [M17](https://m17project.org/) compatible radio. It is based on a STM32F4 microcontroller and is designed to run the [OpenRTX](https://openrtx.org/) firmware. Audio and PTT connectivity is given through a "Kenwood 2 Pin" compatible connector (2.5 and 3.5mm audio jacks) or an [OHIS](https://ohis.org/) connector (this is **NOT** an internet connector).
+This project provides a standalone _smart microphone_ that transforms any 9600 baud capable transceiver into an [M17](https://m17project.org/) compatible radio. It is based on a STM32F4 microcontroller and is designed to run the [OpenRTX](https://openrtx.org/) firmware. Audio and PTT connectivity is given through a "Kenwood 2 Pin" compatible connector (2.5 and 3.5mm audio jacks) or an [OHIS](https://ohis.org/) connector (this is **NOT** an internet connector). Power supply of 6 to 15 volts can be applied through a 5.5/2.5mm DC plug.
 
 
 <p align="center">
