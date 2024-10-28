@@ -27,13 +27,15 @@ You can of course always 3D-print an enclosure for your bare board.
 
 ## Getting Started
 
-0. The very first step is to get a board. The board is not available for sale yet. Head over to the [Ordering guide](./docs/order.md) to get a board. If you want to assemble the board with the designed enclosure and HMI, follow the instructions from the [enclosure instructions](./docs/enclosure.md)
+The very first step is to get a board. The board is not available for sale yet. Head over to the [Ordering guide](./docs/order.md) to get a board. If you want to assemble the board with the designed enclosure and HMI, follow the instructions from the [enclosure instructions](./docs/enclosure.md).
 
 Otherwise, if you just obtained a Module17 board, you may want to:
 
 1. Flash it with OpenRTX, the officially supported firmware [Details](./docs/flashing.md)
 2. Configure OpenRTX settings [Details](./docs/quickstart.md#configure-openrtx)
 3. Adjust the baseband levels for your specific transceiver [Details](./docs/quickstart.md#adjusting-the-baseband-levels)
+
+A list of tested transceivers is [here](https://wiki.m17project.org/radio_compatibility).
 
 ## Building the firmware yourself
 
