@@ -31,9 +31,10 @@ Otherwise, if you just obtained a Module17 board, you may want to:
 
 1. Flash it with OpenRTX, the officially supported firmware [Details](./docs/flashing.md)
 2. Configure OpenRTX settings [Details](./docs/quickstart.md#configure-openrtx)
-3. Adjust the baseband levels for your specific transceiver [Details](./docs/quickstart.md#adjusting-the-baseband-levels)
+3. Connect the board to a radio. The DE-9 connector at the top of the board can be used to connect Module17 to a 9600baud radio. The pinout is shown in the table [here](./docs/features.md#de-9-connector).
+4. Adjust the baseband levels for your specific transceiver [Details](./docs/quickstart.md#adjusting-the-baseband-levels)
 
-A list of tested transceivers is [here](https://wiki.m17project.org/radio_compatibility).
+A list of tested transceivers is [here](https://wiki.m17foundation.org/index.php?title=Radio_compatibility_list).
 
 ## Building the firmware yourself
 Building instructions are available [at the OpenRTX project's website](https://openrtx.org/#/compiling).
