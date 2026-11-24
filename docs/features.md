@@ -29,11 +29,22 @@ The DE-9 connector at the top of the board can be used to connect Module17 to a 
 | 6        |  baseband input (from radio)     |  input                           |  orange                   |
 | 7        |  unused (floating)               |  --                              |                           |
 | 8        |  ground                          |  --                              |  black, thick             |
-| 9        |  12V input                       | input (supply)                   |                           |
+| 9        |  6–15 V DC input                 | input (supply)                   |                           |
 
 ![CT-167 Wiring](_media/CT-167.png ':size=75%')
 
-Additionally, there is a 2.54mm pin header just next to the DE-9 connector that can be used for convenient access to the baseband, PTT and CAT signals. Pin 9 doesn't have to be used, it only provides an alternative way for supplying power to the board.  
+DE-9 pin 9 shares the `LINE` net with the barrel jack's positive contact and is an optional power input.
+
+The adjacent 2.54 mm header (`J403`) exposes the signal and ground pins. The table follows the pin numbers in the rev 1.0 KiCad mainboard:
+
+| J403 pin | Signal                          | DE-9 equivalent |
+|---------:|---------------------------------|----------------:|
+| 1        | Baseband input (from radio)      | 6               |
+| 2        | Baseband output (towards radio)  | 2               |
+| 3        | Radio PTT                       | 5               |
+| 4        | CAT-RX                          | 3               |
+| 5        | CAT-TX                          | 4               |
+| 6        | Ground                          | 8               |
 
 ## Kenwood mic-speaker connector
 
